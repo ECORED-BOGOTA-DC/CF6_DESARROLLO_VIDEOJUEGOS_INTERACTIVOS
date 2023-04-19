@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="556" height="210" viewBox="0 0 556 210">
+  <g id="Grupo_167888" data-name="Grupo 167888" transform="translate(-810 -4841)">
+    <path id="Trazado_688282" data-name="Trazado 688282" d="M-10011.475-8631.954h78.883" transform="translate(10834.7 13577.54)" fill="none" stroke="#4fafd5" stroke-width="3"/>
+    <path id="Trazado_688283" data-name="Trazado 688283" d="M-10022.948-8630.859l91.357-90.357" transform="translate(10919.591 13577.54)" fill="none" stroke="#4fafd5" stroke-width="3"/>
+    <path id="Trazado_688293" data-name="Trazado 688293" d="M-10022.948-8630.859l109.583-90.357" transform="translate(11261.865 13577.54)" fill="none" stroke="#4fafd5" stroke-width="3"/>
+    <path id="Trazado_688291" data-name="Trazado 688291" d="M-9931.591-8630.859l-91.357-90.357" transform="translate(11010.948 13577.54)" fill="none" stroke="#4fafd5" stroke-width="3"/>
+    <path id="Trazado_688287" data-name="Trazado 688287" d="M-10022.949-8630.859l78.2-70.582" transform="translate(11104.449 13577.54)" fill="none" stroke="#4fafd5" stroke-width="3"/>
+    <path id="Trazado_688290" data-name="Trazado 688290" d="M-9944.75-8630.859l-78.2-70.582" transform="translate(11183.667 13577.54)" fill="none" stroke="#4fafd5" stroke-width="3"/>
+    <path id="Trazado_688284" data-name="Trazado 688284" d="M-9931.591-8630.859l-91.357-90.357" transform="translate(10919.591 13667.897)" fill="none" stroke="#4fafd5" stroke-width="3"/>
+    <path id="Trazado_688294" data-name="Trazado 688294" d="M-9913.365-8630.859l-109.583-90.357" transform="translate(11261.865 13667.897)" fill="none" stroke="#4fafd5" stroke-width="3"/>
+    <path id="Trazado_688292" data-name="Trazado 688292" d="M-10022.948-8630.859l91.357-90.357" transform="translate(11010.948 13667.897)" fill="none" stroke="#4fafd5" stroke-width="3"/>
+    <path id="Trazado_688288" data-name="Trazado 688288" d="M-9944.824-8651.726l-78.125-69.491" transform="translate(11104.449 13667.897)" fill="none" stroke="#4fafd5" stroke-width="3"/>
+    <path id="Trazado_688289" data-name="Trazado 688289" d="M-10022.949-8651.726l78.125-69.491" transform="translate(11183.741 13667.897)" fill="none" stroke="#4fafd5" stroke-width="3"/>
+    <g id="Rectángulo_342087" data-name="Rectángulo 342087" transform="translate(810 4931)" fill="#f1bf5e" stroke="#4fafd5" stroke-width="3">
+      <rect width="30" height="30" stroke="none"/>
+      <rect x="1.5" y="1.5" width="27" height="27" fill="none"/>
+    </g>
+    <g id="Polígono_5" data-name="Polígono 5" transform="translate(1331 4841)" fill="#f1bf5e">
+      <path d="M 32.3884391784668 28.5 L 2.611559152603149 28.5 L 17.5 2.976958513259888 L 32.3884391784668 28.5 Z" stroke="none"/>
+      <path d="M 17.5 5.953907012939453 L 5.223112106323242 27 L 29.77688789367676 27 L 17.5 5.953907012939453 M 17.5 0 L 35 30 L 0 30 L 17.5 0 Z" stroke="none" fill="#4fafd5"/>
+    </g>
+    <g id="Elipse_4839" data-name="Elipse 4839" transform="translate(881 4931)" fill="#f1bf5e" stroke="#4fafd5" stroke-width="3">
+      <circle cx="15" cy="15" r="15" stroke="none"/>
+      <circle cx="15" cy="15" r="13.5" fill="none"/>
+    </g>
+    <g id="Elipse_4840" data-name="Elipse 4840" transform="translate(973 4841)" fill="#f1bf5e" stroke="#4fafd5" stroke-width="3">
+      <circle cx="15" cy="15" r="15" stroke="none"/>
+      <circle cx="15" cy="15" r="13.5" fill="none"/>
+    </g>
+    <g id="Elipse_4841" data-name="Elipse 4841" transform="translate(1067 4931)" fill="#f1bf5e" stroke="#4fafd5" stroke-width="3">
+      <ellipse cx="14.5" cy="15" rx="14.5" ry="15" stroke="none"/>
+      <ellipse cx="14.5" cy="15" rx="13" ry="13.5" fill="none"/>
+    </g>
+    <g id="Elipse_4842" data-name="Elipse 4842" transform="translate(1145 4861)" fill="#f1bf5e" stroke="#4fafd5" stroke-width="3">
+      <circle cx="15" cy="15" r="15" stroke="none"/>
+      <circle cx="15" cy="15" r="13.5" fill="none"/>
+    </g>
+    <g id="Elipse_4843" data-name="Elipse 4843" transform="translate(1221 4931)" fill="#f1bf5e" stroke="#4fafd5" stroke-width="3">
+      <ellipse cx="14.5" cy="15" rx="14.5" ry="15" stroke="none"/>
+      <ellipse cx="14.5" cy="15" rx="13" ry="13.5" fill="none"/>
+    </g>
+    <g id="Polígono_6" data-name="Polígono 6" transform="translate(1331 5021)" fill="#f1bf5e">
+      <path d="M 32.3884391784668 28.5 L 2.611559152603149 28.5 L 17.5 2.976958513259888 L 32.3884391784668 28.5 Z" stroke="none"/>
+      <path d="M 17.5 5.953907012939453 L 5.223112106323242 27 L 29.77688789367676 27 L 17.5 5.953907012939453 M 17.5 0 L 35 30 L 0 30 L 17.5 0 Z" stroke="none" fill="#4fafd5"/>
+    </g>
+    <g id="Elipse_4845" data-name="Elipse 4845" transform="translate(973 5021)" fill="#f1bf5e" stroke="#4fafd5" stroke-width="3">
+      <circle cx="15" cy="15" r="15" stroke="none"/>
+      <circle cx="15" cy="15" r="13.5" fill="none"/>
+    </g>
+    <g id="Elipse_4846" data-name="Elipse 4846" transform="translate(1145 5001)" fill="#f1bf5e" stroke="#4fafd5" stroke-width="3">
+      <circle cx="15" cy="15" r="15" stroke="none"/>
+      <circle cx="15" cy="15" r="13.5" fill="none"/>
+    </g>
+  </g>
+</svg>
