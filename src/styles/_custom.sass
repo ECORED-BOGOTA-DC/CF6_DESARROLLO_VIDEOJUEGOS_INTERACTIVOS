@@ -133,3 +133,76 @@
 
 .tarjeta-avatar-b__img
   min-width: 15%
+
+.bg1
+  position: relative
+  .row, figure, p, h3, .titulo-sexto.color-primario
+    position: relative
+  &::before
+    content: ""
+    position: absolute
+    margin-left: -48px
+    margin-top: -10px
+    width: calc( 110% + 130px )
+    height: 100%       
+    background-image: url('../assets/curso/temas/tema1/bg2.png')
+    background-size: 100% auto  
+    background-repeat: no-repeat
+    background-position: center top 
+    @media (max-width: 500px)
+      background-repeat: repeat
+
+.bg2
+  position: relative
+  .row, figure, p, h3, .titulo-sexto.color-primario
+    position: relative
+  &::before
+    content: ""
+    position: absolute
+    margin-left: -48px
+    margin-top: -10px
+    width: calc( 110% + 160px )
+    height: 100%       
+    background-image: url('../assets/curso/temas/tema1/bg3.png')
+    background-size: 100% auto  
+    background-repeat: no-repeat
+    background-position: center top 
+    @media (max-width: 500px)
+      background-repeat: repeat
+
+.tema1-bg2
+  background-image: url(../assets/curso/temas/tema1/bg4.png)
+  background-size: 100% 100%
+
+//slyderA tipo a
+
+.slyder-a__tipo-a .slyder-a__btn--sigt
+  right: -15px
+  opacity: 1
+  @media (max-width: 500px)
+    top: 30%
+
+.slyder-a__tipo-a .slyder-a__btn--atrs
+  left: -15px
+  opacity: 1
+  @media (max-width: 500px)
+    top: 30%
+
+.slyder-a__tipo-a .slyder-a__bullets 
+    position: absolute
+    bottom: 0px
+    left: 50%
+    transform: translateX(-50%)
+    display: none !important
+
+.tema1-bg3
+  background-image: url(../assets/curso/temas/tema1/bg5.png)
+  background-size: 100% 100%
+
+//tarjeta modal
+
+.modal-a__content
+  width: 50%
+
+.modal-a--abierto .modal-a__fondo
+  opacity: 0.5

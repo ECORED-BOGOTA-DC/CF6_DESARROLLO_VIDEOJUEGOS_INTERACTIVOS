@@ -335,19 +335,292 @@
     .row.mb-5
       p Entendiendo los videojuegos como productos y servicios de entretenimiento, presentan un comportamiento imprevisible en sus momentos de consumo, y esto se debe, precisamente, a las motivaciones y a los procesos de inmersión e involucramiento emocional de los jugadores. Esto permite establecer los componentes de los videojuegos y descomponerlos en sus aspectos funcionales y su pertinencia alrededor de la acción de jugar; determinando así un esquema de elementos funcionales interactuantes entre sí, que determinan la relación coherente entre el videojuego y el jugador:
 
+    .bg1
+      .row.pt-4
+        ol.lista-ol--cuadro
+          li 
+            .lista-ol--cuadro__vineta
+              span c
+            h4 Mecánica
+
+      .row.mb-3
+        p.mb-3 Las mecánicas determinan los componentes del videojuego, es decir, definen las reglas como acciones y comportamientos permitidos al jugador, y restringen de una u otra manera su trayectoria en el videojuego. Involucra la programación.
+        p Dentro de la construcción de las mecánicas de juegos, y específicamente en este modelo de mecánicas, dinámicas y estéticas, a continuación se presentan las tipologías de mecánicas establecidas por Brenda Brathwaite e Ian Schreiber (Brathwaite y Schreiber, 2009):
+
+      .row
+        .col-lg-7
+          .list.mb-3(data-aos="fade-down")
+            .list__item
+              .list__item__icon
+                img(src='@/assets/curso/temas/tema1/icono2.svg', alt='')
+            .list__txt
+              p.mb-0.tv.margin-icon #[b Mecánicas de inicio:] comprenden esencialmente las reglas que describen la forma como debe empezar el videojuego.
+
+          .list.mb-3(data-aos="fade-down")
+            .list__item
+              .list__item__icon
+                img(src='@/assets/curso/temas/tema1/icono2.svg', alt='')
+            .list__txt
+              p.mb-0.tv.margin-icon #[b Mecánicas del triunfo:] comprenden las reglas que describen la manera cómo puede ganar el jugador el videojuego, estableciendo condiciones específicas para lograr la victoria.
+
+          .list.mb-3(data-aos="fade-down")
+            .list__item
+              .list__item__icon
+                img(src='@/assets/curso/temas/tema1/icono2.svg', alt='')
+            .list__txt
+              p.mb-0.tv.margin-icon #[b Progresión del juego:] comprenden las reglas que determinan cómo se avanza durante el juego, es decir, si existe una progresión por turnos o en tiempo real. En algunas ocasiones, se pueden encontrar videojuegos donde el jugador no tiene una alternancia de turnos, sin embargo, debe corresponder a determinados retos que establecen ciclos cortos de progresión.
+
+          .list.mb-3(data-aos="fade-down")
+            .list__item
+              .list__item__icon
+                img(src='@/assets/curso/temas/tema1/icono2.svg', alt='')
+            .list__txt
+              p.mb-0.tv.margin-icon #[b Acciones del jugador:] En este sentido, las mecánicas de juegos, dentro del patrón de acciones del jugador, deben establecerse como verbos o acciones propiamente dichas que puede realizar un jugador, como saltar, caminar, correr o disparar. Estas acciones del jugador pueden determinar específicamente las mecánicas de núcleo y, al mismo tiempo, determinar los efectos que pueden dar lugar para cambiar el estado del juego.
+
+          .list.mb-3(data-aos="fade-down")
+            .list__item
+              .list__item__icon
+                img(src='@/assets/curso/temas/tema1/icono2.svg', alt='')
+            .list__txt
+              p.mb-0.tv.margin-icon #[b Definición de la visión del juego:] son las reglas que determinan qué información será accesible para el jugador y en qué momento.
+
+        .col-lg-5
+          figure
+            img(src='@/assets/curso/temas/tema1/img24.png', alt='alt')
+
+    .bg2
+      .row.pt-5
+        ol.lista-ol--cuadro
+          li 
+            .lista-ol--cuadro__vineta
+              span d
+            h4 Dinámica
+
+      .row.mb-3
+        p.mb-3 La dinámica comprende la descripción del modo de comportarse de una mecánica en específico durante el tiempo de juego, para definir así las interacciones entre los jugadores. Su propósito es crear las experiencias estéticas, las respuestas emocionales del jugador y, por consiguiente, determinar un direccionamiento comportamental. Involucra la motivación del jugador.
+        p En las dinámicas principales que pueden ser utilizadas dentro de la mecánica núcleo de un videojuego, es importante tener en cuenta que la combinación de una o varias de estas dinámicas puede facilitar la interacción entre el jugador y el videojuego, de tal manera que resulte verdaderamente atractivo e inmersivo:
+
+        .col-lg-5
+          figure
+            img(src='@/assets/curso/temas/tema1/img25.png', alt='alt')
+
+        .col-lg-7
+          .list.mb-3(data-aos="fade-down")
+            .list__item
+              .list__item__icon
+                img(src='@/assets/curso/temas/tema1/icono2.svg', alt='')
+            .list__txt
+              p.mb-0.tv.margin-icon #[b Adquisición territorial:] en esta dinámica se describe un tipo de juegos donde el jugador puede moverse a través del entorno virtual y su objetivo es poder controlar determinadas zonas de dicho territorio.
+
+          .list.mb-3(data-aos="fade-down")
+            .list__item
+              .list__item__icon
+                img(src='@/assets/curso/temas/tema1/icono2.svg', alt='')
+            .list__txt
+              p.mb-0.tv.margin-icon #[b Predicción:] dinámica en la que el jugador puede discernir una serie de eventos que pueden llegar a dar lugar a premios y recompensas. En este sentido, el objetivo es que el jugador, de manera predeterminada, pueda analizar y comprender la forma en la que puede jugar para ganar determinadas misiones o retos.
+
+          .list.mb-3(data-aos="fade-down")
+            .list__item
+              .list__item__icon
+                img(src='@/assets/curso/temas/tema1/icono2.svg', alt='')
+            .list__txt
+              p.mb-0.tv.margin-icon #[b Razonamiento espacial:] esta dinámica es característica de la mayoría de puzzles, y consiste en la adquisición de determinadas habilidades y, por consiguiente, el logro de determinados retos a partir del razonamiento espacial adecuado.
+
+          .list.mb-3(data-aos="fade-down")
+            .list__item
+              .list__item__icon
+                img(src='@/assets/curso/temas/tema1/icono2.svg', alt='')
+            .list__txt
+              p.mb-0.tv.margin-icon #[b Supervivencia:] comprende el instinto fundamental del ser humano de sobrevivir y prosperar. Se trata de videojuegos donde el objetivo fundamental es protegerse a sí mismo y sobrevivir durante el videojuego.
+
+          .list.mb-3(data-aos="fade-down")
+            .list__item
+              .list__item__icon
+                img(src='@/assets/curso/temas/tema1/icono2.svg', alt='')
+            .list__txt
+              p.mb-0.tv.margin-icon #[b Colección:] en esta dinámica se trata de coleccionar o reunir la mayor cantidad de elementos, teniendo en cuenta que estos pueden ser utilizados para cumplir con determinados retos o adquirir ciertas habilidades o puntajes.
+
+    .row.mb-3.mt-5
+      ol.lista-ol--cuadro
+        li 
+          .lista-ol--cuadro__vineta
+            span d
+          h4 Estética
+
+    .row.mb-5
+      p La estética describe la respuesta que tiene el jugador, desde el punto de vista emocional, en el momento de interactuar con el sistema de juego. Como propósito, la estética busca hacer que el juego sea divertido, y que sea agradable y excitante la búsqueda del objetivo final. Involucra la inmersión.
+
+    separador
+
+    #t_1_3.titulo-segundo.color-acento-contenido
+      h2 1.3 Lineamientos artísticos
+
+    .row.mb-5
+      p Los lineamientos artísticos hacen referencia a los esquemas de direccionamiento de arte que se hace sobre la estética de un videojuego, basándose principalmente en las tendencias de estilo que imperan en el mercado o bien aquellas que se proponen como iniciativa y con el fin de innovar. En términos generales, se espera que los lineamientos artísticos determinen tanto la calidad en la apariencia como los mecanismos de inversión a partir del apartado gráfico.
+
+    .row.mb-3
+      .col-lg-7
+        .list.mb-3(data-aos="fade-down")
+          .list__item
+            .list__item__icon1
+              img(src='@/assets/curso/temas/tema1/img2.svg', alt='')
+          .list__txt
+            h3.mb-0.tv.margin-icon Estilos artísticos
+
+    .row.my-5(data-aos="fade-zoom")
+      figure
+        .video
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/11111111" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+
+    .row.mb-3
+      .col-lg-7
+        .list.mb-3(data-aos="fade-down")
+          .list__item
+            .list__item__icon
+              img(src='@/assets/curso/temas/tema1/icono1.svg', alt='')
+          .list__txt
+            h3.mb-0.tv.margin-icon Estilo artístico según la tecnología gráfica
+
+    .row.mb-5
+      p Un aspecto importante al momento de idear y plantear el esquema visual de un videojuego  es la tecnología con la cual se dispone para realizarlo. También es importante tener en cuenta las características y las posibilidades que tiene el motor del videojuego. Desde esta perspectiva, se establecen las siguientes tendencias de estilo posibles de acuerdo con las tecnologías presentes, teniendo en cuenta las limitaciones tanto de la plataforma de desarrollo como de la plataforma de publicación:
+
+    .tarjeta.tarjeta--azul.p-4.tema1-bg2
+      SlyderA(tipo="a").p-5
+        .row
+          .col-md-6.mb-4.mb-md-0
+            h4 Pixel Art
+            p Es un estilo de arte para videojuegos donde los gráficos se construyen a partir de mosaicos que, a manera de mapas de pixeles, permiten realizar toda la gráfica y toda la apariencia basada principalmente en los aportes estilísticos de los videojuegos antiguos. Estos videojuegos tenían limitaciones técnicas que exigían la creación de los gráficos en bajísima calidad y con características de color bastante limitadas. Como estilo actual, ofrece la oportunidad de crear videojuegos utilizando el píxel como base de apariencia visual, sin las restricciones técnicas que las tecnologías antiguas tenían.
+            p Un aspecto importante de este estilo es que es característico de algunos videojuegos independientes, ya que resulta económico implementarlo y generar toda una estética general para un videojuego, logrando resultados de atractivo y apariencia muy llamativa. 
+
+          .col-md-6
+            figure
+              img(src='@/assets/curso/temas/tema1/img26.svg', alt='Texto que describa la imagen')
+
+        .row
+          .col-md-6.mb-4.mb-md-0
+            h4 Ilustración 2D
+            p Del estilo del píxel art se pasa muy fácilmente al del recurso estilístico propio de la ilustración 2D. El propósito en la implementación de este estilo es brindar una apariencia similar a los dibujos animados, pero recurriendo a las actuales tecnologías de desarrollo,  bien sea el motor 3D o 2D.
+
+          .col-md-6
+            figure
+              img(src='@/assets/curso/temas/tema1/img27.svg', alt='Texto que describa la imagen')
+
+        .row
+          .col-md-6.mb-4.mb-md-0
+            h4 Vectorizados
+            p Si bien los anteriores ejemplos se basan fundamentalmente en la construcción de imágenes basadas en píxeles, en este caso, los gráficos son creados a partir de geometrías en sistemas de coordenadas de tres a dos ejes, y el dibujo resultante, básicamente, es un vector que puede exigir un mayor esfuerzo de cálculo matemático, sin embargo, aporta un significativo valor estético.
+
+          .col-md-6
+            figure
+              img(src='@/assets/curso/temas/tema1/img28.svg', alt='Texto que describa la imagen')
+
+        .row
+          .col-md-6.mb-4.mb-md-0
+            h4 Polígonos
+            p Es el principal recurso de construcción formal de los videojuegos 3D y básicamente se trata de la construcción de modelos tridimensionales mediante mallas poligonales. Como en el caso anterior, se trata de gráficos construidos con geometrías cuyo cálculo matemático es exigente, pero compensado con resultados de realismo y de impacto visual significativo.
+
+          .col-md-6
+            figure
+              img(src='@/assets/curso/temas/tema1/img29.svg', alt='Texto que describa la imagen')
+
+        .row
+          .col-md-6.mb-4.mb-md-0
+            h4 Voxels
+            p En realidad, se trata de una construcción basada en los gráficos 3D, sin embargo, las formas de los elementos que componen el videojuego, bien sea arquitectura, vehículos, objetos, o personajes, se basa en la implementación de una unidad mínima de construcción que es una simple caja 3D. En la actualidad, más que una técnica de construcción, es un estilo visual.
+
+          .col-md-6
+            figure
+              img(src='@/assets/curso/temas/tema1/img30.svg', alt='Texto que describa la imagen')
+
+        .row
+          .col-md-6.mb-4.mb-md-0
+            h4 Gráficos 2.5D, Pseudo 3D o Cámara Fija
+            p En primer lugar, estos videojuegos pueden estar construidos en motores 2D o 3D, mediante modelos tridimensionales o sprites, y lo que constituye su verdadero valor estético es la manera como se asume la perspectiva de cámara, generalmente perpendicular al plano general del videojuego.
+
+          .col-md-6
+            figure
+              img(src='@/assets/curso/temas/tema1/img31.svg', alt='Texto que describa la imagen')
 
 
+    separador
 
+    #t_1_4.titulo-segundo.color-acento-contenido
+      h2 1.4 Monetización
 
+    .row.mb-5
+      p.mb-4 Para establecer una correcta estrategia de monetización es importante tener claras las funcionalidades del videojuego, el grupo objetivo, sus hábitos de juegos y su estilo de vida, en términos de capacidad adquisitiva y gustos.
+      p.mb-4 Desde el punto de vista de jugabilidad y de relación entre el usuario o jugador y el videojuego, la monetización suele considerarse como una mecánica más, que establece también una serie de dinámicas relativas a la interacción comercial, entendiendo el videojuego como un producto o servicio comercial. 
+      p En términos generales, se pueden dividir los videojuegos en dos tipos, de acuerdo con la forma como pueden ser adquiridos: aquellos que se ofrecen como free, o gratuitos, y los de pago. A continuación, se relacionan las estrategias de monetización más comunes que pueden manejarse de manera independiente o combinada, de acuerdo con las pretensiones establecidas en el documento de diseño y, por consiguiente, el modelo de negocios.
 
+    .row.mb-5
+      .tarjeta.tarjeta--gris.px-5.pt-3.pb-5.tema1-bg3
+        h4.text-center.texto-blanco.mb-5 $ Estrategias de monetización de los videojuegos $
+        .row 
+          .col-lg-8
+            p.texto-blanco.mb-4 #[b 1. Freemium - Gratis + Oportunidades de monetización adicional:] Este es uno de los modelos de monetización más comunes y se trata básicamente de videojuegos de descarga gratuita y, una vez los jugadores se han mantenido bajo cierto nivel de fidelización, se puede optar por la monetización a partir del pago por contenido adicional. Dentro de los modelos #[i freemium] se puede encontrar:
 
+            .row.justify-content-center.mb-4
+              .col-lg-3
+                .row
+                  .col-auto
+                    a.boton.color-acento-botones.indicador__container(@click="modal1 = true")
+                      span Uso limitado
+                      .indicador--click(v-if="mostrarIndicador")
 
+                
+                ModalA(:abrir-modal.sync="modal1")
+                  .row.align-items-center
+                    h4.mb-4 Uso limitado:
+                    p En este esquema, el videojuego puede jugarse gratis durante un tiempo específico y ofrece, en el caso de datos, un espacio de almacenamiento limitado. Pasado el tiempo de prueba o el espacio de almacenamiento se ofrece la alternativa de adquirir una cuenta o versión de pago, con mayores tiempos de juegos o espacio de almacenamiento.
 
+              .col-lg-3
+                .row
+                  .col-auto
+                    a.boton.color-acento-botones.indicador__container(@click="modal2 = true")
+                      span Prueba gratis
+                      .indicador--click(v-if="mostrarIndicador")
 
+                
+                ModalA(:abrir-modal.sync="modal2")
+                  .row.align-items-center
+                    h4.mb-4 Prueba gratis:
+                    p En este modelo, se ofrece el videojuego con todas las funcionalidades durante un tiempo limitado; posteriormente deberá adquirir una licencia que le permita continuar con el videojuego.
 
+              .col-lg-3
+                .row
+                  .col-auto
+                    a.boton.color-acento-botones.indicador__container(@click="modal3 = true")
+                      span Funcionalidad
+                      .indicador--click(v-if="mostrarIndicador")
 
+                
+                ModalA(:abrir-modal.sync="modal3")
+                  .row.align-items-center
+                    h4.mb-4 Funcionalidad:
+                    p En este modelo, los videojuegos se ofrecen con una limitada funcionalidad, por ejemplo, un número mínimo de niveles o un número mínimo de habilidades de los personajes. El propósito es que, en el momento de avanzar en el juego, el jugador se anime a comprar nuevos elementos de juegos como personajes habilidades o niveles.
 
+              .col-lg-3
+                .row
+                  .col-auto
+                    a.boton.color-acento-botones.indicador__container(@click="modal4 = true")
+                      span Experiencia de usuario
+                      .indicador--click(v-if="mostrarIndicador")
 
+                
+                ModalA(:abrir-modal.sync="modal4")
+                  .row.align-items-center
+                    h4.mb-4 Experiencia de usuario:
+                    p En este modelo, aparecen dos tipos de posibilidades de monetización que comprenden, por ejemplo, el pago por parte del usuario para que no aparezca publicidad in-app, y, al mismo tiempo, el pago de empresas anunciantes por la pauta a través de estos videojuegos. 
+
+            p.texto-blanco.mb-4  #[b 2. #[i Paid] o Pago por descarga:] este es un modelo de monetización tradicional, donde el usuario paga por anticipado por un videojuego para que le sea permitida su descarga. Una vez descargado, el jugador tendrá acceso a todas las funcionalidades y el estudio desarrollador no tendrá ningún otro medio de monetización.
+
+            p.texto-blanco.mb-4  #[b 3. Suscripción:] el modelo de suscripción requiere un pago regular, bien sea mensualmente o anualmente, que permita el completo uso funcional del videojuego. También pueden sugerir posibilidades de actualización periódicas del videojuego, a las cuales se tendrá derecho por haberlo adquirido y mantener constantes los pagos que se sugieren.
+
+            p.texto-blanco.mb-4  #[b 4. #[i Publicidad In-App:]]  En este caso, se trata de un modelo de monetización donde la publicidad se presenta constante, sin posibilidades de ser eliminada por el usuario, y que fácilmente puede fusionarse con el contenido para que forme parte de su diseño de nivel. Ejemplo de ello pueden ser los videojuegos donde se pueden observar edificios con vallas alusivas a empresas existentes.
+
+            p.texto-blanco.mb-4  #[b 5. #[i Paidmium: Paid] + Oportunidades de monetización adicionales:] en este tipo de modelo, además de pagar por la descarga del videojuego, el usuario tiene la oportunidad de adquirir servicios anexos al videojuego y, obviamente, pagar por ellos. La monetización se logra mediante compras desde el interior de la aplicación y que, básicamente, constituyen mejoras en la experiencia de usuario, por ejemplo, eliminar publicidad o comprar más contenidos o paquetes que le permitan mejorar su desempeño en el juego.
+
+            p.texto-blanco.mb-4  #[b 6 .#[i Sponsorship - Publisher:]]  el primer elemento constituye el modelo más generalizado en el desarrollo general de aplicaciones y consiste básicamente en la búsqueda de inversores que financien el proyecto de desarrollo, ofreciendo un modelo de ganancias compartidas. Para la segunda alternativa, la búsqueda de inversores se concentra fundamentalmente en las compañías de publicación que se especializan en la comercialización y difusión de videojuegos, y donde los esquemas de negociación se basan en ganancias compartidas a partir de cierto número de ventas del videojuego.
 
 
 
@@ -358,6 +631,10 @@ export default {
   name: 'Tema1',
   components: {},
   data: () => ({
+    modal1: false,
+    modal2: false,
+    modal3: false,
+    modal4: false,
     // variables de vue
   }),
   mounted() {
