@@ -191,10 +191,153 @@
             h3.mb-0.tv.margin-icon Roles actanciales
 
     .row.mb-5
-      p Los roles y las características de los personajes  cumplen una función importante en términos narrativos, desde el eje sistemático de lo que realizan dentro de una historia. En este sentido, el análisis será desde el tradicional esquema de los roles actanciales.
+      p.mb-5 Los roles y las características de los personajes  cumplen una función importante en términos narrativos, desde el eje sistemático de lo que realizan dentro de una historia. En este sentido, el análisis será desde el tradicional esquema de los roles actanciales.
     
-    .cajon.color-primario.p-4
-      p Según Greimas, los roles actanciales son realizados por los “actantes” (persona, animal o cosa), por lo tanto, son los que realizan las acciones propias dentro de la narración. Se consideran actantes independientemente de cualquier determinación o de cualquier concepto externo, y su caracterización viene determinada por el rol que desempeñan.
+      .cajon.color-primario.p-4.mb-5
+        p.mb-0 Según Greimas, los roles actanciales son realizados por los “actantes” (persona, animal o cosa), por lo tanto, son los que realizan las acciones propias dentro de la narración. Se consideran actantes independientemente de cualquier determinación o de cualquier concepto externo, y su caracterización viene determinada por el rol que desempeñan.
+
+      p.mb-4 Los tipos de personajes constituyen los modelos de personaje humano o animado que posee rasgos estereotípicos físicos, psicológicos y morales prefijados por el común de usuario o consumidores de contenido.
+      p A continuación, se puede observar una tabla que reúne los principales roles actanciales desde las propuestas realizadas por tres autores diferentes (Hartt, 2019):
+
+    .row.mb-5
+      h1.text-center FALTA LA TABLA
+
+    .row.mb-5
+      SlyderF.mb-5.mt-5(columnas="col-lg-6 col-xl-4")
+        .tarjeta-avatar
+          img(src='@/assets/curso/temas/tema1/img14.svg' alt='AvatarTop')
+          .tarjeta.tarjeta--azul-1.p-4
+            h2.text-center.mt-5 Sujeto
+            p.text-center Representado esencialmente por el personaje controlado por el jugador o el sistema, de acuerdo con el orden narrativo.
+
+        .tarjeta-avatar
+          img(src='@/assets/curso/temas/tema1/img15.svg' alt='AvatarTop')
+          .tarjeta.tarjeta--azul-1.p-4
+            h2.text-center.mt-5 Objeto
+            p.text-center Constituye en sí mismo el objetivo o propósito del sujeto (ser amado, dinero, honor, felicidad).
+
+        .tarjeta-avatar
+          img(src='@/assets/curso/temas/tema1/img16.svg' alt='AvatarTop')
+          .tarjeta.tarjeta--azul-1.p-4
+            h2.text-center.mt-5 Ayudante
+            p.text-center Está representado por la entidad o circunstancia que ayuda al sujeto a realizar su misión. También puede encontrarse un rol ayudante para los oponentes.
+
+        .tarjeta-avatar
+          img(src='@/assets/curso/temas/tema1/img17.svg' alt='AvatarTop')
+          .tarjeta.tarjeta--azul-1.p-4
+            h2.text-center.mt-5 Oponente
+            p.text-center Es el rol némesis del sujeto. En este sentido, tiene como posible objetivo el mismo del sujeto, pero con intenciones completamente contradictorias. En el caso de los videojuegos, si el sujeto es controlado por el usuario, el oponente es controlado por el sistema u otro jugador o viceversa.
+
+        .tarjeta-avatar
+          img(src='@/assets/curso/temas/tema1/img18.svg' alt='AvatarTop')
+          .tarjeta.tarjeta--azul-1.p-4
+            h2.text-center.mt-5 Destinador
+            p.text-center Es el rol que establece, arbitra y orienta los hechos en los que se ven involucrados los personajes. Puede estar representado por una entidad concreta, un fundamento o principio, o una emoción o sentimiento. Es el que motiva al sujeto a cumplir con el objetivo.
+
+        .tarjeta-avatar
+          img(src='@/assets/curso/temas/tema1/img19.svg' alt='AvatarTop')
+          .tarjeta.tarjeta--azul-1.p-4
+            h2.text-center.mt-5 Destinatario
+            p.text-center Involucra el beneficio directo que logra el sujeto o el oponente al cumplir con las misiones. Puede tener una naturaleza social, ideológica, moral o material. Es quien recibe las acciones o metas del sujeto.
+
+    .row.mb-5
+      .col-md-6.col-lg.mb-5.mb-lg-0
+        .tarjeta-avatar
+          img(src='@/assets/curso/temas/tema1/img20.svg' alt='AvatarTop')
+          .tarjeta.tarjeta--morada
+            .row.p-4.mt-4
+              h4.text-center El eje destinador - destinatario
+              p.text-center Involucra el control de los valores y, por lo tanto, de la ideología. Determina la creación de estos y su relación con los personajes.
+
+      .col-md-6.col-lg.mb-5.mb-lg-0
+        .tarjeta-avatar
+          img(src='@/assets/curso/temas/tema1/img21.svg' alt='AvatarTop')
+          .tarjeta.tarjeta--morada
+            .row.p-4.mt-4
+              h4.text-center El eje sujeto - objeto
+              p.text-center Determina la trayectoria de la acción y lo que busca el protagonista o héroe de la historia. Determina el eje del deseo, es decir, el propósito que se busca lograr y los obstáculos que se encuentran.
+
+      .col-md-6.col-lg.mb-5.mb-lg-0
+        .tarjeta-avatar
+          img(src='@/assets/curso/temas/tema1/img22.svg' alt='AvatarTop')
+          .tarjeta.tarjeta--morada
+            .row.p-4.mt-4
+              h4.text-center El eje ayudante - opositor
+              p.text-center Este eje determina la facilidad o la dificultad en la comunicación, produce las circunstancias y las acciones propias dentro de la narración. No necesariamente involucra personajes y puede, desde cierto punto de vista, hacer la proyección del esquema de personalidad del personaje sujeto.
+
+    .row.mb-3
+      .col-lg-7
+        .list.mb-3(data-aos="fade-down")
+          .list__item
+            .list__item__icon1
+              img(src='@/assets/curso/temas/tema1/img2.svg', alt='')
+          .list__txt
+            h3.mb-0.tv.margin-icon Entorno
+
+    .row.mb-5
+      p.mb-4 Desde el punto de vista narrativo, el entorno constituye el espacio físico en el cual se lleva a cabo la historia y las acciones de cada uno de los personajes. Necesariamente influye en cada uno de los eventos narrativos y cronológicos, y determina en gran medida aspectos de jugabilidad. A este concepto de entorno se añade el concepto de contexto, de tal manera que, no solamente se define en términos de espacialidad, sino en lo que lo caracteriza, en términos funcionales y la forma como se aborda y aporta en la historia. Las características o puntos de vista comprenden: la cronología, la ambientación, la funcionalidad (jugabilidad) y el estilo visual y narrativo. 
+      p Por otro lado, y desde el punto de vista específico de jugabilidad, comprende la relación directa de interacción con el jugador, y se encuentran entornos y contextos basados en la exploración, el paso de obstáculos.
+
+    .row.mb-5
+      .col-lg-6
+        .tarjeta-avatar-b
+          .tarjeta-avatar-b__img
+            img(src='@/assets/curso/temas/tema1/img32.svg' alt='AvatarTop')
+          .tarjeta.tarjeta-borde
+            .p-3
+              h5 Punto de vista cronológico
+              p Desde esta perspectiva, se encuentran entornos y contextos donde entra a jugar el tiempo y la época a la que se refiere el videojuego. Determinan tanto la narrativa como la ambientación de utilería, arquitectura y vestuario.
+
+        .tarjeta-avatar-b
+          .tarjeta-avatar-b__img
+            img(src='@/assets/curso/temas/tema1/img33.svg' alt='AvatarTop')
+          .tarjeta.tarjeta-borde
+            .p-3
+              h5 Punto de vista ambiental
+              p Desde esta perspectiva, es posible referirse a los aspectos propios de la sensación que causa un espacio como tal y la forma como puede ser simulado a través del videojuego. En este aspecto, es posible involucrar la iluminación, los ambientes naturales y urbanos, la decoración de interiores y la sensación de realismo de los materiales y texturas.
+
+
+      .col-lg-6
+        .tarjeta-avatar-b
+          .tarjeta-avatar-b__img
+            img(src='@/assets/curso/temas/tema1/img34.svg' alt='AvatarTop')
+          .tarjeta.tarjeta-borde
+            .p-3
+              h5 Punto de vista funcional
+              p En términos funcionales y de jugabilidad, se tiene la clasificación de elementos de acuerdo con su papel dentro de la mecánica de videojuegos: están la utilería, los espacios arquitectónicos, naturales y urbanos, y los vehículos. 
+        
+        .tarjeta-avatar-b
+          .tarjeta-avatar-b__img
+            img(src='@/assets/curso/temas/tema1/img35.svg' alt='AvatarTop')
+          .tarjeta.tarjeta-borde
+            .p-3
+              h5 Punto de vista de estilo
+              p Este aspecto involucra el entorno y el contexto, en términos de la apropiación de un estilo visual artístico específico. Comprende también el estilo y género narrativo que se haya implementado. Desde esta instancia, se entendería que para un videojuego de terror se implemente una ambientación, quizás una época, y una iluminación diferente, así se trate de un videojuego de aventuras.
+
+    separador
+
+    #t_1_2.titulo-segundo.color-acento-contenido
+      h2 1.2 Mecánicas, dinámicas y estéticas
+
+    .row.justify-content-center.mb-5
+      .col-lg-10
+        .bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-4
+          .bloque-texto-g1__img(
+            :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img23.svg')})`}"
+          )
+          .bloque-texto-g1__texto.p-3
+            p.mb-0 En la actualidad, en el diseño de videojuegos, se especifica una tríada de aspectos que tienen que ver con la totalidad de elementos que deben determinar la experiencia de usuario, y son las mecánicas, las dinámicas y la estética. Las mecánicas se refieren a las reglas y sistemas que determinan la experiencia de juego en sí misma. Las dinámicas hacen referencia al comportamiento de las mecánicas en respuesta a las acciones que realiza un jugador. Y la estética hace referencia a la respuesta emocional que evoca el usuario y, al mismo tiempo, involucra el aspecto visual del videojuego como elemento de jugabilidad.
+
+    .row.mb-5
+      .cajon.color-primario.p-4
+        p.mb-0 Dentro de este marco de diseño de videojuegos, se entiende que el jugador y el diseñador de juegos tienen una diferente perspectiva del videojuego. El propósito, en este sentido, es generar un puente entre el diseñador de videojuegos y el jugador.
+
+    .row.mb-5
+      p Entendiendo los videojuegos como productos y servicios de entretenimiento, presentan un comportamiento imprevisible en sus momentos de consumo, y esto se debe, precisamente, a las motivaciones y a los procesos de inmersión e involucramiento emocional de los jugadores. Esto permite establecer los componentes de los videojuegos y descomponerlos en sus aspectos funcionales y su pertinencia alrededor de la acción de jugar; determinando así un esquema de elementos funcionales interactuantes entre sí, que determinan la relación coherente entre el videojuego y el jugador:
+
+
+
+
 
 
 
