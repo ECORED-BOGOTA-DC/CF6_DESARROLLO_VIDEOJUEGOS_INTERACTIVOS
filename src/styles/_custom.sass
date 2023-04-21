@@ -20,6 +20,101 @@
 
 //CSS Tema 1
 
+
+.img2-tm1
+  position: relative
+  width: 60%
+  left: 20%
+  margin-top: 12%
+  @media (max-width: 500px)
+    width: 100%
+    left: 0%;
+    margin-top: 0%
+
+.tema1-bg1
+  background-image: url(../assets/curso/temas/tema1/bg1.png)
+  background-size: 100% 100%
+
+.tarjeta-borde
+  border-bottom: 1px solid #AFAFAF
+  border-top: 1px solid #AFAFAF
+  border-radius: 0px
+  height: 250px
+  @media (max-width: 500px)
+    height: 420px
+
+.bg1
+  position: relative
+  .row, figure, p, h3, .titulo-sexto.color-primario
+    position: relative
+  &::before
+    content: ""
+    position: absolute
+    margin-left: -48px
+    margin-top: -10px
+    width: calc( 110% + 130px )
+    height: 100%       
+    background-image: url('../assets/curso/temas/tema1/bg2.png')
+    background-size: 100% auto  
+    background-repeat: no-repeat
+    background-position: center top 
+    @media (max-width: 500px)
+      background-repeat: repeat
+
+.bg2
+  position: relative
+  .row, figure, p, h3, .titulo-sexto.color-primario
+    position: relative
+  &::before
+    content: ""
+    position: absolute
+    margin-left: -48px
+    margin-top: -10px
+    width: calc( 110% + 160px )
+    height: 100%       
+    background-image: url('../assets/curso/temas/tema1/bg3.png')
+    background-size: 100% auto  
+    background-repeat: no-repeat
+    background-position: center top 
+    @media (max-width: 500px)
+      background-repeat: repeat
+
+.tema1-bg2
+  background-image: url(../assets/curso/temas/tema1/bg4.png)
+  background-size: 100% 100%
+
+.tema1-bg3
+  background-image: url(../assets/curso/temas/tema1/bg5.png)
+  background-size: 100% 100%
+
+//slyderA tipo a
+
+.slyder-a__tipo-a .slyder-a__btn--sigt
+  right: -15px
+  opacity: 1
+  @media (max-width: 500px)
+    top: 30%
+
+.slyder-a__tipo-a .slyder-a__btn--atrs
+  left: -15px
+  opacity: 1
+  @media (max-width: 500px)
+    top: 30%
+
+.slyder-a__tipo-a .slyder-a__bullets 
+    position: absolute
+    bottom: 0px
+    left: 50%
+    transform: translateX(-50%)
+    display: none !important
+
+//tarjeta modal
+
+.modal-a__content
+  width: 50%
+
+///// CSS GLOBALES------
+
 .bloque-texto-g1__img 
   width: 50%
   position: absolute
@@ -41,22 +136,6 @@
   @media (max-width: 500px)
     width: 100%
     right: 0%
-
-.img2-tm1
-  position: relative
-  width: 60%
-  left: 20%
-  margin-top: 12%
-  @media (max-width: 500px)
-    width: 100%
-    left: 0%;
-    margin-top: 0%
-
-.tema1-bg1
-  background-image: url(../assets/curso/temas/tema1/bg1.png)
-  background-size: 100% 100%
-
-///// CSS GLOBALES-------
 
 //lista con icono
 
@@ -112,7 +191,7 @@
         vertical-align: middle
 
 .cajon.color-primario 
-    background-color: #c0ebf6
+  background-color: #c0ebf6
 
 
 .tarjeta--azul-1
@@ -123,86 +202,18 @@
 .tarjeta--morada
   background-color: #E1DDFC
 
-.tarjeta-borde
-  border-bottom: 1px solid #AFAFAF
-  border-top: 1px solid #AFAFAF
-  border-radius: 0px
-  height: 250px
-  @media (max-width: 500px)
-    height: 420px
 
 .tarjeta-avatar-b__img
   min-width: 15%
 
-.bg1
-  position: relative
-  .row, figure, p, h3, .titulo-sexto.color-primario
-    position: relative
-  &::before
-    content: ""
-    position: absolute
-    margin-left: -48px
-    margin-top: -10px
-    width: calc( 110% + 130px )
-    height: 100%       
-    background-image: url('../assets/curso/temas/tema1/bg2.png')
-    background-size: 100% auto  
-    background-repeat: no-repeat
-    background-position: center top 
-    @media (max-width: 500px)
-      background-repeat: repeat
-
-.bg2
-  position: relative
-  .row, figure, p, h3, .titulo-sexto.color-primario
-    position: relative
-  &::before
-    content: ""
-    position: absolute
-    margin-left: -48px
-    margin-top: -10px
-    width: calc( 110% + 160px )
-    height: 100%       
-    background-image: url('../assets/curso/temas/tema1/bg3.png')
-    background-size: 100% auto  
-    background-repeat: no-repeat
-    background-position: center top 
-    @media (max-width: 500px)
-      background-repeat: repeat
-
-.tema1-bg2
-  background-image: url(../assets/curso/temas/tema1/bg4.png)
-  background-size: 100% 100%
-
-//slyderA tipo a
-
-.slyder-a__tipo-a .slyder-a__btn--sigt
-  right: -15px
-  opacity: 1
-  @media (max-width: 500px)
-    top: 30%
-
-.slyder-a__tipo-a .slyder-a__btn--atrs
-  left: -15px
-  opacity: 1
-  @media (max-width: 500px)
-    top: 30%
-
-.slyder-a__tipo-a .slyder-a__bullets 
-    position: absolute
-    bottom: 0px
-    left: 50%
-    transform: translateX(-50%)
-    display: none !important
-
-.tema1-bg3
-  background-image: url(../assets/curso/temas/tema1/bg5.png)
-  background-size: 100% 100%
-
-//tarjeta modal
-
-.modal-a__content
-  width: 50%
 
 .modal-a--abierto .modal-a__fondo
-  opacity: 0.5
+  opacity: 1
+
+
+/// CSS TEMA 2 --------
+
+.tarjeta-numerada
+  height: 480px
+  @media (max-width: 500px)
+    height: auto
