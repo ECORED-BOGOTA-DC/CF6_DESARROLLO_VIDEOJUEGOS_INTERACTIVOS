@@ -64,7 +64,7 @@
     .row.justify-content-center.mb-5
       .col-lg-8
         .titulo-sexto.color-acento-contenido.mb-5
-          p.mb-0 #[b Figura 1.] Narrativa lineal.
+          p.mb-0 #[b Figura 1] Narrativa lineal.
 
         figure
           img(src="@/assets/curso/temas/tema1/img4.svg", alt="alt")
@@ -75,7 +75,7 @@
     .row.justify-content-center.mb-5
       .col-lg-8
         .titulo-sexto.color-acento-contenido.mb-5
-          p.mb-0 #[b Figura 2.] Videojuego #[i Quake]
+          p.mb-0 #[b Figura 2] Videojuego #[i Quake]
 
         figure
           img(src="@/assets/curso/temas/tema1/img5.png", alt="alt")

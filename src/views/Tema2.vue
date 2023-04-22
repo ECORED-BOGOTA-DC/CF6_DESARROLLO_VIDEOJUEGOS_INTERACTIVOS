@@ -53,7 +53,7 @@
     .row.justify-content-center.my-5
       .col-lg-8
         .titulo-sexto.color-acento-contenido.mb-5
-          p.mb-0 #[b Figura 3.] Ventana de referencia de script
+          p.mb-0 #[b Figura 3] Ventana de referencia de script
 
         figure
           img(src="@/assets/curso/temas/tema2/img2.svg", alt="alt")
@@ -90,41 +90,182 @@
 
     .row.justify-content-center.mb-5
       .col-lg-8
+        .cajon.color-primario.p-4
+          p.mb-0 La anatomía básica de un script en C Sharp (C#) está constituida fundamentalmente de variables, funciones y clases.
 
 
+    .row.justify-content-center.mb-5
+      .col-lg-6
+        p Las variables son elementos en la sintaxis del programa que tienen la capacidad de contener valores e información referente a determinados objetos y tienen una utilidad importante en función de esta información o de estos valores. Los nombres de las variables deben escribirse en minúscula. 
+        p Las funciones son pequeñas estructuras de código que realizan tareas específicas y permiten comparar y manipular variables. Los nombres de las funciones comienzan con la primera letra en mayúscula. El código de programación se organiza en funciones para que sea fácilmente utilizable por el programa.
+        p Las clases son estructuras de código que permiten organizar conjuntos de variables y funciones, que funcionan como plantillas, definiendo propiedades de un objeto que pueden ser utilizadas de diferentes formas. Escribir códigos de programación es, en esencia, una labor de comparación entre objetos, sus comportamientos, estados y valores actuales; determinando resultados lógicos y secuencias lógicas.
+
+      .col-lg-6.mt-5
+        figure
+          img(src="@/assets/curso/temas/tema2/img5.svg", alt="alt")      
+
+    .row.mb-3
+      .col-lg-7
+        .list.mb-3(data-aos="fade-down")
+          .list__item
+            .list__item__icon1
+              img(src='@/assets/curso/temas/tema1/img2.svg', alt='')
+          .list__txt
+            h3.mb-0.tv.margin-icon Variables
+
+    .row.justify-content-center.mb-5
+      p.mb-5 En Unity, los archivos de programación se deben comenzar, por lo general, con la mención o declaración de las variables, estableciendo si serán visibles o no, es decir públicas o privadas, al mismo tiempo que el tipo y el nombre de la variable, en este orden de secuencia.
+
+      .col-lg-6
+        figure
+          img(src="@/assets/curso/temas/tema2/img6.svg", alt="alt")      
+
+    .row.mb-5
+      .tarjeta.tarjeta--gris.p-3.p-lg-5.tema2-bg1
+        .row.justify-content-center
+          .col-lg-5.mt-5
+            p Al declarar variables visibles o de forma pública, pueden ser observables a través del inspector del motor y es una manera muy sencilla de poder controlarlas, para así modificar sus valores y por lo tanto su comportamiento. Cuando la variable es declarada como privada, no puede verse a través del inspector y sólo puede cambiarse su valor a través de la intervención del código de programación.
+            p Además, cuando se hacen públicas las variables, se puede acceder a ellas a través de otros scripts u otras clases, permitiendo la interacción entre diferentes scripts y haciendo más dinámica la jugabilidad. 
+            p Además de este carácter público o privado, también está el tipo de variable, es decir, la especificación del tipo de información que puede almacenar y, por lo tanto, el tipo de valor que podría mantener en memoria. En términos generales, es necesario especificar el tipo de variable que se está declarando para poder indicarle al motor cómo debe manejar la información o valor que contenga.
+
+          .col-lg-5
+            .titulo-sexto.color-acento-contenido
+              p.mb-0 #[b Figura 4] Panel del inspector
+            figure
+              img(src="@/assets/curso/temas/tema2/img7.svg", alt="alt")    
+
+    .row.mb-5
+      p #[b Control de variables en el Inspector de Unity:] es importante que las variables tengan un nombre específico, de acuerdo con la información a contener o almacenar, y que al mismo tiempo pueda ser diferenciable de las demás variables que pueda llegar a tener el script. Al mismo tiempo, tener en cuenta que la variable no se puede nombrar con un número al inicio, ni contener espacios vacíos. 
+      p En la denominación de una variable se suele utilizar un estilo o convención de nomenclatura que es  cameICase. Esta forma de nombrar la variable  comienza con una letra en minúscula y, si se trata de parejas de palabras, se escriben unidas, y la primera letra de la segunda palabra se escribe en mayúsculas, por ejemplo: “myLight”.
+      p Tal  cómo puede observarse en la siguiente imagen, Unity permite, una vez compilado el código, ver los nombres de las variables separados en el inspector.
+
+    .row.justify-content-center.mb-5
+      .col-lg-10
+        .titulo-sexto.color-acento-contenido
+          p.mb-0 #[b Figura 5] Panel de inspector - componente script   
 
 
+        figure
+          img(src="@/assets/curso/temas/tema2/img8.svg", alt="alt")        
 
+    .row.mb-3
+      .col-lg-7
+        .list.mb-3(data-aos="fade-down")
+          .list__item
+            .list__item__icon1
+              img(src='@/assets/curso/temas/tema1/img2.svg', alt='')
+          .list__txt
+            h3.mb-0.tv.margin-icon Funciones
 
+    .row.justify-content-center.mb-5
+      p.mb-5 Los scripts permiten controlar variables a través de funciones. En términos generales, las funciones más utilizadas se ejecutan de manera automática en el motor, sin embargo, es posible también indicar en qué momento se pueden ejecutar estas funciones de manera controlada. 
 
+      .col-lg-6
+        figure
+          img(src="@/assets/curso/temas/tema2/img9.svg", alt="alt")      
 
+    .row.mb-5
+      p Las principales funciones en Unity son:
 
+    .row.mb-5
+      .col-lg-6
+        .list.mb-3(data-aos="fade-down")
+          .list__item
+            .list__item__icon
+              img(src='@/assets/curso/temas/tema1/icono2.svg', alt='')
+          .list__txt
+            p.mb-0.tv.margin-icon #[b #[i Awake:]] Se ejecuta sólo una vez en el momento de iniciarse el objeto del juego que contenga el script. Hay que tener en cuenta que esta función se ejecuta siempre y cuando el objeto de juegos se encuentre inactivo, aún cuando no esté habilitado a través del editor.
 
+        .list.mb-3(data-aos="fade-down")
+          .list__item
+            .list__item__icon
+              img(src='@/assets/curso/temas/tema1/icono2.svg', alt='')
+          .list__txt
+            p.mb-0.tv.margin-icon #[b #[i Start:]] De la misma manera que la función anterior, la función #[i Start] se ejecutará si el GameObject que tiene asignado el script está activo, siempre y cuando el componente de script esté habilitado.
 
+        .list.mb-3(data-aos="fade-down")
+          .list__item
+            .list__item__icon
+              img(src='@/assets/curso/temas/tema1/icono2.svg', alt='')
+          .list__txt
+            p.mb-0.tv.margin-icon #[b #[i Update:]] Esta función se ejecuta una vez cada fotograma y es la función donde se escribe la generalidad de la lógica que se programa y establece para ese script específico. Vale decir que, al ejecutarse una vez cada fotograma, contendría instrucciones que siempre estarán operando, siempre y cuando así se establezca o suceda algo en específico.
 
+        .list.mb-3(data-aos="fade-down")
+          .list__item
+            .list__item__icon
+              img(src='@/assets/curso/temas/tema1/icono2.svg', alt='')
+          .list__txt
+            p.mb-0.tv.margin-icon #[b #[i FixedUpdate:]]  esta función se utiliza sobre todo en efectos de física o efectos de animación, y tiene como fin poder ejecutar relativas acciones independientes de los fotogramas por segundo, de tal manera que el efecto o la animación sea más fluido y eficiente.
 
+        .list.mb-3(data-aos="fade-down")
+          .list__item
+            .list__item__icon
+              img(src='@/assets/curso/temas/tema1/icono2.svg', alt='')
+          .list__txt
+            p.mb-0.tv.margin-icon #[b #[i LateUpdate:]]  Esta función se asemeja a #[i Update], pero #[i LateUpdate] se ejecuta al final del #[i frame] o cuadro. Básicamente, el motor utilizará esta función #[i LateUpdate] para ejecutar acciones actualizadas hasta el final del #[i frame.]
 
+      .col-lg-6.mt-5
+        figure
+          img(src='@/assets/curso/temas/tema2/img10.svg', alt='alt')
 
+    
+    .row.justify-content-center.mb-5
+      p.mb-5 Al escribir una función, es importante recordar que debe empezar por el tipo de función seguido del nombre de la función, escribiendo la primera letra del nombre en mayúscula, seguido de los parámetros entre paréntesis (si corresponde). El cuerpo de la función, es decir, las acciones que se realizan, se escriben entre llaves o corchetes:
 
+      .col-lg-6.mb-5
+        figure
+          img(src="@/assets/curso/temas/tema2/img11.svg", alt="alt")
 
+      p.text-center.mb-5 ¿Cómo se llama a esta función?
 
+      .col-lg-6.mb-5
+        figure
+          img(src="@/assets/curso/temas/tema2/img12.svg", alt="alt") 
 
+      p Las funciones pueden realizar cálculos y posteriormente presentar un valor, sin embargo, pueden procesar información y no obtener de la función ninguna respuesta. Estas funciones son de tipo #[i “void”.]
 
+    .row.mb-3
+      .col-lg-7
+        .list.mb-3(data-aos="fade-down")
+          .list__item
+            .list__item__icon1
+              img(src='@/assets/curso/temas/tema1/img2.svg', alt='')
+          .list__txt
+            h3.mb-0.tv.margin-icon Clases
 
+    .row.justify-content-center.mb-5
+      p.mb-5 Son paquetes o conjuntos de variables y funciones. En términos generales, un archivo de #[i script] es en sí mismo una clase y la clase debe tener el mismo nombre del #[i script:]
+      
+      .col-lg-6.mb-5
+        figure
+          img(src="@/assets/curso/temas/tema2/img13.svg", alt="alt")
+      
+      p.mb-4 Por otro lado, una vez el #[i script] se integra a un #[i GameObject], debe derivarse de la clase de base,  llamada #[i MonoBehaviour.] Las clases también pueden ser públicas o privadas.
+      p.mb-5 En Unity, se pueden crear clases personalizadas, como en el siguiente ejemplo, y deben solicitarse de manera serializada, lo que significa que se convertirán en datos digeribles y comprensibles por el motor, de tal manera que puedan también observarse y hacerse visibles en el inspector.
 
+      .col-lg-6.mb-5
+        figure
+          img(src="@/assets/curso/temas/tema2/img14.svg", alt="alt")
 
+    .row.mb-5
+      .cajon.color-primario.p-4
+        p.mb-0 Las funciones, sus variables y las estructuras de clases son fundamentales para comprender la manera en la que se escribe código de programación en el motor de Unity.
 
+    separador
 
+    #t_2_2.titulo-segundo.color-acento-contenido
+      h2 2.3 Programación de comportamientos básicos de juego
 
+    .row.mb-5
+      p Los videojuegos, en su jugabilidad, y específicamente las mecánicas de videojuego, se relacionan directamente con los procesos de codificación o programación de comportamientos. Desde un ejemplo práctico, se verá cómo se plantea una lógica de programación basada en tres mecánicas básicas: movimiento, colisión y premio / castigo.
 
+    .row.justify-content-center.my-5
+      .col-lg-8
+        .titulo-sexto.color-acento-contenido.mb-5
+          p.mb-0 #[b Figura 6] Ventana de gameplay
 
-
-
-
-
-
-
-
+        figure
+          img(src="@/assets/curso/temas/tema2/img15.svg", alt="alt")
 
 
 
