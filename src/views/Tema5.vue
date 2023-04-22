@@ -55,7 +55,7 @@
         figure
           img(src="@/assets/curso/temas/tema5/img2.png", alt="alt")
 
-    .row.mb-3
+    .row.mb-3.mt-5
       .col-lg-7
         .list.mb-3(data-aos="fade-down")
           .list__item
@@ -65,6 +65,14 @@
             h3.mb-0.tv.margin-icon Modelo wireframing
 
       p Tiene por objeto mostrar la funcionalidad del flujo de información y pantallas, enfocándose en las propiedades de la interfaz de usuario y los elementos gráficos del videojuego, en términos de comprensión de su información inherente y las condiciones de interacción con el jugador.
+
+    .row.justify-content-center.mb-5
+      .col-lg-8
+        .titulo-sexto.color-acento-contenido.mb-5
+          p.mb-0 #[b Figura 10] <i>Wireframe</i> de interfaz de videojuego Marvel Trivia
+
+        figure
+          img(src="@/assets/curso/temas/tema5/img3.svg", alt="alt")
 
     .row.mb-3
       .col-lg-7
@@ -79,6 +87,14 @@
 
       p Por otro lado, este tipo de modelo puede aplicarse para la construcción de elementos estructurales del videojuego, como vehículos, escenarios, o utilería. Incluso, pueden llegar a construirse los escenarios, para, a través de ellos, evaluar con mayor detalle determinadas mecánicas.
 
+    .row.justify-content-center.mb-5
+      .col-lg-8
+        .titulo-sexto.color-acento-contenido.mb-5
+          p.mb-0 #[b Figura 11] Maqueta de prototipo físico Videojuego Ivarok
+
+        figure
+          img(src="@/assets/curso/temas/tema5/img4.jpg", alt="alt")
+
     .row.mb-3
       .col-lg-7
         .list.mb-3(data-aos="fade-down")
@@ -89,6 +105,11 @@
             h3.mb-0.tv.margin-icon Storyboard experiencial      
       p Si bien un guion gráfico no se considera como un prototipo físico en sentido estricto, se trata de utilizar modelos de Role Play unidos a la metodología de guion gráfico, que puedan representar de manera física, visual y dramatizada la experiencia de usuario y, sobre todo, las connotaciones posibles que pueda llegar a tener el jugador al momento de jugar.  
 
+    .row.justify-content-center.mb-5
+      .col-lg-8
+        figure
+          img(src="@/assets/curso/temas/tema5/img5.svg", alt="alt")
+
     separador
 
     #t_5_2.titulo-segundo.color-acento-contenido
@@ -96,6 +117,46 @@
 
     .row 
       p Los prototipos digitales sugieren la construcción de una versión del videojuego de manera digital, mínimamente programada y codificada, donde se hace énfasis en aspectos relativos a las mecánicas de juego, la estética, la kinestesia y la tecnología. Puede desarrollarse con los mínimos elementos y detalles posibles y apenas con el objetivo de verificar y evaluar la funcionalidad.
+
+    .row.justify-content-center.mb-5
+      .col-lg-8
+        .titulo-sexto.color-acento-contenido.mb-5
+          p.mb-0 #[b Figura 12] Prototipo de videojuego realizado con <i>Game Builder</i> de Google
+
+        figure
+          img(src="@/assets/curso/temas/tema5/img6.svg", alt="alt")
+
+      p.mt-5 Los aspectos importantes de prototipado a este nivel son:
+
+    .row.mt-5.justify-content-center.align-items-center 
+      .col-6
+
+        ol.lista-ol--cuadro.mt-5
+          li 
+            .lista-ol--cuadro__vineta
+              span a
+            p.mb-0 <b>Prototipar las mecánicas de juegos:</b> algunas mecánicas pueden ser más fáciles de comprender y de evaluar cuando se analizan y se desarrollan en un sistema digital que en uno físico.
+        hr
+        ol.lista-ol--cuadro
+          li 
+            .lista-ol--cuadro__vineta
+              span b
+            p.mb-0 <b>Prototipar la estética del juego:</b> se enfoca fundamentalmente en la apariencia visual y gráfica del videojuego. En este tipo de prototipado, se trata de representar de manera simple las gráficas del juego. Puede ayudar a comprender el funcionamiento del juego y, entre otros, la manipulación y sentido de la interfaz de usuario.
+        hr
+        ol.lista-ol--cuadro
+          li 
+            .lista-ol--cuadro__vineta
+              span c
+            p.mb-0 <b>Prototipar la kinestesia del juego:</b> en este punto, se trata de reproducir la forma en la que el juego funciona y determinar cómo es el comportamiento corporal esperado en un jugador, bien sea lo que se refiere a las reacciones o a la interacción con dispositivos de control.
+        hr
+        ol.lista-ol--cuadro
+          li 
+            .lista-ol--cuadro__vineta
+              span d
+            p.mb-0 <b>Prototipar la tecnología:</b> en este último aspecto, se trata de evaluar la manera como la kinestesia se desenvuelve de acuerdo con un determinado tipo de tecnología, y cómo favorece o perjudica las mecánicas de juegos. Por ejemplo, simular el juego a través de una pantalla táctil o con joystick.
+      .col-6
+        figure
+          img(src="@/assets/curso/temas/tema5/img7.png", alt="alt")
 
 </template>
 
