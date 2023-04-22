@@ -199,8 +199,51 @@
       p.mb-4 Los tipos de personajes constituyen los modelos de personaje humano o animado que posee rasgos estereotípicos físicos, psicológicos y morales prefijados por el común de usuario o consumidores de contenido.
       p A continuación, se puede observar una tabla que reúne los principales roles actanciales desde las propuestas realizadas por tres autores diferentes (Hartt, 2019):
 
-    .row.mb-5
-      h1.text-center FALTA LA TABLA
+
+    .tabla-a.color-acento-botones 
+      table
+        thead
+          tr.text-white
+            th Propp
+            th Souriau
+            th Greimas
+
+        tbody
+          tr.bgr-tr.text-center
+            td Héroe
+            td Fuerza temática orientada
+            td Sujeto
+
+          tr.text-center
+            td Bien amado o deseado
+            td Representante del bien deseado, del valor orientado
+            td Objeto
+
+          tr.bgr-tr.text-center
+            td Donador o proveedor
+            td Árbitro atribuidor del bien
+            td Destinador
+
+          tr.text-center
+            td Mandador
+            td Obtenedor virtual del bien
+            td Destinatario
+          
+          tr.bgr-tr.text-center
+            td Ayudante
+            td Auxilio, reduplicación de una de las fuerzas
+            td Ayudante
+
+          tr.text-center
+            td Villano o agresor
+            td Oponente
+            td Oponente
+
+          tr.bgr-tr.text-center
+            td Traidor o falso héroe
+            td ***
+            td Oponente
+
 
     .row.mb-5
       SlyderF.mb-5.mt-5(columnas="col-lg-6 col-xl-4")
@@ -564,7 +607,7 @@
                 .row
                   .col-auto
                     a.boton.color-acento-botones.indicador__container(@click="modal1 = true")
-                      span Uso limitado
+                      span.text-small Uso limitado
                       .indicador--click(v-if="mostrarIndicador")
 
                 
@@ -577,7 +620,7 @@
                 .row
                   .col-auto
                     a.boton.color-acento-botones.indicador__container(@click="modal2 = true")
-                      span Prueba gratis
+                      span.text-small Prueba gratis
                       .indicador--click(v-if="mostrarIndicador")
 
                 
@@ -590,7 +633,7 @@
                 .row
                   .col-auto
                     a.boton.color-acento-botones.indicador__container(@click="modal3 = true")
-                      span Funcionalidad
+                      span.text-small Funcionalidad
                       .indicador--click(v-if="mostrarIndicador")
 
                 
@@ -603,7 +646,7 @@
                 .row
                   .col-auto
                     a.boton.color-acento-botones.indicador__container(@click="modal4 = true")
-                      span Experiencia de usuario
+                      span.text-small Experiencia de usuario
                       .indicador--click(v-if="mostrarIndicador")
 
                 
