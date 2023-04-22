@@ -261,26 +261,317 @@
 
     .row.justify-content-center.my-5
       .col-lg-8
-        .titulo-sexto.color-acento-contenido.mb-5
-          p.mb-0 #[b Figura 6] Ventana de gameplay
+        .titulo-sexto.color-acento-contenido.mb-4
+          p.mb-0 #[b Figura 6] Ventana de #[i gameplay]
 
         figure
           img(src="@/assets/curso/temas/tema2/img15.svg", alt="alt")
 
+    .row.mb-5
+      p Para mayor ilustración de cómo comenzar a crear la programación de un videojuego, observe los siguientes videos:
 
+    .row.mb-3
+      h4 Crear carpeta de proyecto del videojuego:
 
+    .row.mb-5(data-aos="fade-zoom")
+      figure
+        .video
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/11111111" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
+    .row.mb-3
+      h4 Configuración de escena
 
+    .row.mb-5(data-aos="fade-zoom")
+      figure
+        .video
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/11111111" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
+    .row.mb-3
+      .col-lg-7
+        .list.mb-3(data-aos="fade-down")
+          .list__item
+            .list__item__icon1
+              img(src='@/assets/curso/temas/tema1/img2.svg', alt='')
+          .list__txt
+            h3.mb-0.tv.margin-icon Mecánica de movimientos
 
+    .row.mb-5
+      p Como idea inicial, se tiene un mini juego que consiste en mover de izquierda a derecha y viceversa, un objeto de juego que representará a un personaje, para tratar de esquivar objetos de juego, controlados por el sistema, que se dirigen hacia él y que actuarán como obstáculos.
 
+    .row.justify-content-center.my-5
+      .col-lg-10
+        .titulo-sexto.color-acento-contenido.mb-4
+          p.mb-0 #[b Figura 7] Algoritmo visual - Transformación
 
+        figure
+          img(src="@/assets/curso/temas/tema2/img16.svg", alt="alt")
 
+    .row.mb-5
+      ol.lista-ol--cuadro
+        li 
+          .lista-ol--cuadro__vineta
+            span a
+          h4 Primer comportamiento
 
+    .row.mb-5
+      p El primer comportamiento por definir es el movimiento del personaje Player, utilizando la clase Transform, que permite realizar cambios de transformación en posición, movimiento, rotación y escala:
 
+    .row.justify-content-center.mb-5
+      .col-lg-10
+        .tarjeta--morada.p-3.mb-4
+          .row
+            .col-6.col-lg-1
+              figure
+                img(src="@/assets/curso/temas/tema2/img17.svg", alt="alt").tm2-img17
+            
+            .col-lg-11
+              p.mb-0.mt-4 Para el personaje Player, se define una variable velPlayer, que determinará la velocidad.  
 
+        .tarjeta--morada.p-3.mb-4
+          .row
+            .col-6.col-lg-1
+              figure
+                img(src="@/assets/curso/temas/tema2/img18.svg", alt="alt").tm2-img17
+            
+            .col-lg-11
+              p.mb-0.mt-2 En la función Start, se dará una posición específica en la que aparecerá, utilizando la transformación de posición mediante un nuevo vector de posición 3D.
 
+        .tarjeta--morada.p-3.mb-4
+          .row
+            .col-6.col-lg-1.mt-3
+              figure
+                img(src="@/assets/curso/temas/tema2/img19.svg", alt="alt").tm2-img17
+            
+            .col-lg-11
+              p.mb-0 En la función Update, se especificará un movimiento de traslación en el eje X, de izquierda a derecha, (transform.Translate(x,y,z)), mediante un método de entrada de teclado, (Input.GetAxis(“Horizontal”)), en función del tiempo medido en fotogramas por segundo (Time.deltaTime) y la velocidad en la variable velPlayer.
 
+    .row.mb-3
+      p Observe el video de programación de movimiento de Player
+
+    .row.mb-5(data-aos="fade-zoom")
+      figure
+        .video
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/11111111" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+
+    .row.justify-content-center.mb-5
+      .col-lg-8.mb-5
+        figure
+          img(src="@/assets/curso/temas/tema2/img21.svg", alt="alt")
+
+    .row.mb-5
+      ol.lista-ol--cuadro
+        li 
+          .lista-ol--cuadro__vineta
+            span b
+          h4 Segundo comportamiento
+
+    .row.mb-5
+      p El segundo comportamiento por definir es el movimiento del personaje Enemy, utilizando la clase Transform, que permite realizar cambios de transformación en posición, movimiento, rotación y escala.
+
+    .row.justify-content-center.mb-5
+      .col-lg-10
+        .tarjeta--morada.p-3.mb-4
+          .row
+            .col-6.col-lg-1
+              figure
+                img(src="@/assets/curso/temas/tema2/img17.svg", alt="alt").tm2-img17
+            
+            .col-lg-11
+              p.mb-0.mt-4 Para el personaje Enemy, se define una variable velEnemy, que determinará la velocidad.  
+
+        .tarjeta--morada.p-3.mb-4
+          .row
+            .col-6.col-lg-1.mt-1
+              figure
+                img(src="@/assets/curso/temas/tema2/img18.svg", alt="alt").tm2-img17
+            
+            .col-lg-11
+              p.mb-0.mt-2 En la función Start, se dará una posición específica en la que aparecerá, utilizando la transformación de posición mediante un nuevo vector de posición 3D, y de forma aleatoria en el eje X, mediante el método #[i Rando.Range](a,b) 
+
+        .tarjeta--morada.p-3.mb-4
+          .row
+            .col-6.col-lg-1
+              figure
+                img(src="@/assets/curso/temas/tema2/img19.svg", alt="alt").tm2-img17
+            
+            .col-lg-11
+              p.mb-0 En la función #[i Update], se especificará un movimiento de traslación mediante el eje Z, de adelante hacia atrás, (#[i transform.Translate](x,y,z)), en función del tiempo medido en fotogramas por segundo (#[i Time.deltaTime]) y la velocidad en la variable #[i velEnemy].
+
+        .tarjeta--morada.p-3.mb-4
+          .row
+            .col-6.col-lg-1.mt-3
+              figure
+                img(src="@/assets/curso/temas/tema2/img20.svg", alt="alt").tm2-img17
+            
+            .col-lg-11
+              p.mb-0 Para dar un mayor nivel de impredecibilidad a la mecánica de movimiento del enemigo, si utiliza una condicional if(), permitirá randomizar (#[i Random.Range](a,b)) el reposicionamiento del personaje #[i Enemy], al momento de llegar a una posición límite del escenario #[i if(posActual <= -10.0f)]. Este método permite utilizar el mismo objeto y ahorrar recursos de proceso y memoria.
+
+    .row.mb-3
+      p Observe el video de programación de movimiento de #[i Enemy:]
+
+    .row.mb-5(data-aos="fade-zoom")
+      figure
+        .video
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/11111111" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+
+    .row.justify-content-center.mb-5
+      .col-lg-10.mb-5
+        figure
+          img(src="@/assets/curso/temas/tema2/img22.svg", alt="alt")
+
+    .row.mb-3
+      .col-lg-7
+        .list.mb-3(data-aos="fade-down")
+          .list__item
+            .list__item__icon1
+              img(src='@/assets/curso/temas/tema1/img2.svg', alt='')
+          .list__txt
+            h3.mb-0.tv.margin-icon Mecánica de colisiones
+
+    .row.mb-5
+      p Los obstáculos, al acercarse, determinarán la posibilidad de colisionar con el personaje, acercándose desde el frente hacia atrás del personaje. El personaje, controlado por el jugador, debe evitar colisionar con los obstáculos.
+
+    .row.justify-content-center.my-5
+      .col-lg-10
+        .titulo-sexto.color-acento-contenido.mb-4
+          p.mb-0 #[b Figura 8] Algoritmo visual - Función de colisión
+
+        figure
+          img(src="@/assets/curso/temas/tema2/img23.svg", alt="alt")
+
+    .row.bm-4
+      p Observe cómo programar colisiones en el siguiente video:
+
+    .row.mb-5(data-aos="fade-zoom")
+      figure
+        .video
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/11111111" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+
+    .row.mb-5
+      ol.lista-ol--cuadro
+        li 
+          .lista-ol--cuadro__vineta
+            span c
+          h4 Tercer comportamiento
+
+    .row.mb-5
+      p El tercer comportamiento a programar es la colisión de Player con Enemy. Para ello, se interviene el script del Player (MovePlayer.cs) y se utiliza la función OnCollisionEnter, que mediante el parámetro collision, define qué respuesta debe darse a partir de colisionar con determinado objeto.  En este caso, (collision.tag==”Enemy”) se utiliza un condicional para delimitar la respuesta a la colisión, donde, si se colisiona con un objeto con determinada etiqueta (tag), deberá suceder el cambio de color del material de Player (se específica más adelante).
+
+    .row.justify-content-center.mb-5
+      .col-lg-6.mb-5
+        figure
+          img(src="@/assets/curso/temas/tema2/img24.svg", alt="alt")
+
+    .row.mb-5
+      ol.lista-ol--cuadro
+        li 
+          .lista-ol--cuadro__vineta
+            span d
+          h4 Cuarto comportamiento
+
+    .row.mb-5
+      p El cuarto comportamiento a programar es la colisión de Enemy con Player. Para ello, se interviene el script de Enemy (MoveEnemy.cs) y se utiliza la función OnCollisionEnter, que mediante el parámetro collision, define qué respuesta debe darse a partir de colisionar con determinado objeto. En este caso, (collision.tag==”Player”) se utiliza un condicional para delimitar la respuesta a la colisión, donde, si se colisiona con un objeto con determinada etiqueta (tag), deberá generar un reseteo de la posición de Enemy, fuera del escenario y para que reinicie su movimiento hacia el personaje.
+
+    .row.justify-content-center.mb-5
+      .col-lg-6.mb-5
+        figure
+          img(src="@/assets/curso/temas/tema2/img25.svg", alt="alt")
+
+    .row.mb-3
+      .col-lg-7
+        .list.mb-3(data-aos="fade-down")
+          .list__item
+            .list__item__icon1
+              img(src='@/assets/curso/temas/tema1/img2.svg', alt='')
+          .list__txt
+            h3.mb-0.tv.margin-icon Mecánica de premio / castigo
+
+    .row.mb-5
+      p En esta mecánica, si los obstáculos colisionan con el obstáculo, se tendrá un efecto de cambio de color en el personaje, indicando que ha colisionado.
+
+    .row.justify-content-center.my-5
+      .col-lg-10
+        .titulo-sexto.color-acento-contenido.mb-4
+          p.mb-0 #[b Figura 9] Algoritmo visual - Condicional de colisión
+
+        figure
+          img(src="@/assets/curso/temas/tema2/img26.svg", alt="alt")
+
+    .row.mb-5
+      ol.lista-ol--cuadro
+        li 
+          .lista-ol--cuadro__vineta
+            span e
+          h4 Quinto comportamiento
+
+    .row.mb-5
+      p El quinto comportamiento a definir es lo que sucederá a Player una vez colisiona con el objeto #[i Enemy].
+
+    .row.justify-content-center.mb-5
+      .col-lg-10
+        .tarjeta--morada.p-3.mb-4
+          .row
+            .col-6.col-lg-1
+              figure
+                img(src="@/assets/curso/temas/tema2/img17.svg", alt="alt").tm2-img17
+            
+            .col-lg-11
+              p.mb-0 Se intervendrá el #[i script] de #[i Player (MovePlayer.cs)] y se creará una variable #[i colorCollision], de tipo color, donde se almacenará información del color a cambiar (magenta) y una variable #[i colorRend] de tipo #[i Renderer], que almacenará y obtendrá los atributos de material del objeto #[i Player].
+
+        .tarjeta--morada.p-3.mb-4
+          .row
+            .col-6.col-lg-1.mt-1
+              figure
+                img(src="@/assets/curso/temas/tema2/img18.svg", alt="alt").tm2-img17
+            
+            .col-lg-11
+              p.mb-0.mt-2 En la función #[i Start], se inicializa la variable #[i colorRend], especificando el método #[i GetComponent], para que al iniciar el #[i script], se tenga esta información en memoria. 
+
+        .tarjeta--morada.p-3.mb-4
+          .row
+            .col-6.col-lg-1
+              figure
+                img(src="@/assets/curso/temas/tema2/img19.svg", alt="alt").tm2-img17
+            
+            .col-lg-11
+              p.mb-0.mt-2 Se especifica el valor de asignación de la variable colorRend al color asignado en la variable #[i colorCollision (colorRend.material.color=colorCollision).]
+
+        .tarjeta--morada.p-3.mb-4
+          .row
+            .col-6.col-lg-1
+              figure
+                img(src="@/assets/curso/temas/tema2/img20.svg", alt="alt").tm2-img17
+            
+            .col-lg-11
+              p.mb-0.mt-2 Por último, se deja esta instrucción, como resultado en la condicional dispuesta en la función #[i OnCollisionEnter.]
+
+    .row.mb-3
+      p Observe, en el siguiente video, cómo se programa la mecánica de premio y castigo:
+
+    .row.mb-5(data-aos="fade-zoom")
+      figure
+        .video
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/11111111" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+
+    .row.justify-content-center.mb-5
+      .col-lg-6
+        figure
+          img(src="@/assets/curso/temas/tema2/img27.svg", alt="alt")
+
+    .row.mb-5
+      p Los #[i scripts] desarrollados deberán tener esta apariencia dentro del IDE:
+
+    .row.justify-content-center.mb-5
+      h4.text-center.mb-4 #[i Script MovePlayer.cs]
+      .col-lg-10
+        figure
+          img(src="@/assets/curso/temas/tema2/img28.svg", alt="alt")
+
+    .row.justify-content-center.mb-5
+      h4.text-center.mb-4 #[i Script MoveEnemy.cs]
+      .col-lg-10
+        figure
+          img(src="@/assets/curso/temas/tema2/img29.svg", alt="alt")
 
 
 
