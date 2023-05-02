@@ -14,7 +14,7 @@
             :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img1.svg')})`}"
           )
           .bloque-texto-g1__texto.p-4
-            p.mb-0 Los videojuegos son aplicaciones de #[i software] que se crean con el fin de entretener. Todos los videojuegos comienzan con una idea que puede variar en el transcurso del tiempo y que se restringe a aspectos como la plataforma de publicación, la plataforma de desarrollo, costos de desarrollo, gustos del grupo objetivo y oportunidades de innovación.
+            p.mb-0 Los videojuegos son aplicaciones de software que se crean con el fin de entretener. Todos los videojuegos comienzan con una idea que puede variar en el transcurso del tiempo y que se restringe a aspectos como la plataforma de publicación, la plataforma de desarrollo, costos de desarrollo, gustos del grupo objetivo y oportunidades de innovación.
 
     .row.mb-5
       p En primer lugar, la idea de videojuego comprende la noción fundamental de jugabilidad, su narrativa, si ha de tenerla, sus personajes y plataforma de publicación. Se trata de establecer aspectos técnicos básicos pero que caracterizan todavía más el carácter del videojuego. A nivel de concepto de videojuego, es posible establecer una idea más profunda de las mecánicas, es decir, la jugabilidad unida con aspectos básicos de motivación y reto. Se puede ser más detallado en la concepción gráfica, el perfil de jugador y de plataforma de publicación.   
@@ -64,7 +64,7 @@
     .row.justify-content-center.mb-5
       .col-lg-8
         .titulo-sexto.color-acento-contenido.mb-5
-          p.mb-0 #[b Figura 1] Narrativa lineal.
+          p.mb-0 #[b Figura 1] Narrativa lineal
 
         figure
           img(src="@/assets/curso/temas/tema1/img4.svg", alt="alt")
@@ -92,7 +92,7 @@
       .py-3.py-md-4(titulo="Ramificada binaria")
         .row
           .col-md-6.mb-4.mb-md-0
-            p.mb-3 Este tipo de narrativa es limitada y apenas ofrece dos alternativas posibles de decisión, por lo tanto, se encausan directamente a un solo camino. (Ejemplo: #[i The Secret of Monkey Island, Beyond: Two Souls])
+            p.mb-3 Este tipo de narrativa es limitada y apenas ofrece dos alternativas posibles de decisión, por lo tanto, se encausan directamente a un solo camino. (Ejemplo: #[i The Secret of Monkey Island, Beyond: Two Souls]).
             
             figure
               img(src='@/assets/curso/temas/tema1/img7.svg', alt="alt")
@@ -131,7 +131,7 @@
       .py-3.py-md-4(titulo="Narrativa de caminos críticos")
         .row
           .col-md-6.mb-4.mb-md-0
-            p.mb-3 En esta narrativa el videojuego tiene en realidad un único camino, pero el jugador tiene la oportunidad de enfrentarse a retos secundarios, que finalmente conllevan a la línea general. Esta narrativa da la sensación de ofrecer diferentes alternativas y puede tener hasta tres niveles de reto, que le permiten cierta dinámica de juegos sin perder la noción de la línea general. (Ejemplo: #[i Grand Theft Auto V, The Witcher 3, Fallout 4])
+            p.mb-3 En esta narrativa el videojuego tiene en realidad un único camino, pero el jugador tiene la oportunidad de enfrentarse a retos secundarios, que finalmente conllevan a la línea general. Esta narrativa da la sensación de ofrecer diferentes alternativas y puede tener hasta tres niveles de reto, que le permiten cierta dinámica de juegos sin perder la noción de la línea general. (Ejemplo: #[i Grand Theft Auto V, The Witcher 3, Fallout 4]).
             
           
           .col-md-6
@@ -152,7 +152,7 @@
 
     .row.mb-5
       AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--gris")
-        .row(titulo="TNarración multinivel")
+        .row(titulo="Narración multinivel")
           .col-md-6.mb-4.mb-md-0
             p Se encuentra principalmente en los videojuegos de tipo MMO, como #[i League of Legends  y World of Warcraft]. En este tipo de esquema, es más importante el #[i player agency], o nivel de control del juego de un jugador, y la posibilidad de incursionar en el mayor número de misiones posible. En este tipo de narrativa, los bloques narrativos no tienen relación alguna entre sí y se hallan distribuidos en regiones del juego, de tal manera que el jugador tiene la posibilidad de unificar todas estas instancias de historia de eventos y de lugares en su cabeza, para construir él mismo el propósito del juego.
         
@@ -418,7 +418,7 @@
               .list__item__icon
                 img(src='@/assets/curso/temas/tema1/icono2.svg', alt='')
             .list__txt
-              p.mb-0.tv.margin-icon #[b Acciones del jugador:] En este sentido, las mecánicas de juegos, dentro del patrón de acciones del jugador, deben establecerse como verbos o acciones propiamente dichas que puede realizar un jugador, como saltar, caminar, correr o disparar. Estas acciones del jugador pueden determinar específicamente las mecánicas de núcleo y, al mismo tiempo, determinar los efectos que pueden dar lugar para cambiar el estado del juego.
+              p.mb-0.tv.margin-icon #[b Acciones del jugador:] en este sentido, las mecánicas de juegos, dentro del patrón de acciones del jugador, deben establecerse como verbos o acciones propiamente dichas que puede realizar un jugador, como saltar, caminar, correr o disparar. Estas acciones del jugador pueden determinar específicamente las mecánicas de núcleo y, al mismo tiempo, determinar los efectos que pueden dar lugar para cambiar el estado del juego.
 
           .list.mb-3(data-aos="fade-down")
             .list__item
@@ -467,7 +467,7 @@
               .list__item__icon
                 img(src='@/assets/curso/temas/tema1/icono2.svg', alt='')
             .list__txt
-              p.mb-0.tv.margin-icon #[b Razonamiento espacial:] esta dinámica es característica de la mayoría de puzzles, y consiste en la adquisición de determinadas habilidades y, por consiguiente, el logro de determinados retos a partir del razonamiento espacial adecuado.
+              p.mb-0.tv.margin-icon #[b Razonamiento espacial:] esta dinámica es característica de la mayoría de #[i puzzles], y consiste en la adquisición de determinadas habilidades y, por consiguiente, el logro de determinados retos a partir del razonamiento espacial adecuado.
 
           .list.mb-3(data-aos="fade-down")
             .list__item
@@ -578,7 +578,7 @@
         .row
           .col-md-6.mb-4.mb-md-0
             h4 Gráficos 2.5D, Pseudo 3D o Cámara Fija
-            p En primer lugar, estos videojuegos pueden estar construidos en motores 2D o 3D, mediante modelos tridimensionales o sprites, y lo que constituye su verdadero valor estético es la manera como se asume la perspectiva de cámara, generalmente perpendicular al plano general del videojuego.
+            p En primer lugar, estos videojuegos pueden estar construidos en motores 2D o 3D, mediante modelos tridimensionales o #[i sprites], y lo que constituye su verdadero valor estético es la manera como se asume la perspectiva de cámara, generalmente perpendicular al plano general del videojuego.
 
           .col-md-6
             figure
@@ -593,14 +593,14 @@
     .row.mb-5
       p.mb-4 Para establecer una correcta estrategia de monetización es importante tener claras las funcionalidades del videojuego, el grupo objetivo, sus hábitos de juegos y su estilo de vida, en términos de capacidad adquisitiva y gustos.
       p.mb-4 Desde el punto de vista de jugabilidad y de relación entre el usuario o jugador y el videojuego, la monetización suele considerarse como una mecánica más, que establece también una serie de dinámicas relativas a la interacción comercial, entendiendo el videojuego como un producto o servicio comercial. 
-      p En términos generales, se pueden dividir los videojuegos en dos tipos, de acuerdo con la forma como pueden ser adquiridos: aquellos que se ofrecen como free, o gratuitos, y los de pago. A continuación, se relacionan las estrategias de monetización más comunes que pueden manejarse de manera independiente o combinada, de acuerdo con las pretensiones establecidas en el documento de diseño y, por consiguiente, el modelo de negocios.
+      p En términos generales, se pueden dividir los videojuegos en dos tipos, de acuerdo con la forma como pueden ser adquiridos: aquellos que se ofrecen como #[i free], o gratuitos, y los de pago. A continuación, se relacionan las estrategias de monetización más comunes que pueden manejarse de manera independiente o combinada, de acuerdo con las pretensiones establecidas en el documento de diseño y, por consiguiente, el modelo de negocios.
 
     .row.mb-5
       .tarjeta.tarjeta--gris.px-5.pt-3.pb-5.tema1-bg3
         h4.text-center.texto-blanco.mb-5 $ Estrategias de monetización de los videojuegos $
         .row 
           .col-lg-8
-            p.texto-blanco.mb-4 #[b 1. Freemium - Gratis + Oportunidades de monetización adicional:] Este es uno de los modelos de monetización más comunes y se trata básicamente de videojuegos de descarga gratuita y, una vez los jugadores se han mantenido bajo cierto nivel de fidelización, se puede optar por la monetización a partir del pago por contenido adicional. Dentro de los modelos #[i freemium] se puede encontrar:
+            p.texto-blanco.mb-4 #[b 1. #[i Freemium] - Gratis + Oportunidades de monetización adicional:] Este es uno de los modelos de monetización más comunes y se trata básicamente de videojuegos de descarga gratuita y, una vez los jugadores se han mantenido bajo cierto nivel de fidelización, se puede optar por la monetización a partir del pago por contenido adicional. Dentro de los modelos #[i freemium] se puede encontrar:
 
             .row.justify-content-center.mb-4
               .col-lg-3
@@ -613,7 +613,7 @@
                 
                 ModalA(:abrir-modal.sync="modal1")
                   .row.align-items-center
-                    h4.mb-4 Uso limitado:
+                    h4.mb-4 Uso limitado
                     p En este esquema, el videojuego puede jugarse gratis durante un tiempo específico y ofrece, en el caso de datos, un espacio de almacenamiento limitado. Pasado el tiempo de prueba o el espacio de almacenamiento se ofrece la alternativa de adquirir una cuenta o versión de pago, con mayores tiempos de juegos o espacio de almacenamiento.
 
               .col-lg-3
@@ -626,7 +626,7 @@
                 
                 ModalA(:abrir-modal.sync="modal2")
                   .row.align-items-center
-                    h4.mb-4 Prueba gratis:
+                    h4.mb-4 Prueba gratis
                     p En este modelo, se ofrece el videojuego con todas las funcionalidades durante un tiempo limitado; posteriormente deberá adquirir una licencia que le permita continuar con el videojuego.
 
               .col-lg-3
@@ -639,7 +639,7 @@
                 
                 ModalA(:abrir-modal.sync="modal3")
                   .row.align-items-center
-                    h4.mb-4 Funcionalidad:
+                    h4.mb-4 Funcionalidad
                     p En este modelo, los videojuegos se ofrecen con una limitada funcionalidad, por ejemplo, un número mínimo de niveles o un número mínimo de habilidades de los personajes. El propósito es que, en el momento de avanzar en el juego, el jugador se anime a comprar nuevos elementos de juegos como personajes habilidades o niveles.
 
               .col-lg-3
@@ -652,7 +652,7 @@
                 
                 ModalA(:abrir-modal.sync="modal4")
                   .row.align-items-center
-                    h4.mb-4 Experiencia de usuario:
+                    h4.mb-4 Experiencia de usuario
                     p En este modelo, aparecen dos tipos de posibilidades de monetización que comprenden, por ejemplo, el pago por parte del usuario para que no aparezca publicidad in-app, y, al mismo tiempo, el pago de empresas anunciantes por la pauta a través de estos videojuegos. 
 
             p.texto-blanco.mb-4  #[b 2. #[i Paid] o Pago por descarga:] este es un modelo de monetización tradicional, donde el usuario paga por anticipado por un videojuego para que le sea permitida su descarga. Una vez descargado, el jugador tendrá acceso a todas las funcionalidades y el estudio desarrollador no tendrá ningún otro medio de monetización.
