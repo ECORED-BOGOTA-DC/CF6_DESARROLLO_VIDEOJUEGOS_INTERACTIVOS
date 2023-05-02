@@ -207,7 +207,7 @@ export default {
     {
       termino: '<i>Asset</i>',
       significado:
-        'Cualquier recurso susceptible de ser usado en los juegos y que está contenido en la carpeta de proyecto. Puede provenir de un archivo externo creado en un programa diferente de Unity, como un archivo 3D, un archivo de formato de audio o imagen. También se pueden crear algunos tipos de assets en Unity, como un <i>Animator Controller,</i> un <i>Audio Mixer o una Render Texture</i>',
+        'Cualquier recurso susceptible de ser usado en los juegos y que está contenido en la carpeta de proyecto. Puede provenir de un archivo externo creado en un programa diferente de Unity, como un archivo 3D, un archivo de formato de audio o imagen. También se pueden crear algunos tipos de assets en Unity, como un <i>Animator Controller,</i> un <i>Audio Mixer o una Render Texture.</i>',
     },
     {
       termino: '<i>Asset package</i>',
