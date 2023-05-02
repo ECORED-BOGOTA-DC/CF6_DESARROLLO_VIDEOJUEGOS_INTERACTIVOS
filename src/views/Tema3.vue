@@ -100,8 +100,92 @@
     #t_3_2.titulo-segundo.color-acento-contenido
       h2 3.2 Configuraciones generales de jugador
 
-    .row
+    .row.mb-4
       p En la siguiente tabla, se pueden observar las configuraciones generales de jugador en términos de las propiedades de pantalla:
+          
+    .tabla-a.color-acento-botones 
+      table
+        thead
+          tr.text-white
+            th Propiedad
+            th Función
+
+        tbody
+          tr.bgr-tr.text-center
+            th.size-tab <i>Fullscreen Mode</i>
+            td Elija el modo de pantalla completa. Esto define el modo de ventana predeterminado al inicio.
+
+          tr.text-center
+            th.size-tab <i>Fullscreen Window</i>
+            td Configure la ventana de su aplicación a la resolución nativa de pantalla completa de la pantalla. #[i Unity] procesa el contenido de la aplicación con la resolución establecida por el #[i script] (o por la selección del usuario cuando se inicia la aplicación construida), pero lo escala para llenar la ventana. Al escalar, #[i Unity] agrega barras negras a la salida renderizada para que coincida con la relación de aspecto elegido en la configuración del reproductor, para que el contenido no se estire. Este proceso se llama formato de pantalla ancha.
+
+          tr.bgr-tr.text-center
+            th.size-tab <i>Exclusive Fullscreen (Windows only)</i>
+            td Configure su aplicación para mantener el uso exclusivo de pantalla completa de una pantalla. A diferencia de la ventana de pantalla completa, este modo cambia la resolución del sistema operativo de la pantalla para que coincida con la resolución elegida por la aplicación. Esta opción solo es compatible con Windows; en otras plataformas, la configuración vuelve a la ventana de pantalla completa.
+
+          tr.text-center
+            th.size-tab <i>Maximized Window (Mac only)</i>
+            td Configure la ventana de la aplicación con la definición del sistema operativo de "maximizada". En MacOS, esto significa una ventana de pantalla completa con una barra de menú y un muelle que se ocultan automáticamente. Esta opción solo es compatible con MacOS; en otras plataformas, la configuración vuelve a la ventana de pantalla completa.
+
+          tr.bgr-tr.text-center
+            th.size-tab <i>Windowed</i>
+            td Configure su aplicación en una ventana móvil estándar, que no sea de pantalla completa, cuyo tamaño depende de la resolución de la aplicación. En este modo, la ventana se puede cambiar de tamaño de forma predeterminada. Para deshabilitar esto, deshabilite la configuración de Ventana de tamaño variable.
+
+          tr.text-center
+            th.size-tab <i>Default Is Native Resolution</i>
+            td Habilite esta opción para que el juego use la resolución predeterminada utilizada en la máquina de destino. Esta opción no está disponible si el Modo de pantalla completa está configurado en Ventana.
+
+          tr.bgr-tr.text-center
+            th.size-tab <i>Default Screen Width</i>
+            td Establecer el ancho predeterminado de la pantalla del juego en píxeles. Esta opción solo está disponible si el Modo de pantalla completa está configurado en Ventana.
+
+          tr.text-center
+            th.size-tab <i>Default Screen Height</i>
+            td Establece la altura predeterminada de la pantalla del juego en píxeles. Esta opción solo está disponible si el Modo de pantalla completa está configurado en Ventana.
+
+          tr.bgr-tr.text-center
+            th.size-tab <i>Mac Retina Support</i>
+            td Habilite esta opción para habilitar la compatibilidad con pantallas de alta DPI (Retina) en  Mac. Unity lo habilita de forma predeterminada. Esto mejora los proyectos en una pantalla Retina, pero consume algo de recursos cuando está activo. 
+
+          tr.text-center
+            th.size-tab <i>Run In background</i>
+            td Habilite esta opción para que el juego siga funcionando (en lugar de pausar) si la aplicación pierde el foco.
+
+          tr.bgr-tr.text-center
+            th.size-tab <i>Capture Single Screen</i>
+            td Habilite esta opción para asegurarse de que los juegos independientes, en el modo de pantalla completa, no oscurezcan el monitor secundario en configuraciones de varios monitores. Esto no es compatible con Mac OS X.
+
+          tr.text-center
+            th.size-tab <i>Use Player Log</i>
+            td Habilite esta opción para escribir un archivo de registro con información de depuración. Predeterminado a habilitado. Advertencia: si planea enviar su solicitud a la Mac App Store, deje esta opción deshabilitada. Para obtener más información, consulte Publicación en Mac App Store.
+
+          tr.bgr-tr.text-center
+            th.size-tab <i>Resizable Window</i>
+            td Habilite esta opción para permitir cambiar el tamaño de la ventana del reproductor independiente. Nota: si desactiva esta opción, su aplicación no podrá utilizar el modo de pantalla completa con ventana. 
+
+          tr.text-center
+            th.size-tab <i>Visible in Background</i>
+            td Habilite esta opción para mostrar la aplicación en segundo plano si se utiliza el modo de pantalla completa con ventana (en Windows).
+
+          tr.bgr-tr.text-center
+            th.size-tab <i>Allow Fullscreen Switch</i>
+            td Habilite esta opción para permitir que las pulsaciones predeterminadas de las teclas de pantalla completa del sistema operativo cambien entre los modos de pantalla completa y ventana.
+            
+          tr.text-center
+            th.size-tab <i>Force Single Instance</i>
+            td Habilite esta opción para restringir los reproductores independientes a una sola instancia en ejecución simultánea.
+
+          tr.bgr-tr.text-center
+            th.size-tab <i>Supported Aspect Ratios</i>
+            td Habilite cada relación de aspecto que desee que aparezca en el cuadro de diálogo Resolución al inicio (siempre que sean compatibles con el monitor del usuario).
+
+
+
+    separador
+
+    #t_3_3.titulo-segundo.color-acento-contenido
+      h2 3.3 Características de jugador en términos de renderizado
+
           
     .tabla-a.color-acento-botones 
       table
@@ -201,7 +285,7 @@
 
           tr.bgr-tr.text-center
             th.size-tab <i>Bit Depth 10</i>
-            td <i>Unity</i> utilizará el formato de búfer R10G10B10A2 y primarios Rec2020 con codificación ST2084 PORQUE.
+            td <i>Unity</i> utilizará el formato de búfer R10G10B10A2 y primarios Rec2020 con codificación ST2084 PQ.
 
           tr.text-center
             th.size-tab <i>Bit Depth 16</i>

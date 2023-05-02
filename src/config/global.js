@@ -99,6 +99,12 @@ export default {
             titulo: 'Configuraciones generales de jugador',
             hash: 't_3_2',
           },
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.3',
+            titulo: 'Características de jugador en términos de renderizado',
+            hash: 't_3_3',
+          },
         ],
       },
       {

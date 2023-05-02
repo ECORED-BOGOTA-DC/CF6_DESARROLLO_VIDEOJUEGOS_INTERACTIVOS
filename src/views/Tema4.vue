@@ -153,28 +153,28 @@
             .list__item__icon
               img(src='@/assets/curso/temas/tema1/icono2.svg', alt='')
           .list__txt
-            p.mb-0.tv.margin-icon #[b Intercambio:] Esquema de decisión donde el jugador tiene la alternativa de elegir el cambio o sustitución de un elemento de juego.
+            p.mb-0.tv.margin-icon #[b Intercambio:] esquema de decisión donde el jugador tiene la alternativa de elegir el cambio o sustitución de un elemento de juego.
 
         .list.mb-3(data-aos="fade-down")
           .list__item
             .list__item__icon
               img(src='@/assets/curso/temas/tema1/icono2.svg', alt='')
           .list__txt
-            p.mb-0.tv.margin-icon #[b Persistencia:] Esquema de decisión donde el jugador debe mantenerse en un evento de juego, a partir de una decisión tomada y como consecuencia.
+            p.mb-0.tv.margin-icon #[b Persistencia:] esquema de decisión donde el jugador debe mantenerse en un evento de juego, a partir de una decisión tomada y como consecuencia.
 
         .list.mb-3(data-aos="fade-down")
           .list__item
             .list__item__icon
               img(src='@/assets/curso/temas/tema1/icono2.svg', alt='')
           .list__txt
-            p.mb-0.tv.margin-icon #[b Situacional:] Esquema de decisión donde las situaciones definen la pertinencia o conveniencia de una determinada decisión.
+            p.mb-0.tv.margin-icon #[b Situacional:] esquema de decisión donde las situaciones definen la pertinencia o conveniencia de una determinada decisión.
 
         .list.mb-3(data-aos="fade-down")
           .list__item
             .list__item__icon
               img(src='@/assets/curso/temas/tema1/icono2.svg', alt='')
           .list__txt
-            p.mb-0.tv.margin-icon #[b Personalización:] Esquema de decisión donde el jugador tiene la oportunidad de diseñar un estilo propio de juego, basado en un perfil de decisiones.
+            p.mb-0.tv.margin-icon #[b Personalización:] esquema de decisión donde el jugador tiene la oportunidad de diseñar un estilo propio de juego, basado en un perfil de decisiones.
 
       .col-lg-6
         figure
@@ -199,7 +199,7 @@
                 img(src="@/assets/curso/temas/tema4/img1.svg", alt="alt").tm2-img17
             
             .col-lg-11
-              p.mb-0 #[b Desafíos pasivos:] Son aquellos que comprenden la interacción con elementos ya presentes en el nivel de juego y, por lo tanto, son objetos de juego físicos del nivel, por ejemplo, una pared de un edificio donde el desafío es escalarla.
+              p.mb-0 #[b Desafíos pasivos:] son aquellos que comprenden la interacción con elementos ya presentes en el nivel de juego y, por lo tanto, son objetos de juego físicos del nivel, por ejemplo, una pared de un edificio donde el desafío es escalarla.
 
         .tarjeta--morada.p-3.mb-4
           .row
@@ -208,7 +208,7 @@
                 img(src="@/assets/curso/temas/tema4/img2.svg", alt="alt").tm2-img17
             
             .col-lg-11
-              p.mb-0.mt-2 #[b Desafíos activos:] Pueden denominarse desafíos propiamente dichos, y están delimitados por las reglas y mecánicas del juego. El combate y derrota con entidades de AI son un ejemplo de este tipo de desafíos.
+              p.mb-0.mt-2 #[b Desafíos activos:] pueden denominarse desafíos propiamente dichos, y están delimitados por las reglas y mecánicas del juego. El combate y derrota con entidades de AI son un ejemplo de este tipo de desafíos.
 
     .row.mb-5
       ol.lista-ol--cuadro
@@ -229,7 +229,7 @@
                 img(src="@/assets/curso/temas/tema4/img1.svg", alt="alt").tm2-img17
             
             .col-lg-11
-              p.mb-0.mt-2 #[b Acciones operativas:] Son las acciones que el jugador puede realizar, y forman parte de su mecánica de núcleo. Por ejemplo, en Mario Bros, el jugador puede caminar, correr y saltar.
+              p.mb-0.mt-2 #[b Acciones operativas:] son las acciones que el jugador puede realizar, y forman parte de su mecánica de núcleo. Por ejemplo, en Mario Bros, el jugador puede caminar, correr y saltar.
 
         .tarjeta--morada.p-3.mb-4
           .row
@@ -238,7 +238,7 @@
                 img(src="@/assets/curso/temas/tema4/img2.svg", alt="alt").tm2-img17
             
             .col-lg-11
-              p.mb-0 #[b Acciones resultantes:] Son aquellas acciones que tienen un valor significativo, con relación al cumplimiento de determinados desafíos. De una acción operativa, pueden derivarse diferentes acciones resultantes. Por ejemplo, de la acción saltar, puede derivarse una acción resultante de saltar encima de un enemigo, que puede dar lugar a su neutralización, que sería diferente a una acción resultante de saltar sobre un obstáculo como una roca o un muro. Las acciones resultantes sugieren interacciones más específicas con el contexto de juego y surgen de las particularidades de cada mecánica de videojuego.
+              p.mb-0 #[b Acciones resultantes:] son aquellas acciones que tienen un valor significativo, con relación al cumplimiento de determinados desafíos. De una acción operativa, pueden derivarse diferentes acciones resultantes. Por ejemplo, de la acción saltar, puede derivarse una acción resultante de saltar encima de un enemigo, que puede dar lugar a su neutralización, que sería diferente a una acción resultante de saltar sobre un obstáculo como una roca o un muro. Las acciones resultantes sugieren interacciones más específicas con el contexto de juego y surgen de las particularidades de cada mecánica de videojuego.
 
 
 

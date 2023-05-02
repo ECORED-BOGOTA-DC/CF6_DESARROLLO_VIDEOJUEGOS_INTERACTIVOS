@@ -14,7 +14,7 @@
             :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img1.svg')})`}"
           )
           .bloque-texto-g1__texto.p-4
-            p.mb-0 Los videojuegos son aplicaciones de software que se crean con el fin de entretener. Todos los videojuegos comienzan con una idea que puede variar en el transcurso del tiempo y que se restringe a aspectos como la plataforma de publicación, la plataforma de desarrollo, costos de desarrollo, gustos del grupo objetivo y oportunidades de innovación.
+            p.mb-0 Los videojuegos son aplicaciones de #[i software] que se crean con el fin de entretener. Todos los videojuegos comienzan con una idea que puede variar en el transcurso del tiempo y que se restringe a aspectos como la plataforma de publicación, la plataforma de desarrollo, costos de desarrollo, gustos del grupo objetivo y oportunidades de innovación.
 
     .row.mb-5
       p En primer lugar, la idea de videojuego comprende la noción fundamental de jugabilidad, su narrativa, si ha de tenerla, sus personajes y plataforma de publicación. Se trata de establecer aspectos técnicos básicos pero que caracterizan todavía más el carácter del videojuego. A nivel de concepto de videojuego, es posible establecer una idea más profunda de las mecánicas, es decir, la jugabilidad unida con aspectos básicos de motivación y reto. Se puede ser más detallado en la concepción gráfica, el perfil de jugador y de plataforma de publicación.   
@@ -284,6 +284,10 @@
             p.text-center Involucra el beneficio directo que logra el sujeto o el oponente al cumplir con las misiones. Puede tener una naturaleza social, ideológica, moral o material. Es quien recibe las acciones o metas del sujeto.
 
     .row.mb-5
+      p Desde estos roles, se pueden establecer #[b ejes de relación] entre cada uno de los tipos de actantes:
+
+
+    .row.mb-5
       .col-md-6.col-lg.mb-5.mb-lg-0
         .tarjeta-avatar
           img(src='@/assets/curso/temas/tema1/img20.svg' alt='AvatarTop')
@@ -383,7 +387,7 @@
         ol.lista-ol--cuadro
           li 
             .lista-ol--cuadro__vineta
-              span c
+              span a
             h4 Mecánica
 
       .row.mb-3
@@ -436,7 +440,7 @@
         ol.lista-ol--cuadro
           li 
             .lista-ol--cuadro__vineta
-              span d
+              span b
             h4 Dinámica
 
       .row.mb-3
@@ -487,7 +491,7 @@
       ol.lista-ol--cuadro
         li 
           .lista-ol--cuadro__vineta
-            span d
+            span c
           h4 Estética
 
     .row.mb-5

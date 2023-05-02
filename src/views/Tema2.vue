@@ -8,12 +8,12 @@
       h1 Algoritmia y lógica de programación
 
     .row.mb-5
-      p En el presente capítulo, se observarán las nociones fundamentales que tienen que ver con la programación orientada a objetos aplicada en videojuegos y, en específico, al motor de videojuegos Unity 3D.
+      p En el presente capítulo, se observarán las nociones fundamentales que tienen que ver con la programación orientada a objetos aplicada en videojuegos y, en específico, al motor de videojuegos #[i Unity] 3D.
 
     separador
 
     #t_2_1.titulo-segundo.color-acento-contenido
-      h2 2.1 Descripción de la API de Unity (C-Sharp)
+      h2 2.1 Descripción de la API de #[i Unity] (C-Sharp)
 
     .row.justify-content-center.mb-5
       .col-lg-10
@@ -22,7 +22,7 @@
             :style="{'background-image': `url(${require('@/assets/curso/temas/tema2/img1.svg')})`}"
           )
           .bloque-texto-g1__texto.p-4
-            p.mb-0 El concepto API significa interfaz de programación de aplicaciones y reúne un conjunto de protocolos que permiten la interacción entre dos componentes de software independientes. Para la  documentación que contiene descripciones detalladas de la API de secuencias de comandos que proporciona #[i Unity], es necesario estar acostumbrado o con cierto nivel de conocimiento en programación con #[i Unity.]
+            p.mb-0 El concepto API significa interfaz de programación de aplicaciones y reúne un conjunto de protocolos que permiten la interacción entre dos componentes de #[i software] independientes. Para la  documentación que contiene descripciones detalladas de la API de secuencias de comandos que proporciona #[i Unity], es necesario estar acostumbrado o con cierto nivel de conocimiento en programación con #[i Unity.]
 
     .row.mb-5
       p La referencia de secuencias de comandos se organiza de acuerdo con las clases disponibles para las secuencias de comandos que se describen, junto con sus funciones, métodos, y demás elementos de sintaxis necesarios para programar correctamente.
@@ -32,28 +32,28 @@
         p.mb-0 Las API se agrupan por categorías, dependiendo del tipo de elemento estructural de programación, y se pueden seleccionar en el menú de la izquierda. En términos de programación, la sección de #[i UnityEngine] será el principal recurso de búsqueda.
 
     .row.mb-5
-      p #[b Soporte de entorno de desarrollo integrado (IDE):] El entorno de desarrollo integrado (IDE) es una pieza de software de computadora que proporciona herramientas e instalaciones para facilitar el desarrollo de otras piezas de software. Unity admite los siguientes IDE:
+      p #[b Soporte de entorno de desarrollo integrado (IDE):] el entorno de desarrollo integrado (IDE) es una pieza de #[i software] de computadora que proporciona herramientas e instalaciones para facilitar el desarrollo de otras piezas de #[i software]. #[i Unity] admite los siguientes IDE:
 
     .row.justify-content-center.mb-5
       .col-lg-6.mb-5
         .tarjeta-numerada.color-acento-contenido.p-lg-5.p-4
           .tarjeta-numerada__numero
             .h2.texto-blanco 1
-          h4.mt-5.mt-lg-0 Visual Studio (IDE predeterminado en Windows y macOS)          
-          p Visual Studio se instala de forma predeterminada cuando se instala Unity en Windows y MacOS. En Windows, puede optar por excluirlo cuando seleccione qué componentes descargar e instalar. Visual Studio está configurado como Editor de scripts externos en Preferencias (#[i Unity > Preferences > External Tools > External Script Editor]). Con esta opción habilitada, Unity inicia Visual Studio y lo usa como el editor predeterminado para todos los archivos de secuencia de comandos.
-          p En MacOS, Unity incluye Visual Studio para sistema operativo Mac como el IDE de C#. Visual Studio Tools para Unity (VSTU), proporciona la integración de Unity para Visual Studio para Mac (VS4M).
+          h4.mt-5.mt-lg-0 #[i Visual Studio] (IDE predeterminado en Windows y macOS)          
+          p #[i Visual Studio] se instala de forma predeterminada cuando se instala #[i Unity] en Windows y MacOS. En Windows, puede optar por excluirlo cuando seleccione qué componentes descargar e instalar. #[i Visual Studio] está configurado como Editor de #[i scripts] externos en Preferencias (#[i Unity > Preferences > External Tools > External #[i script] Editor]). Con esta opción habilitada, #[i Unity] inicia #[i Visual Studio] y lo usa como el editor predeterminado para todos los archivos de secuencia de comandos.
+          p En MacOS, #[i Unity] incluye #[i Visual Studio] para sistema operativo Mac como el IDE de C#. #[i Visual Studio Tools] para #[i Unity] (VSTU), proporciona la integración de #[i Unity] para #[i Visual Studio] para Mac (VS4M).
 
       .col-lg-6.mb-5
         .tarjeta-numerada.color-primario.p-lg-5.p-4
           .tarjeta-numerada__numero
             .h2 2
-          h4.mt-5.mt-lg-0 Visual Studio Code (Windows, macOS, Linux):
-          p.mb-0 En Unity, la edición de archivos de programación se hace en #[i Visual Studio Code] (VS Code). Para abrir scripts en VS Code, selecciónelo como Editor de script externo en las Preferencias del editor (menú: Unity> Preferencias> Herramientas externas> Editor de script externo). Para obtener información sobre el uso de VS Code con Unity, consulte la documentación de Visual Studio sobre Desarrollo de Unity con VS Code.
+          h4.mt-5.mt-lg-0 #[i Visual Studio Code] (Windows, macOS, Linux):
+          p.mb-0 En #[i Unity], la edición de archivos de programación se hace en #[i Visual Studio Code] (VS #[i Code]). Para abrir #[i scripts] en VS #[i Code], selecciónelo como Editor de #[i script] externo en las Preferencias del editor (menú: #[i Unity]> Preferencias> Herramientas externas> Editor de #[i script] externo). Para obtener información sobre el uso de VS #[i Code] con #[i Unity], consulte la documentación de #[i Visual Studio] sobre Desarrollo de #[i Unity] con VS #[i Code].
 
     .row.justify-content-center.my-5
       .col-lg-8
         .titulo-sexto.color-acento-contenido.mb-5
-          p.mb-0 #[b Figura 3] Ventana de referencia de script
+          p.mb-0 #[b Figura 3] Ventana de referencia de #[i script]
 
         figure
           img(src="@/assets/curso/temas/tema2/img2.svg", alt="alt")
@@ -64,7 +64,7 @@
       h2 2.2 Estructura y sintaxis básica de C-Sharp
 
     .row.mb-5
-      p Las líneas de instrucción de los archivos de programación les definen a los GameObjects cómo comportarse.  En este sentido, la programación en el motor de videojuegos difiere de los métodos de programación pura en que en el motor se definen archivos de programación que serán interpretados y compilados para la plataforma específica de publicación.
+      p Las líneas de instrucción de los archivos de programación les definen a los #[i GameObjects] cómo comportarse.  En este sentido, la programación en el motor de videojuegos difiere de los métodos de programación pura en que en el motor se definen archivos de programación que serán interpretados y compilados para la plataforma específica de publicación.
 
     .row.justify-content-center.mb-5
       .col-lg-11
@@ -73,15 +73,15 @@
             :style="{'background-image': `url(${require('@/assets/curso/temas/tema2/img3.svg')})`}"
           )
           .bloque-texto-g1__texto.p-4
-            p Una cualidad muy importante del motor es que permite realizar multitud de tareas de manera simultánea y es el desarrollador el encargado de establecer todas estas relaciones funcionales, además de la participación de cada uno de los miembros del equipo de desarrollo, permitiendo utilizar la enorme versatilidad de Unity.
+            p Una cualidad muy importante del motor es que permite realizar multitud de tareas de manera simultánea y es el desarrollador el encargado de establecer todas estas relaciones funcionales, además de la participación de cada uno de los miembros del equipo de desarrollo, permitiendo utilizar la enorme versatilidad de #[i Unity].
             p.mb-0 Es importante que en el desarrollo del videojuego se logren optimizar todas las secuencias de instrucción de código para que pueda correr de manera fluida, a la mayor velocidad posible, y realizando todas las tareas que le han sido programadas.
 
     .row.mb-5
       .cajon.color-primario.p-4
-        p.mb-0 Un archivo #[i script] debe estar necesariamente asignado a un #[i GameObject] en la escena para que Unity pueda utilizarlo en escena, es decir, invocarlo. Los archivos de programación deben estar escritos en un lenguaje comprensible por el motor.
+        p.mb-0 Un archivo #[i script] debe estar necesariamente asignado a un #[i GameObject] en la escena para que #[i Unity] pueda utilizarlo en escena, es decir, invocarlo. Los archivos de programación deben estar escritos en un lenguaje comprensible por el motor.
 
     .row.mb-5
-      p El lenguaje de programación que utiliza Unity se llama C# o C Sharp, que es un lenguaje orientado a objetos. Como cualquier lenguaje de programación, tiene una estructura de sintaxis, es decir, una manera de escribirse y con unas características semánticas específicas. A continuación se podrá observar un ejemplo de estructura de código en C#.
+      p El lenguaje de programación que utiliza #[i Unity] se llama C# o C Sharp, que es un lenguaje orientado a objetos. Como cualquier lenguaje de programación, tiene una estructura de sintaxis, es decir, una manera de escribirse y con unas características semánticas específicas. A continuación se podrá observar un ejemplo de estructura de código en C#.
 
     .row.justify-content-center.mb-5
       .col-lg-6
@@ -91,7 +91,7 @@
     .row.justify-content-center.mb-5
       .col-lg-8
         .cajon.color-primario.p-4
-          p.mb-0 La anatomía básica de un script en C Sharp (C#) está constituida fundamentalmente de variables, funciones y clases.
+          p.mb-0 La anatomía básica de un #[i script] en C Sharp (C#) está constituida fundamentalmente de variables, funciones y clases.
 
 
     .row.justify-content-center.mb-5
@@ -114,7 +114,7 @@
             h3.mb-0.tv.margin-icon Variables
 
     .row.justify-content-center.mb-5
-      p.mb-5 En Unity, los archivos de programación se deben comenzar, por lo general, con la mención o declaración de las variables, estableciendo si serán visibles o no, es decir públicas o privadas, al mismo tiempo que el tipo y el nombre de la variable, en este orden de secuencia.
+      p.mb-5 En #[i Unity], los archivos de programación se deben comenzar, por lo general, con la mención o declaración de las variables, estableciendo si serán visibles o no, es decir públicas o privadas, al mismo tiempo que el tipo y el nombre de la variable, en este orden de secuencia.
 
       .col-lg-6
         figure
@@ -125,7 +125,7 @@
         .row.justify-content-center
           .col-lg-5.mt-5
             p Al declarar variables visibles o de forma pública, pueden ser observables a través del inspector del motor y es una manera muy sencilla de poder controlarlas, para así modificar sus valores y por lo tanto su comportamiento. Cuando la variable es declarada como privada, no puede verse a través del inspector y sólo puede cambiarse su valor a través de la intervención del código de programación.
-            p Además, cuando se hacen públicas las variables, se puede acceder a ellas a través de otros scripts u otras clases, permitiendo la interacción entre diferentes scripts y haciendo más dinámica la jugabilidad. 
+            p Además, cuando se hacen públicas las variables, se puede acceder a ellas a través de otros #[i scripts] u otras clases, permitiendo la interacción entre diferentes #[i scripts] y haciendo más dinámica la jugabilidad. 
             p Además de este carácter público o privado, también está el tipo de variable, es decir, la especificación del tipo de información que puede almacenar y, por lo tanto, el tipo de valor que podría mantener en memoria. En términos generales, es necesario especificar el tipo de variable que se está declarando para poder indicarle al motor cómo debe manejar la información o valor que contenga.
 
           .col-lg-5
@@ -135,14 +135,14 @@
               img(src="@/assets/curso/temas/tema2/img7.svg", alt="alt")    
 
     .row.mb-5
-      p #[b Control de variables en el Inspector de Unity:] es importante que las variables tengan un nombre específico, de acuerdo con la información a contener o almacenar, y que al mismo tiempo pueda ser diferenciable de las demás variables que pueda llegar a tener el script. Al mismo tiempo, tener en cuenta que la variable no se puede nombrar con un número al inicio, ni contener espacios vacíos. 
-      p En la denominación de una variable se suele utilizar un estilo o convención de nomenclatura que es  cameICase. Esta forma de nombrar la variable  comienza con una letra en minúscula y, si se trata de parejas de palabras, se escriben unidas, y la primera letra de la segunda palabra se escribe en mayúsculas, por ejemplo: “myLight”.
-      p Tal  cómo puede observarse en la siguiente imagen, Unity permite, una vez compilado el código, ver los nombres de las variables separados en el inspector.
+      p #[b Control de variables en el Inspector de Unity:] es importante que las variables tengan un nombre específico, de acuerdo con la información a contener o almacenar, y que al mismo tiempo pueda ser diferenciable de las demás variables que pueda llegar a tener el #[i script]. Al mismo tiempo, tener en cuenta que la variable no se puede nombrar con un número al inicio, ni contener espacios vacíos. 
+      p En la denominación de una variable se suele utilizar un estilo o convención de nomenclatura que es  #[i cameICase]. Esta forma de nombrar la variable  comienza con una letra en minúscula y, si se trata de parejas de palabras, se escriben unidas, y la primera letra de la segunda palabra se escribe en mayúsculas, por ejemplo: “myLight”.
+      p Tal  como puede observarse en la siguiente imagen, #[i Unity] permite, una vez compilado el código, ver los nombres de las variables separados en el inspector.
 
     .row.justify-content-center.mb-5
       .col-lg-10
         .titulo-sexto.color-acento-contenido
-          p.mb-0 #[b Figura 5] Panel de inspector - componente script   
+          p.mb-0 #[b Figura 5] Panel de inspector - componente #[i script]   
 
 
         figure
@@ -158,14 +158,14 @@
             h3.mb-0.tv.margin-icon Funciones
 
     .row.justify-content-center.mb-5
-      p.mb-5 Los scripts permiten controlar variables a través de funciones. En términos generales, las funciones más utilizadas se ejecutan de manera automática en el motor, sin embargo, es posible también indicar en qué momento se pueden ejecutar estas funciones de manera controlada. 
+      p.mb-5 Los #[i scripts] permiten controlar variables a través de funciones. En términos generales, las funciones más utilizadas se ejecutan de manera automática en el motor, sin embargo, es posible también indicar en qué momento se pueden ejecutar estas funciones de manera controlada. 
 
       .col-lg-6
         figure
           img(src="@/assets/curso/temas/tema2/img9.svg", alt="alt")      
 
     .row.mb-5
-      p Las principales funciones en Unity son:
+      p Las principales funciones en #[i Unity] son:
 
     .row.mb-5
       .col-lg-6
@@ -174,21 +174,21 @@
             .list__item__icon
               img(src='@/assets/curso/temas/tema1/icono2.svg', alt='')
           .list__txt
-            p.mb-0.tv.margin-icon #[b #[i Awake:]] Se ejecuta sólo una vez en el momento de iniciarse el objeto del juego que contenga el script. Hay que tener en cuenta que esta función se ejecuta siempre y cuando el objeto de juegos se encuentre inactivo, aún cuando no esté habilitado a través del editor.
+            p.mb-0.tv.margin-icon #[b #[i Awake:]] se ejecuta sólo una vez en el momento de iniciarse el objeto del juego que contenga el #[i script]. Hay que tener en cuenta que esta función se ejecuta siempre y cuando el objeto de juegos se encuentre inactivo, aún cuando no esté habilitado a través del editor.
 
         .list.mb-3(data-aos="fade-down")
           .list__item
             .list__item__icon
               img(src='@/assets/curso/temas/tema1/icono2.svg', alt='')
           .list__txt
-            p.mb-0.tv.margin-icon #[b #[i Start:]] De la misma manera que la función anterior, la función #[i Start] se ejecutará si el GameObject que tiene asignado el script está activo, siempre y cuando el componente de script esté habilitado.
+            p.mb-0.tv.margin-icon #[b #[i Start:]] de la misma manera que la función anterior, la función #[i Start] se ejecutará si el #[i GameObject] que tiene asignado el #[i script] está activo, siempre y cuando el componente de #[i script] esté habilitado.
 
         .list.mb-3(data-aos="fade-down")
           .list__item
             .list__item__icon
               img(src='@/assets/curso/temas/tema1/icono2.svg', alt='')
           .list__txt
-            p.mb-0.tv.margin-icon #[b #[i Update:]] Esta función se ejecuta una vez cada fotograma y es la función donde se escribe la generalidad de la lógica que se programa y establece para ese script específico. Vale decir que, al ejecutarse una vez cada fotograma, contendría instrucciones que siempre estarán operando, siempre y cuando así se establezca o suceda algo en específico.
+            p.mb-0.tv.margin-icon #[b #[i Update:]] esta función se ejecuta una vez cada fotograma y es la función donde se escribe la generalidad de la lógica que se programa y establece para ese #[i script] específico. Vale decir que, al ejecutarse una vez cada fotograma, contendría instrucciones que siempre estarán operando, siempre y cuando así se establezca o suceda algo en específico.
 
         .list.mb-3(data-aos="fade-down")
           .list__item
@@ -241,7 +241,7 @@
           img(src="@/assets/curso/temas/tema2/img13.svg", alt="alt")
       
       p.mb-4 Por otro lado, una vez el #[i script] se integra a un #[i GameObject], debe derivarse de la clase de base,  llamada #[i MonoBehaviour.] Las clases también pueden ser públicas o privadas.
-      p.mb-5 En Unity, se pueden crear clases personalizadas, como en el siguiente ejemplo, y deben solicitarse de manera serializada, lo que significa que se convertirán en datos digeribles y comprensibles por el motor, de tal manera que puedan también observarse y hacerse visibles en el inspector.
+      p.mb-5 En #[i Unity], se pueden crear clases personalizadas, como en el siguiente ejemplo, y deben solicitarse de manera serializada, lo que significa que se convertirán en datos digeribles y comprensibles por el motor, de tal manera que puedan también observarse y hacerse visibles en el inspector.
 
       .col-lg-6.mb-5
         figure
@@ -249,7 +249,7 @@
 
     .row.mb-5
       .cajon.color-primario.p-4
-        p.mb-0 Las funciones, sus variables y las estructuras de clases son fundamentales para comprender la manera en la que se escribe código de programación en el motor de Unity.
+        p.mb-0 Las funciones, sus variables y las estructuras de clases son fundamentales para comprender la manera en la que se escribe código de programación en el motor de #[i Unity].
 
     separador
 
@@ -314,7 +314,7 @@
           h4 Primer comportamiento
 
     .row.mb-5
-      p El primer comportamiento por definir es el movimiento del personaje Player, utilizando la clase Transform, que permite realizar cambios de transformación en posición, movimiento, rotación y escala:
+      p El primer comportamiento por definir es el movimiento del personaje #[i Player], utilizando la clase #[i Transform], que permite realizar cambios de transformación en posición, movimiento, rotación y escala:
 
     .row.justify-content-center.mb-5
       .col-lg-10
@@ -325,7 +325,7 @@
                 img(src="@/assets/curso/temas/tema2/img17.svg", alt="alt").tm2-img17
             
             .col-lg-11
-              p.mb-0.mt-4 Para el personaje Player, se define una variable velPlayer, que determinará la velocidad.  
+              p.mb-0.mt-4 Para el personaje #[i Player], se define una variable #[i velPlayer], que determinará la velocidad.  
 
         .tarjeta--morada.p-3.mb-4
           .row
@@ -334,7 +334,7 @@
                 img(src="@/assets/curso/temas/tema2/img18.svg", alt="alt").tm2-img17
             
             .col-lg-11
-              p.mb-0.mt-2 En la función Start, se dará una posición específica en la que aparecerá, utilizando la transformación de posición mediante un nuevo vector de posición 3D.
+              p.mb-0.mt-2 En la función #[i Start], se dará una posición específica en la que aparecerá, utilizando la transformación de posición mediante un nuevo vector de posición 3D.
 
         .tarjeta--morada.p-3.mb-4
           .row
@@ -343,10 +343,10 @@
                 img(src="@/assets/curso/temas/tema2/img19.svg", alt="alt").tm2-img17
             
             .col-lg-11
-              p.mb-0 En la función Update, se especificará un movimiento de traslación en el eje X, de izquierda a derecha, (transform.Translate(x,y,z)), mediante un método de entrada de teclado, (Input.GetAxis(“Horizontal”)), en función del tiempo medido en fotogramas por segundo (Time.deltaTime) y la velocidad en la variable velPlayer.
+              p.mb-0 En la función #[i Update], se especificará un movimiento de traslación en el eje X, de izquierda a derecha, (#[i Transform.Translate](x,y,z)), mediante un método de entrada de teclado, (#[i Input.GetAxis(“Horizontal”)]), en función del tiempo medido en fotogramas por segundo #[i (Time.deltaTime)] y la velocidad en la variable #[i velPlayer].
 
     .row.mb-3
-      p Observe el video de programación de movimiento de Player
+      p Observe el video de programación de movimiento de #[i Player]
 
     .row.mb-5(data-aos="fade-zoom")
       figure
@@ -366,7 +366,7 @@
           h4 Segundo comportamiento
 
     .row.mb-5
-      p El segundo comportamiento por definir es el movimiento del personaje Enemy, utilizando la clase Transform, que permite realizar cambios de transformación en posición, movimiento, rotación y escala.
+      p El segundo comportamiento por definir es el movimiento del personaje #[i Enemy], utilizando la clase #[i Transform], que permite realizar cambios de transformación en posición, movimiento, rotación y escala.
 
     .row.justify-content-center.mb-5
       .col-lg-10
@@ -377,7 +377,7 @@
                 img(src="@/assets/curso/temas/tema2/img17.svg", alt="alt").tm2-img17
             
             .col-lg-11
-              p.mb-0.mt-4 Para el personaje Enemy, se define una variable velEnemy, que determinará la velocidad.  
+              p.mb-0.mt-4 Para el personaje #[i Enemy], se define una variable #[i velEnemy], que determinará la velocidad.  
 
         .tarjeta--morada.p-3.mb-4
           .row
@@ -386,7 +386,7 @@
                 img(src="@/assets/curso/temas/tema2/img18.svg", alt="alt").tm2-img17
             
             .col-lg-11
-              p.mb-0.mt-2 En la función Start, se dará una posición específica en la que aparecerá, utilizando la transformación de posición mediante un nuevo vector de posición 3D, y de forma aleatoria en el eje X, mediante el método #[i Rando.Range](a,b) 
+              p.mb-0.mt-2 En la función #[i Start], se dará una posición específica en la que aparecerá, utilizando la transformación de posición mediante un nuevo vector de posición 3D, y de forma aleatoria en el eje X, mediante el método #[i Rando.Range](a,b) 
 
         .tarjeta--morada.p-3.mb-4
           .row
@@ -404,7 +404,7 @@
                 img(src="@/assets/curso/temas/tema2/img20.svg", alt="alt").tm2-img17
             
             .col-lg-11
-              p.mb-0 Para dar un mayor nivel de impredecibilidad a la mecánica de movimiento del enemigo, si utiliza una condicional if(), permitirá randomizar (#[i Random.Range](a,b)) el reposicionamiento del personaje #[i Enemy], al momento de llegar a una posición límite del escenario #[i if(posActual <= -10.0f)]. Este método permite utilizar el mismo objeto y ahorrar recursos de proceso y memoria.
+              p.mb-0 Para dar un mayor nivel de #[i impredecibilidad]a la mecánica de movimiento del enemigo, si utiliza una condicional if(), permitirá randomizar (#[i Random.Range](a,b)) el reposicionamiento del personaje #[i Enemy], al momento de llegar a una posición límite del escenario #[i if(posActual <= -10.0f)]. Este método permite utilizar el mismo objeto y ahorrar recursos de proceso y memoria.
 
     .row.mb-3
       p Observe el video de programación de movimiento de #[i Enemy:]
@@ -455,7 +455,7 @@
           h4 Tercer comportamiento
 
     .row.mb-5
-      p El tercer comportamiento a programar es la colisión de Player con Enemy. Para ello, se interviene el script del Player (MovePlayer.cs) y se utiliza la función OnCollisionEnter, que mediante el parámetro collision, define qué respuesta debe darse a partir de colisionar con determinado objeto.  En este caso, (collision.tag==”Enemy”) se utiliza un condicional para delimitar la respuesta a la colisión, donde, si se colisiona con un objeto con determinada etiqueta (tag), deberá suceder el cambio de color del material de Player (se específica más adelante).
+      p El tercer comportamiento a programar es la colisión de #[i Player] con #[i Enemy]. Para ello, se interviene el #[i script] del #[i Player (MovePlayer.cs)] y se utiliza la función #[i OnCollisionEnter], que mediante el parámetro #[i collision], define qué respuesta debe darse a partir de colisionar con determinado objeto.  En este caso, #[i (collision.tag==”Enemy”)] se utiliza un condicional para delimitar la respuesta a la colisión, donde, si se colisiona con un objeto con determinada etiqueta (tag), deberá suceder el cambio de color del material de #[i Player] (se específica más adelante).
 
     .row.justify-content-center.mb-5
       .col-lg-6.mb-5
@@ -470,7 +470,7 @@
           h4 Cuarto comportamiento
 
     .row.mb-5
-      p El cuarto comportamiento a programar es la colisión de Enemy con Player. Para ello, se interviene el script de Enemy (MoveEnemy.cs) y se utiliza la función OnCollisionEnter, que mediante el parámetro collision, define qué respuesta debe darse a partir de colisionar con determinado objeto. En este caso, (collision.tag==”Player”) se utiliza un condicional para delimitar la respuesta a la colisión, donde, si se colisiona con un objeto con determinada etiqueta (tag), deberá generar un reseteo de la posición de Enemy, fuera del escenario y para que reinicie su movimiento hacia el personaje.
+      p El cuarto comportamiento a programar es la colisión de #[i Enemy] con #[i Player]. Para ello, se interviene el #[i script] de #[i Enemy (MoveEnemy.cs)] y se utiliza la función #[i OnCollisionEnter], que mediante el parámetro #[i collision], define qué respuesta debe darse a partir de colisionar con determinado objeto. En este caso, (#[i collision.tag==”Player]”) se utiliza un condicional para delimitar la respuesta a la colisión, donde, si se colisiona con un objeto con determinada etiqueta (tag), deberá generar un reseteo de la posición de #[i Enemy], fuera del escenario y para que reinicie su movimiento hacia el personaje.
 
     .row.justify-content-center.mb-5
       .col-lg-6.mb-5
@@ -505,7 +505,7 @@
           h4 Quinto comportamiento
 
     .row.mb-5
-      p El quinto comportamiento a definir es lo que sucederá a Player una vez colisiona con el objeto #[i Enemy].
+      p El quinto comportamiento a definir es lo que sucederá a #[i Player] una vez colisiona con el objeto #[i Enemy].
 
     .row.justify-content-center.mb-5
       .col-lg-10
@@ -534,7 +534,7 @@
                 img(src="@/assets/curso/temas/tema2/img19.svg", alt="alt").tm2-img17
             
             .col-lg-11
-              p.mb-0.mt-2 Se especifica el valor de asignación de la variable colorRend al color asignado en la variable #[i colorCollision (colorRend.material.color=colorCollision).]
+              p.mb-0.mt-2 Se especifica el valor de asignación de la variable #[i colorRend] al color asignado en la variable #[i colorCollision (colorRend.material.color=colorCollision).]
 
         .tarjeta--morada.p-3.mb-4
           .row
