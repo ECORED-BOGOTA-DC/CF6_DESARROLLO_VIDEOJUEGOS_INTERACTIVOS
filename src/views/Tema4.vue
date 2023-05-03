@@ -20,7 +20,7 @@
         li 
           .lista-ol--cuadro__vineta
             span a
-          h4 Modelo de Jesse Schell
+          | #[b.w-b Modelo de Jesse Schell]
 
     .row.mb-5
       p En este modelo se especifican los siguientes elementos o tipologías de mecánicas básicas:
@@ -77,7 +77,7 @@
         li 
           .lista-ol--cuadro__vineta
             span b
-          h4 Modelo de David Parlett
+          | #[b.w-b Modelo de David Parlett]
 
     .row.mb-5
       p En este modelo, se especifican los siguientes elementos o tipologías de mecánicas básicas:
@@ -142,7 +142,7 @@
         li 
           .lista-ol--cuadro__vineta
             span a
-          h4 Toma de decisiones
+          | #[b.w-b Toma de decisiones]
 
     .row.justify-content-center.mb-5
       .col-lg-6
@@ -185,7 +185,7 @@
         li 
           .lista-ol--cuadro__vineta
             span b
-          h4 Desafíos y mecánicas
+          | #[b.w-b Desafíos y mecánicas]
 
     .row.mb-5
       p Las mecánicas definen el funcionamiento de los desafíos, la forma como se activan, las condiciones que las delimitan. En términos generales, los esquemas de desafío pueden ser activos o pasivos.
@@ -215,7 +215,7 @@
         li 
           .lista-ol--cuadro__vineta
             span c
-          h4 Acciones y desafíos
+          | #[b.w-b Acciones y desafíos]
 
     .row.mb-5
       p Las acciones que los jugadores realizan se deciden con el fin de cumplir con los desafíos que se presentan en juego. Un mismo desafío puede sugerir una serie específica de acciones o la elección variable de multitud de opciones. Existen dos tipos de acciones desde el enfoque de lo que pueden hacer los jugadores:

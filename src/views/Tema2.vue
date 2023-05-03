@@ -311,7 +311,7 @@
         li 
           .lista-ol--cuadro__vineta
             span a
-          h4 Primer comportamiento
+          | #[b.w-b Primer comportamiento]
 
     .row.mb-5
       p El primer comportamiento por definir es el movimiento del personaje #[i Player], utilizando la clase #[i Transform], que permite realizar cambios de transformación en posición, movimiento, rotación y escala:
@@ -363,7 +363,7 @@
         li 
           .lista-ol--cuadro__vineta
             span b
-          h4 Segundo comportamiento
+          | #[b.w-b Segundo comportamiento]
 
     .row.mb-5
       p El segundo comportamiento por definir es el movimiento del personaje #[i Enemy], utilizando la clase #[i Transform], que permite realizar cambios de transformación en posición, movimiento, rotación y escala.
@@ -452,7 +452,7 @@
         li 
           .lista-ol--cuadro__vineta
             span c
-          h4 Tercer comportamiento
+          | #[b.w-b Tercer comportamiento]
 
     .row.mb-5
       p El tercer comportamiento a programar es la colisión de #[i Player] con #[i Enemy]. Para ello, se interviene el #[i script] del #[i Player (MovePlayer.cs)] y se utiliza la función #[i OnCollisionEnter], que mediante el parámetro #[i collision], define qué respuesta debe darse a partir de colisionar con determinado objeto.  En este caso, #[i (collision.tag==”Enemy”)] se utiliza un condicional para delimitar la respuesta a la colisión, donde, si se colisiona con un objeto con determinada etiqueta (tag), deberá suceder el cambio de color del material de #[i Player] (se específica más adelante).
@@ -467,7 +467,7 @@
         li 
           .lista-ol--cuadro__vineta
             span d
-          h4 Cuarto comportamiento
+          | #[b.w-b Cuarto comportamiento]
 
     .row.mb-5
       p El cuarto comportamiento a programar es la colisión de #[i Enemy] con #[i Player]. Para ello, se interviene el #[i script] de #[i Enemy (MoveEnemy.cs)] y se utiliza la función #[i OnCollisionEnter], que mediante el parámetro #[i collision], define qué respuesta debe darse a partir de colisionar con determinado objeto. En este caso, (#[i collision.tag==”Player]”) se utiliza un condicional para delimitar la respuesta a la colisión, donde, si se colisiona con un objeto con determinada etiqueta (tag), deberá generar un reseteo de la posición de #[i Enemy], fuera del escenario y para que reinicie su movimiento hacia el personaje.
@@ -502,7 +502,7 @@
         li 
           .lista-ol--cuadro__vineta
             span e
-          h4 Quinto comportamiento
+          | #[b.w-b Quinto comportamiento]
 
     .row.mb-5
       p El quinto comportamiento a definir es lo que sucederá a #[i Player] una vez colisiona con el objeto #[i Enemy].

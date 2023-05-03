@@ -10,10 +10,10 @@
     .row.justify-content-center.mb-5
       .col-lg-10
         .bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-4
-          .bloque-texto-g1__img(
+          .bloque-texto-g2__img(
             :style="{'background-image': `url(${require('@/assets/curso/temas/tema5/img1.svg')})`}"
           )
-          .bloque-texto-g1__texto.p-4
+          .bloque-texto-g2__texto.p-4
             p.mb-0 El propósito principal de los esquemas de prototipado es poder evidenciar y probar la funcionalidad del videojuego y cómo esta funcionalidad puede involucrar de manera específica las mecánicas o de manera global todos los aspectos de jugabilidad. Incluso, puede apenas relacionarse con aspectos visuales, como los escenarios y su apariencia y el recorrido delimitado para el jugador.
 
     separador
@@ -32,25 +32,25 @@
           li 
             .lista-ol--cuadro__vineta
               span a
-            p.mb-0 <b>Fundamentos:</b> se refiere principalmente a la evaluación de las mecánicas de núcleo, y para ello se pueden utilizar cartas, dados, papel, con el fin de replicar las mecánicas básicas del juego.
+            | #[b.w-b Fundamentos:] se refiere principalmente a la evaluación de las mecánicas de núcleo, y para ello se pueden utilizar cartas, dados, papel, con el fin de replicar las mecánicas básicas del juego.
         hr
         ol.lista-ol--cuadro
           li 
             .lista-ol--cuadro__vineta
               span b
-            p.mb-0 <b>Estructura:</b> en este aspecto es necesario replicar y evaluar la forma como se avanza en el juego, el poder de ataque y todo aquello que permita comprender la manera como se actúa en el juego.
+            | #[b.w-b Estructura:] en este aspecto es necesario replicar y evaluar la forma como se avanza en el juego, el poder de ataque y todo aquello que permita comprender la manera como se actúa en el juego.
         hr
         ol.lista-ol--cuadro
           li 
             .lista-ol--cuadro__vineta
               span c
-            p.mb-0 <b>Detalles formales:</b> en este punto, se escriben las reglas y procesos que dan lugar a la normativa del juego y el cómo debe ser jugado.
+            | #[b.w-b Detalles formales:] en este punto, se escriben las reglas y procesos que dan lugar a la normativa del juego y el cómo debe ser jugado.
         hr
         ol.lista-ol--cuadro
           li 
             .lista-ol--cuadro__vineta
               span d
-            p.mb-0 <b>Refinamiento:</b> es el objetivo final y fundamental de un prototipo físico, en tanto que permite encontrar errores y determinar qué mecánicas funcionan correctamente y cuáles deben ser modificadas, al igual que mejorar las reglas y procesos generales de jugabilidad.
+            | #[b.w-b Refinamiento:] es el objetivo final y fundamental de un prototipo físico, en tanto que permite encontrar errores y determinar qué mecánicas funcionan correctamente y cuáles deben ser modificadas, al igual que mejorar las reglas y procesos generales de jugabilidad.
       .col-6
         figure
           img(src="@/assets/curso/temas/tema5/img2.png", alt="alt")
@@ -135,25 +135,25 @@
           li 
             .lista-ol--cuadro__vineta
               span a
-            p.mb-0 <b>Prototipar las mecánicas de juegos:</b> algunas mecánicas pueden ser más fáciles de comprender y de evaluar cuando se analizan y se desarrollan en un sistema digital que en uno físico.
+            | #[b.w-b Prototipar las mecánicas de juegos:] algunas mecánicas pueden ser más fáciles de comprender y de evaluar cuando se analizan y se desarrollan en un sistema digital que en uno físico.
         hr
         ol.lista-ol--cuadro
           li 
             .lista-ol--cuadro__vineta
               span b
-            p.mb-0 <b>Prototipar la estética del juego:</b> se enfoca fundamentalmente en la apariencia visual y gráfica del videojuego. En este tipo de prototipado, se trata de representar de manera simple las gráficas del juego. Puede ayudar a comprender el funcionamiento del juego y, entre otros, la manipulación y sentido de la interfaz de usuario.
+            | #[b.w-b Prototipar la estética del juego:] se enfoca fundamentalmente en la apariencia visual y gráfica del videojuego. En este tipo de prototipado, se trata de representar de manera simple las gráficas del juego. Puede ayudar a comprender el funcionamiento del juego y, entre otros, la manipulación y sentido de la interfaz de usuario.
         hr
         ol.lista-ol--cuadro
           li 
             .lista-ol--cuadro__vineta
               span c
-            p.mb-0 <b>Prototipar la kinestesia del juego:</b> en este punto, se trata de reproducir la forma en la que el juego funciona y determinar cómo es el comportamiento corporal esperado en un jugador, bien sea lo que se refiere a las reacciones o a la interacción con dispositivos de control.
+            | #[b.w-b Prototipar la kinestesia del juego:] en este punto, se trata de reproducir la forma en la que el juego funciona y determinar cómo es el comportamiento corporal esperado en un jugador, bien sea lo que se refiere a las reacciones o a la interacción con dispositivos de control.
         hr
         ol.lista-ol--cuadro
           li 
             .lista-ol--cuadro__vineta
               span d
-            p.mb-0 <b>Prototipar la tecnología:</b> en este último aspecto, se trata de evaluar la manera como la kinestesia se desenvuelve de acuerdo con un determinado tipo de tecnología, y cómo favorece o perjudica las mecánicas de juegos. Por ejemplo, simular el juego a través de una pantalla táctil o con joystick.
+            | #[b.w-b Prototipar la tecnología:] en este último aspecto, se trata de evaluar la manera como la kinestesia se desenvuelve de acuerdo con un determinado tipo de tecnología, y cómo favorece o perjudica las mecánicas de juegos. Por ejemplo, simular el juego a través de una pantalla táctil o con joystick.
       .col-6
         figure
           img(src="@/assets/curso/temas/tema5/img7.png", alt="alt")

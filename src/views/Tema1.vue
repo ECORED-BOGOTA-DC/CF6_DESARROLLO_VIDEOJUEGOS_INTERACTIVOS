@@ -55,7 +55,7 @@
         li 
           .lista-ol--cuadro__vineta
             span a
-          h4 Narrativas lineales
+          | #[b.w-b Narrativas lineales]
 
     .row.mb-5
       p.mb-3 Este primer tipo de estructura se caracteriza por ser simple, en lo que se refiere a las decisiones del jugador. Cada una de las etapas de la narración transcurre una después de la otra, e incluso al punto de discernir su desenlace final. Estas narraciones tienen objetivos específicos y no ofrecen la alternativa de tomar decisiones diferentes que conlleven a eventos diferentes. 
@@ -145,7 +145,7 @@
         li 
           .lista-ol--cuadro__vineta
             span b
-          h4 Narrativas no lineales
+          | #[b.w-b Narrativas no lineales]
 
     .row.mb-5
       p Como se mencionó anteriormente, las narrativas lineales ocurren en un determinado orden cronológico y dan la oportunidad de tomar ciertas decisiones y cierta capacidad de decisión en los jugadores. Muy diferentes a las narrativas no lineales, donde este tipo de circunstancias no ocurre.
@@ -388,7 +388,7 @@
           li 
             .lista-ol--cuadro__vineta
               span a
-            h4 Mecánica
+            | #[b.w-b Mecánica]
 
       .row.mb-3
         p.mb-3 Las mecánicas determinan los componentes del videojuego, es decir, definen las reglas como acciones y comportamientos permitidos al jugador, y restringen de una u otra manera su trayectoria en el videojuego. Involucra la programación.
@@ -441,7 +441,7 @@
           li 
             .lista-ol--cuadro__vineta
               span b
-            h4 Dinámica
+            | #[b.w-b Dinámica]
 
       .row.mb-3
         p.mb-3 La dinámica comprende la descripción del modo de comportarse de una mecánica en específico durante el tiempo de juego, para definir así las interacciones entre los jugadores. Su propósito es crear las experiencias estéticas, las respuestas emocionales del jugador y, por consiguiente, determinar un direccionamiento comportamental. Involucra la motivación del jugador.
@@ -492,7 +492,7 @@
         li 
           .lista-ol--cuadro__vineta
             span c
-          h4 Estética
+          | #[b.w-b Estética]
 
     .row.mb-5
       p La estética describe la respuesta que tiene el jugador, desde el punto de vista emocional, en el momento de interactuar con el sistema de juego. Como propósito, la estética busca hacer que el juego sea divertido, y que sea agradable y excitante la búsqueda del objetivo final. Involucra la inmersión.
