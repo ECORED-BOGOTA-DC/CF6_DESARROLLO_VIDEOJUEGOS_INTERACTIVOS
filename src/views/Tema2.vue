@@ -253,7 +253,7 @@
 
     separador
 
-    #t_2_2.titulo-segundo.color-acento-contenido
+    #t_2_3.titulo-segundo.color-acento-contenido
       h2 2.3 Programación de comportamientos básicos de juego
 
     .row.mb-5
@@ -276,7 +276,7 @@
     .row.mb-5(data-aos="fade-zoom")
       figure
         .video
-          iframe(width="560" height="315" src="https://www.youtube.com/embed/11111111" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/-4ohdKVjPc8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
     .row.mb-3
       h4 Configuración de escena
@@ -284,7 +284,7 @@
     .row.mb-5(data-aos="fade-zoom")
       figure
         .video
-          iframe(width="560" height="315" src="https://www.youtube.com/embed/11111111" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/RyiIOmdQaUI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
     .row.mb-3
       .col-lg-7
@@ -351,7 +351,7 @@
     .row.mb-5(data-aos="fade-zoom")
       figure
         .video
-          iframe(width="560" height="315" src="https://www.youtube.com/embed/11111111" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/1qns6zTKZcw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
     .row.justify-content-center.mb-5
       .col-lg-8.mb-5
@@ -412,7 +412,7 @@
     .row.mb-5(data-aos="fade-zoom")
       figure
         .video
-          iframe(width="560" height="315" src="https://www.youtube.com/embed/11111111" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/sCiDjHttfzA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
     .row.justify-content-center.mb-5
       .col-lg-10.mb-5
@@ -445,7 +445,7 @@
     .row.mb-5(data-aos="fade-zoom")
       figure
         .video
-          iframe(width="560" height="315" src="https://www.youtube.com/embed/11111111" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/92Mbg2EXpp0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
     .row.mb-5
       ol.lista-ol--cuadro
@@ -551,7 +551,7 @@
     .row.mb-5(data-aos="fade-zoom")
       figure
         .video
-          iframe(width="560" height="315" src="https://www.youtube.com/embed/11111111" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/-UWFkIxKCSY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
     .row.justify-content-center.mb-5
       .col-lg-6
