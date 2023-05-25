@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="npnxnanbnsnfns00000000001" textdirection="ltr" textengine="DirectWrite" device="false" fontscale="100" captionFontScale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" outputtype="undefined" theme="classic">
   <layouts>
-    <layout name="npnxnanbsnfns00000000001" font="Open Sans" controllayout="npnxnanbsnfns00000000001" colorscheme="npnxnanbnsnfns00000000001" string_table="npnxnanbnsnfns00000000001" />
-    <layout name="pxabnsnfns00000000001" font="Open Sans" controllayout="pxabnsnfns00000000001" colorscheme="npnxnanbnsnfns00000000001" string_table="npnxnanbnsnfns00000000001" />
-    <layout name="npxnabnsnfns00000000001" font="Open Sans" controllayout="npxnabnsnfns00000000001" colorscheme="npnxnanbnsnfns00000000001" string_table="npnxnanbnsnfns00000000001" />
-    <layout name="npnxnanbnsnfns00000000001" font="Open Sans" controllayout="npnxnanbnsnfns00000000001" colorscheme="npnxnanbnsnfns00000000001" string_table="npnxnanbnsnfns00000000001" />
-    <layout name="pxabnsnfns00000000000" font="Open Sans" controllayout="pxabnsnfns00000000000" colorscheme="npnxnanbnsnfns00000000001" string_table="npnxnanbnsnfns00000000001" />
+    <layout name="npnxnanbsnfns00000000001" font="Didact Gothic" controllayout="npnxnanbsnfns00000000001" colorscheme="npnxnanbnsnfns00000000001" string_table="npnxnanbnsnfns00000000001" />
+    <layout name="pxabnsnfns00000000001" font="Didact Gothic" controllayout="pxabnsnfns00000000001" colorscheme="npnxnanbnsnfns00000000001" string_table="npnxnanbnsnfns00000000001" />
+    <layout name="npxnabnsnfns00000000001" font="Didact Gothic" controllayout="npxnabnsnfns00000000001" colorscheme="npnxnanbnsnfns00000000001" string_table="npnxnanbnsnfns00000000001" />
+    <layout name="npnxnanbnsnfns00000000001" font="Didact Gothic" controllayout="npnxnanbnsnfns00000000001" colorscheme="npnxnanbnsnfns00000000001" string_table="npnxnanbnsnfns00000000001" />
+    <layout name="pxabnsnfns00000000000" font="Didact Gothic" controllayout="pxabnsnfns00000000000" colorscheme="npnxnanbnsnfns00000000001" string_table="npnxnanbnsnfns00000000001" />
   </layouts>
   <control_options>
     <optiongroups>
@@ -13,7 +13,7 @@
         <options>
           <option name="title_enabled" value="false">
             <options>
-              <option name="title_text" value="CF11_228108" />
+              <option name="title_text" value="Actividad did&amp;#225;ctica" />
             </options>
           </option>
           <option name="logo_enabled" value="false">
@@ -70,7 +70,7 @@
           <option name="search" value="false" />
           <option name="closed_captions" value="false">
             <options>
-              <option name="font" value="Open Sans" />
+              <option name="font" value="Didact Gothic" />
             </options>
           </option>
           <option name="settings" value="false" />
@@ -80,7 +80,7 @@
       </optiongroup>
       <optiongroup name="bottombaroptions">
         <options>
-          <option name="bottombar_enabled" value="true" />
+          <option name="bottombar_enabled" value="false" />
         </options>
       </optiongroup>
       <optiongroup name="buttonoptions">
@@ -103,6 +103,8 @@
       <control name="next" enabled="false" />
       <control name="swipeleft" enabled="false" />
       <control name="swiperight" enabled="false" />
+      <control name="fullScreenToggle" enabled="false" />
+      <control name="playbackSpeedControl" enabled="false" />
       <control name="submit" enabled="true" />
       <control name="finish" enabled="false" />
       <control name="submitall" enabled="false" />
@@ -126,6 +128,8 @@
       <control name="next" enabled="true" />
       <control name="swipeleft" enabled="true" />
       <control name="swiperight" enabled="true" />
+      <control name="fullScreenToggle" enabled="false" />
+      <control name="playbackSpeedControl" enabled="false" />
       <control name="submit" enabled="false" />
       <control name="finish" enabled="false" />
       <control name="submitall" enabled="false" />
@@ -149,6 +153,8 @@
       <control name="next" enabled="true" />
       <control name="swipeleft" enabled="false" />
       <control name="swiperight" enabled="true" />
+      <control name="fullScreenToggle" enabled="false" />
+      <control name="playbackSpeedControl" enabled="false" />
       <control name="submit" enabled="false" />
       <control name="finish" enabled="false" />
       <control name="submitall" enabled="false" />
@@ -172,6 +178,8 @@
       <control name="next" enabled="false" />
       <control name="swipeleft" enabled="false" />
       <control name="swiperight" enabled="false" />
+      <control name="fullScreenToggle" enabled="false" />
+      <control name="playbackSpeedControl" enabled="false" />
       <control name="submit" enabled="false" />
       <control name="finish" enabled="false" />
       <control name="submitall" enabled="false" />
@@ -195,6 +203,8 @@
       <control name="next" enabled="true" />
       <control name="swipeleft" enabled="true" />
       <control name="swiperight" enabled="true" />
+      <control name="fullScreenToggle" enabled="false" />
+      <control name="playbackSpeedControl" enabled="false" />
       <control name="submit" enabled="false" />
       <control name="finish" enabled="false" />
       <control name="submitall" enabled="false" />
@@ -1144,10 +1154,12 @@
       <string id="shortcut">Atajo</string>
       <string id="shortcuthelp">Listar los atajos de teclado</string>
       <string id="keyboardshortcuts">Atajos de teclado</string>
+      <string id="background_audio_shortcut">Activar/Desactivar el audio de fondo</string>
       <string id="acctext_shortcut">Activar/Desactivar texto accesible</string>
       <string id="togglezoom">Alternar los modos de zoom</string>
       <string id="closedcaptions_shortcut">Activar/Desactivar accesibilidad del texto</string>
       <string id="previous_shortcut">Diapositiva anterior</string>
+      <string id="fullscreen_shortcut">Cambiar el modo de pantalla completa</string>
       <string id="submit_shortcut">Validar diapositiva</string>
       <string id="playpause_shortcut">Reproducir / pausar</string>
       <string id="next_shortcut">Siguiente diapositiva</string>
@@ -1174,8 +1186,27 @@
       <string id="finish">FINALIZAR</string>
       <string id="acc_volume">volumen</string>
       <string id="keyboardshortcuts_lower">Atajos de teclado</string>
+      <string id="background_audio">Audio de fondo</string>
       <string id="zoom_to_fit">Habilitar zoom del navegador</string>
+      <string id="acc_enter_fullscreen">Ingresar en el modo de pantalla completa</string>
+      <string id="acc_exit_fullscreen">Salir del modo de pantalla completa</string>
       <string id="accessible_text">Texto accesible</string>
+      <string id="modern_video_captions_on">~øñ</string>
+      <string id="modern_video_captions_off">~øff</string>
+      <string id="modern_video_settings_close">~cløš~e ѵi~deo ~seţt~iñgs</string>
+      <string id="modern_video_playback_settings">~þlaý~bacķ~ šeţ~tiñg~s</string>
+      <string id="acc_modern_video_volume">~ѵide~ø vo~lüӎe</string>
+      <string id="acc_modern_video_fullscreen">~füll~šcře~eñ</string>
+      <string id="modern_video_normal_speed">~Nøřӎ~al</string>
+      <string id="acc_modern_video_playback_speed">~Plaý~bacķ~ šþe~ed</string>
+      <string id="modern_video_playback_speed_title">~Plaý~bacķ~ šþe~ed</string>
+      <string id="modern_video_captions_label">~caþţ~iøñš</string>
+      <string id="acc_modern_video_settings">~ѵide~ø še~ţtiñ~gs</string>
+      <string id="acc_modern_video_captions">~ѵide~ø ca~þţio~ñš</string>
+      <string id="acc_modern_video_pip">~Picţ~üře-~iñ-P~ictu~re</string>
+      <string id="acc_modern_video_pause">~þaüš~e ѵi~deø</string>
+      <string id="acc_modern_video_play">~þlaý~ ѵid~eø</string>
+      <string id="acc_modern_video_mute">~ӎüţe~ ѵid~eø</string>
       <string id="acc_definition">definición</string>
       <string id="definition">Definición</string>
       <string id="search_results">Resultados de la búsqueda</string>
@@ -1263,12 +1294,29 @@
       <string id="shift_key">Mayúsculas</string>
       <string id="acc_closed_captions">Subtítulos cerrados. Presiona la barra de espacio para activar y desactivar los subtítulos.</string>
       <string id="acc_active">activo</string>
+      <string id="transcript_auto_scroll">Desplazamiento automático</string>
+      <string id="acc_modern_video_transcript">Abrir</string>
+      <string id="acc_window_resize">Ajustar tamaño de ventana</string>
+      <string id="acc_window_close">Cerrar</string>
+      <string id="acc_video_transcript_list">Transcripciones</string>
+      <string id="acc_window_move">Mover ventana</string>
+      <string id="acc_window_options">Opciones</string>
+      <string id="transcript_show_timestamp">Mostrar marcas de tiempo</string>
+      <string id="video_transcript_resume_autoscroll">Reanudar desplazamiento automático</string>
+      <string id="video_transcript_select_track">Seleccionar pista</string>
+      <string id="video_transcript_title">Transcripciones</string>
+      <string id="acc_playback_speed">velocidad de reproducción</string>
+      <string id="playback_speed_title">Velocidad de reproducción</string>
+      <string id="playback_speed_normal">Normal</string>
+      <string id="streaming_video_local_playback_learn_more">Saber más</string>
+      <string id="streaming_video_local_playback_republish">Para ver este video, utiliza la funcionalidad de previsualización en Storyline 360, sube tu curso publicado a un servidor, publica el curso en Review 360 o cambia a calidad de video estática.</string>
+      <string id="streaming_video_local_playback_title">El video en streaming no está disponible para reproducción local.</string>
     </string_table>
   </string_tables>
   <fonts>
-    <font name="Open Sans">
+    <font name="Didact Gothic">
       <files>
-        <file bold="true" italic="false" />
+        <file bold="false" italic="false" />
         <file bold="false" italic="false" />
       </files>
     </font>
@@ -1280,12 +1328,7 @@
         <slidelink slideid="_player.6g8RcXIVtvA" displaytext="Nuevo Presentación de Microsoft PowerPoint" expand="true" type="slide">
           <links>
             <slidelink slideid="_player.6g8RcXIVtvA.6GrUdUpuerp" displaytext="Diapositiva sin título" expand="false" type="slide" />
-            <slidelink slideid="_player.6g8RcXIVtvA.6U4etSOAUZk" displaytext="Para abrir el Test Runner se hace clic en:" expand="false" type="slide" />
-            <slidelink slideid="_player.6g8RcXIVtvA.5dbTNEJ55u1" displaytext="Cuál es el atributo (Función) usado en el test runner de Unity 3D para analizar objetos comunes en todas las pruebas:" expand="false" type="slide" />
-            <slidelink slideid="_player.6g8RcXIVtvA.5eQezW6Z2AR" displaytext="Clase que sirve para que la consola del Test Runner dé un mensaje personalizado cuando un determinado Assert NO se ha cumplido:" expand="false" type="slide" />
-            <slidelink slideid="_player.6g8RcXIVtvA.6BKDPvYIQDR" displaytext="Este atributo lo usaremos en cada una de nuestras funciones de test y le indica a Unity que es uno de nuestros test y que debe ejecutarlo dentro de su Test Suite correspondiente:" expand="false" type="slide" />
-            <slidelink slideid="_player.6g8RcXIVtvA.6OUKTPzxFOY" displaytext="Opción del menú de Test Runner para lanzar todos los Test de prueba:" expand="false" type="slide" />
-            <slidelink slideid="_player.6g8RcXIVtvA.6fRtFSQ9g2T" displaytext="Opción para seleccionar un Test en concreto desde la ventana del Test Runner:" expand="false" type="slide" />
+            <slidelink slideid="_player.6g8RcXIVtvA.5vjD5KEOc1q" displaytext="Arrastrar y soltar" expand="false" type="slide" />
           </links>
         </slidelink>
       </links>
