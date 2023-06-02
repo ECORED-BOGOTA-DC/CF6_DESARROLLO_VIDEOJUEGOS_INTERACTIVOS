@@ -4,7 +4,7 @@
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
-        span 1
+        span.texto-blanco 1
       h1 La idea y el concepto de videojuego
 
     .row.justify-content-center.mb-5

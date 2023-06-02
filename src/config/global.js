@@ -410,13 +410,13 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Yazmin Rocio Figueroa Pacheco',
+          nombre: 'Nombre',
           cargo: 'Diseñador web',
           centro:
             'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
         {
-          nombre: 'Diego Fernando Velasco Güiza',
+          nombre: 'Manuel Felipe Echavarria Orozco',
           cargo: 'Desarrollador Fullstack',
           centro:
             'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',

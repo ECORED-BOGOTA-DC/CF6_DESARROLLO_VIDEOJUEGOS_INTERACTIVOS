@@ -6,7 +6,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span
-          i.fas.fa-info
+          i.fas.fa-info.texto-blanco
       h1 Introducción
 
     p A continuación se explican conceptos básicos para el diseño de videojuegos, programación de comportamientos básicos y construcción de prototipos. Estos conocimientos serán útiles para planear videojuegos, de acuerdo con procedimientos y requisitos técnicos a partir de los requerimientos, permitiendo así, esquematizar el prototipo físico de las mecánicas del videojuego de acuerdo al concepto.

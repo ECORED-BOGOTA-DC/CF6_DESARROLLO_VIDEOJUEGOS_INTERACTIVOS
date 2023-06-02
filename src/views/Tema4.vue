@@ -4,7 +4,7 @@
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
-        span 4
+        span.texto-blanco 4
       h1 Diseño y construcción de prototipo físico de videojuegos
 
     separador
