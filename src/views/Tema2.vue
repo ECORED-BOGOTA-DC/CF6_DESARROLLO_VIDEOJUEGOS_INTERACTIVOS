@@ -53,7 +53,8 @@
     .row.justify-content-center.my-5
       .col-lg-8
         .titulo-sexto.color-acento-contenido.mb-5
-          p.mb-0 #[b Figura 3] Ventana de referencia de #[i script]
+          p.mb-0 #[b Figura 3] 
+          i.mb-0 Ventana de referencia de script
 
         figure
           img(src="@/assets/curso/temas/tema2/img2.svg", alt="alt")
@@ -96,8 +97,10 @@
 
     .row.justify-content-center.mb-5
       .col-lg-6
-        p Las variables son elementos en la sintaxis del programa que tienen la capacidad de contener valores e información referente a determinados objetos y tienen una utilidad importante en función de esta información o de estos valores. Los nombres de las variables deben escribirse en minúscula. 
-        p Las funciones son pequeñas estructuras de código que realizan tareas específicas y permiten comparar y manipular variables. Los nombres de las funciones comienzan con la primera letra en mayúscula. El código de programación se organiza en funciones para que sea fácilmente utilizable por el programa.
+        p Las variables son elementos en la sintaxis del programa que tienen la capacidad de contener valores e información referente a determinados objetos y tienen una utilidad importante en función de esta información o de estos valores. #[b Los nombres de las variables deben escribirse en minúscula.]
+
+        p Las funciones son pequeñas estructuras de código que realizan tareas específicas y permiten comparar y manipular variables. #[b Los nombres de las funciones comienzan con la primera letra en mayúscula.] El código de programación se organiza en funciones para que sea fácilmente utilizable por el programa.
+
         p Las clases son estructuras de código que permiten organizar conjuntos de variables y funciones, que funcionan como plantillas, definiendo propiedades de un objeto que pueden ser utilizadas de diferentes formas. Escribir códigos de programación es, en esencia, una labor de comparación entre objetos, sus comportamientos, estados y valores actuales; determinando resultados lógicos y secuencias lógicas.
 
       .col-lg-6.mt-5
@@ -124,25 +127,31 @@
       .tarjeta.tarjeta--gris.p-3.p-lg-5.tema2-bg1
         .row.justify-content-center
           .col-lg-5.mt-5
-            p Al declarar variables visibles o de forma pública, pueden ser observables a través del inspector del motor y es una manera muy sencilla de poder controlarlas, para así modificar sus valores y por lo tanto su comportamiento. Cuando la variable es declarada como privada, no puede verse a través del inspector y sólo puede cambiarse su valor a través de la intervención del código de programación.
+            p Al declarar variables visibles o de forma pública, pueden ser observables a través del inspector del motor y es una manera muy sencilla de poder controlarlas, para así modificar sus valores y por lo tanto su comportamiento. Cuando la variable es declarada como privada, no puede verse a través del inspector y solo puede cambiarse su valor a través de la intervención del código de programación.
+            
             p Además, cuando se hacen públicas las variables, se puede acceder a ellas a través de otros #[i scripts] u otras clases, permitiendo la interacción entre diferentes #[i scripts] y haciendo más dinámica la jugabilidad. 
+            
             p Además de este carácter público o privado, también está el tipo de variable, es decir, la especificación del tipo de información que puede almacenar y, por lo tanto, el tipo de valor que podría mantener en memoria. En términos generales, es necesario especificar el tipo de variable que se está declarando para poder indicarle al motor cómo debe manejar la información o valor que contenga.
 
           .col-lg-5
             .titulo-sexto.color-acento-contenido
-              p.mb-0 #[b Figura 4] Panel del inspector
+              p.mb-0 #[b Figura 4]
+              i.mb-0 Panel del inspector
             figure
               img(src="@/assets/curso/temas/tema2/img7.svg", alt="alt")    
 
     .row.mb-5
-      p #[b Control de variables en el Inspector de Unity:] es importante que las variables tengan un nombre específico, de acuerdo con la información a contener o almacenar, y que al mismo tiempo pueda ser diferenciable de las demás variables que pueda llegar a tener el #[i script]. Al mismo tiempo, tener en cuenta que la variable no se puede nombrar con un número al inicio, ni contener espacios vacíos. 
-      p En la denominación de una variable se suele utilizar un estilo o convención de nomenclatura que es  #[i cameICase]. Esta forma de nombrar la variable  comienza con una letra en minúscula y, si se trata de parejas de palabras, se escriben unidas, y la primera letra de la segunda palabra se escribe en mayúsculas, por ejemplo: “myLight”.
+      p #[b Control de variables en el inspector de Unity:] es importante que las variables tengan un nombre específico, de acuerdo con la información a contener o almacenar, y que al mismo tiempo pueda ser diferenciable de las demás variables que pueda llegar a tener el #[i script]. Al mismo tiempo, tener en cuenta que la variable no se puede nombrar con un número al inicio, ni contener espacios vacíos. 
+      
+      p En la denominación de una variable se suele utilizar un estilo o convención de nomenclatura que es  cameICase. Esta forma de nombrar la variable  comienza con una letra en minúscula y, si se trata de parejas de palabras, se escriben unidas, y la primera letra de la segunda palabra se escribe en mayúsculas, por ejemplo: “myLight”.
+      
       p Tal  como puede observarse en la siguiente imagen, #[i Unity] permite, una vez compilado el código, ver los nombres de las variables separados en el inspector.
 
     .row.justify-content-center.mb-5
       .col-lg-10
         .titulo-sexto.color-acento-contenido
-          p.mb-0 #[b Figura 5] Panel de inspector - componente #[i script]   
+          p.mb-0 #[b Figura 5]
+          i.mb-0 Panel de inspector - componente #[i script]   
 
 
         figure
@@ -262,7 +271,8 @@
     .row.justify-content-center.my-5
       .col-lg-8
         .titulo-sexto.color-acento-contenido.mb-4
-          p.mb-0 #[b Figura 6] Ventana de #[i gameplay]
+          p.mb-0 #[b Figura 6]
+          i.mb-0 Ventana de #[i gameplay]
 
         figure
           img(src="@/assets/curso/temas/tema2/img15.svg", alt="alt")
@@ -296,12 +306,13 @@
             h3.mb-0.tv.margin-icon Mecánica de movimientos
 
     .row.mb-5
-      p Como idea inicial, se tiene un mini juego que consiste en mover de izquierda a derecha y viceversa, un objeto de juego que representará a un personaje, para tratar de esquivar objetos de juego, controlados por el sistema, que se dirigen hacia él y que actuarán como obstáculos.
+      p Como idea inicial, se tiene un minijuego que consiste en mover de izquierda a derecha y viceversa, un objeto de juego que representará a un personaje, para tratar de esquivar objetos de juego, controlados por el sistema, que se dirigen hacia él y que actuarán como obstáculos.
 
     .row.justify-content-center.my-5
       .col-lg-10
         .titulo-sexto.color-acento-contenido.mb-4
-          p.mb-0 #[b Figura 7] Algoritmo visual - Transformación
+          p.mb-0 #[b Figura 7]
+          i.mb-0 Algoritmo visual - Transformación
 
         figure
           img(src="@/assets/curso/temas/tema2/img16.svg", alt="alt")
@@ -434,7 +445,8 @@
     .row.justify-content-center.my-5
       .col-lg-10
         .titulo-sexto.color-acento-contenido.mb-4
-          p.mb-0 #[b Figura 8] Algoritmo visual - Función de colisión
+          p.mb-0 #[b Figura 8]
+          i.mb-0 Algoritmo visual - Función de colisión
 
         figure
           img(src="@/assets/curso/temas/tema2/img23.svg", alt="alt")
@@ -492,7 +504,8 @@
     .row.justify-content-center.my-5
       .col-lg-10
         .titulo-sexto.color-acento-contenido.mb-4
-          p.mb-0 #[b Figura 9] Algoritmo visual - Condicional de colisión
+          p.mb-0 #[b Figura 9]
+          i.mb-0 Algoritmo visual - Condicional de colisión
 
         figure
           img(src="@/assets/curso/temas/tema2/img26.svg", alt="alt")

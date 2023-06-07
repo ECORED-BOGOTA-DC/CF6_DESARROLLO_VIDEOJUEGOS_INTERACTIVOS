@@ -69,7 +69,8 @@
     .row.justify-content-center.mb-5
       .col-lg-8
         .titulo-sexto.color-acento-contenido.mb-5
-          p.mb-0 #[b Figura 10] <i>Wireframe</i> de interfaz de videojuego Marvel Trivia
+          p.mb-0 #[b Figura 10]
+          i.mb-0 Wireframe de interfaz de videojuego Marvel Trivia
 
         figure
           img(src="@/assets/curso/temas/tema5/img3.svg", alt="alt")
@@ -90,7 +91,8 @@
     .row.justify-content-center.mb-5
       .col-lg-8
         .titulo-sexto.color-acento-contenido.mb-5
-          p.mb-0 #[b Figura 11] Maqueta de prototipo físico Videojuego Ivarok
+          p.mb-0 #[b Figura 11]
+          i.mb-0 Maqueta de prototipo físico Videojuego Ivarok
 
         figure
           img(src="@/assets/curso/temas/tema5/img4.jpg", alt="alt")
@@ -102,8 +104,9 @@
             .list__item__icon1
               img(src='@/assets/curso/temas/tema1/img2.svg', alt='')
           .list__txt
-            h3.mb-0.tv.margin-icon Storyboard experiencial      
-      p Si bien un guion gráfico no se considera como un prototipo físico en sentido estricto, se trata de utilizar modelos de Role Play unidos a la metodología de guion gráfico, que puedan representar de manera física, visual y dramatizada la experiencia de usuario y, sobre todo, las connotaciones posibles que pueda llegar a tener el jugador al momento de jugar.  
+            h3.mb-0.tv.margin-icon #[i Storyboard] experiencial
+
+      p Si bien un guion gráfico no se considera como un prototipo físico en sentido estricto, se trata de utilizar modelos de #[i Role Play] unidos a la metodología de guion gráfico, que puedan representar de manera física, visual y dramatizada la experiencia de usuario y, sobre todo, las connotaciones posibles que pueda llegar a tener el jugador al momento de jugar.  
 
     .row.justify-content-center.mb-5
       .col-lg-8
@@ -121,7 +124,8 @@
     .row.justify-content-center.mb-5
       .col-lg-8
         .titulo-sexto.color-acento-contenido.mb-5
-          p.mb-0 #[b Figura 12] Prototipo de videojuego realizado con <i>Game Builder</i> de Google
+          p.mb-0 #[b Figura 12]
+          i.mb-0 Prototipo de videojuego realizado con <i>Game Builder</i> de Google
 
         figure
           img(src="@/assets/curso/temas/tema5/img6.svg", alt="alt")
@@ -153,7 +157,7 @@
           li 
             .lista-ol--cuadro__vineta
               span d
-            | #[b.w-b Prototipar la tecnología:] en este último aspecto, se trata de evaluar la manera como la kinestesia se desenvuelve de acuerdo con un determinado tipo de tecnología, y cómo favorece o perjudica las mecánicas de juegos. Por ejemplo, simular el juego a través de una pantalla táctil o con joystick.
+            | #[b.w-b Prototipar la tecnología:] en este último aspecto, se trata de evaluar la manera como la kinestesia se desenvuelve de acuerdo con un determinado tipo de tecnología, y cómo favorece o perjudica las mecánicas de juegos. Por ejemplo, simular el juego a través de una pantalla táctil o con #[i joystick].
       .col-6
         figure
           img(src="@/assets/curso/temas/tema5/img7.png", alt="alt")

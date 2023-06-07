@@ -222,7 +222,7 @@ export default {
     {
       termino: '<i>Asset Server</i>',
       significado:
-        '<i>Legacy:</i> un sistema de control de activos y versiones, con una interfaz gráfica de usuario integrada en Unity. Permite a los miembros del equipo trabajar juntos en un proyecto en diferentes computadoras.',
+        '<i>legacy:</i> un sistema de control de activos y versiones, con una interfaz gráfica de usuario integrada en Unity. Permite a los miembros del equipo trabajar juntos en un proyecto en diferentes computadoras.',
     },
     {
       termino: '<i>Asset Store</i>',

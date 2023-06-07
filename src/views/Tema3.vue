@@ -65,7 +65,7 @@
 
           tr.text-center
             th.size-tab <i>Copy PDB files (Windows only)</i>
-            td Habilite esta configuración para incluir archivos de base de datos de programas de <i>Microsoft</i> (.pdb) en el reproductor independiente integrado. Los archivos .pdb contienen información de depuración de la aplicación que puede utilizar para depurar su aplicación. La copia de archivos .pdb puede aumentar el tamaño de su reproductor, por lo que debe deshabilitar esta configuración para las compilaciones destinadas a la publicación. Esta configuración está deshabilitada de forma predeterminada.
+            td Habilite esta configuración para incluir archivos de base de datos de programas de Microsoft (.pdb) en el reproductor independiente integrado. Los archivos .pdb contienen información de depuración de la aplicación que puede utilizar para depurar su aplicación. La copia de archivos .pdb puede aumentar el tamaño de su reproductor, por lo que debe deshabilitar esta configuración para las compilaciones destinadas a la publicación. Esta configuración está deshabilitada de forma predeterminada.
 
           tr.bgr-tr.text-center
             th.size-tab <i>Create Visual Studio Solution (Windows only)</i>
@@ -73,19 +73,19 @@
 
           tr.text-center
             th.size-tab <i>Create Xcode Project (Mac Only)</i>
-            td Habilite esta configuración para generar un proyecto de <i>Xcode</i> para que pueda construir su paquete de aplicación final en <i>Xcode. Xcode</i> tiene soporte integrado para la firma de código y la carga de la aplicación en la <i>Mac App Store</i>.
+            td Habilite esta configuración para generar un proyecto de Xcode para que pueda construir su paquete de aplicación final en Xcode. Xcode tiene soporte integrado para la firma de código y la carga de la aplicación en la Mac App Store.
 
           tr.bgr-tr.text-center
             th.size-tab <i>Development Build</i>
-            td Habilite esta configuración para incluir símbolos de depuración de secuencias de comandos e incluir <i>Profiler</i> en su construcción. Cuando habilita esta configuración, se establece la definición de <i>scripting Development_Build</i>. Debe utilizar esta opción cuando desee probar su aplicación.
+            td Habilite esta configuración para incluir símbolos de depuración de secuencias de comandos e incluir profiler en su construcción. Cuando habilita esta configuración, se establece la definición de <i>scripting Development_Build</i>. Debe utilizar esta opción cuando desee probar su aplicación.
 
           tr.text-center
-            th.size-tab <i>Autoconnect profiler</i>
-            td Requiere que se habilite la opción <i>Development Build</i>. Cuando se habilita esta configuración, <i>Unity Profiler</i> se conecta automáticamente a su compilación.
+            th.size-tab <i>Autoconnect</i> profiler
+            td Requiere que se habilite la opción <i>Development Build</i>. Cuando se habilita esta configuración, <i>Unity</i> profiler se conecta automáticamente a su compilación.
 
           tr.bgr-tr.text-center
             th.size-tab <i>Deep Profiling Support</i>
-            td Requiere que se habilite la opción Development Build. Deep Profiling Support permite que <i>Unity</i> Profiler registre datos más detallados, instrumentando cada llamada de función. Habilitar la creación de perfiles profundos puede ralentizar la ejecución del script.
+            td Requiere que se habilite la opción Development Build. Deep Profiling Support permite que <i>Unity</i> Profiler registre datos más detallados, instrumentando cada llamada de función. Habilitar la creación de perfiles profundos puede ralentizar la ejecución del #[i script.]
 
           tr.text-center
             th.size-tab <i>Script debugging</i>

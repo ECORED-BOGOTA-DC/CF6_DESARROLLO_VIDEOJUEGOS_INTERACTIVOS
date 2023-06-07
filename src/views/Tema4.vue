@@ -229,7 +229,7 @@
                 img(src="@/assets/curso/temas/tema4/img1.svg", alt="alt").tm2-img17
             
             .col-lg-11
-              p.mb-0.mt-2 #[b Acciones operativas:] son las acciones que el jugador puede realizar, y forman parte de su mecánica de núcleo. Por ejemplo, en Mario Bros, el jugador puede caminar, correr y saltar.
+              p.mb-0.mt-2 #[b Acciones operativas:] son las acciones que el jugador puede realizar, y forman parte de su mecánica de núcleo. Por ejemplo, en #[i Mario Bros], el jugador puede caminar, correr y saltar.
 
         .tarjeta--morada.p-3.mb-4
           .row

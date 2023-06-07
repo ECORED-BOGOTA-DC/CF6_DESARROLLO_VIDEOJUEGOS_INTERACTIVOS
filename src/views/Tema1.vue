@@ -41,8 +41,8 @@
 
     .row.mb-5
       .tarjeta.tarjeta--gris.p-3.p-lg-5.tema1-bg1
-        p Si bien no todos los videojuegos tienen en sí mismos una historia concreta, pueden discernirse relaciones de eventos y hechos en el transcurrir del juego, donde, al cumplir retos, el jugador construye sus propias narraciones, como es el caso de Pong, el primer videojuego desarrollado en la historia de este tipo de contenidos, publicado en 1972, y que consiste básicamente en una metáfora funcional del ping pong. Conceptualmente, se tienen dos tipos de interacción narrativa:  la narrativa embebida, que involucra la construcción en sí misma del universo a través de los mecanismos propios del videojuego (cinemáticas, mecánica de jugabilidad), y la narrativa emergente, que se define en la medida en que el jugador interactúa con el videojuego y se apropia de la historia general del mismo.
-        p Pong
+        p Si bien no todos los videojuegos tienen en sí mismos una historia concreta, pueden discernirse relaciones de eventos y hechos en el transcurrir del juego, donde, al cumplir retos, el jugador construye sus propias narraciones, como es el caso de #[i Pong], el primer videojuego desarrollado en la historia de este tipo de contenidos, publicado en 1972, y que consiste básicamente en una metáfora funcional del #[i ping-pong]. Conceptualmente, se tienen dos tipos de interacción narrativa:  la narrativa embebida, que involucra la construcción en sí misma del universo a través de los mecanismos propios del videojuego (cinemáticas, mecánica de jugabilidad), y la narrativa emergente, que se define en la medida en que el jugador interactúa con el videojuego y se apropia de la historia general del mismo.
+        i Pong
 
         figure
           img(src="@/assets/curso/temas/tema1/img3.svg", alt="alt")
@@ -64,25 +64,27 @@
     .row.justify-content-center.mb-5
       .col-lg-8
         .titulo-sexto.color-acento-contenido.mb-5
-          p.mb-0 #[b Figura 1] Narrativa lineal
+          p.mb-0 #[b Figura 1] 
+          i.mb-0 Narrativa lineal
 
         figure
           img(src="@/assets/curso/temas/tema1/img4.svg", alt="alt")
 
     .row.mb-5
-      p En este tipo de narrativas, se tiene un segundo tipo llamado collar de perlas (#[i String of pearls]), donde la narración lineal es interrumpida cierto tiempo, por periodos cortos, donde el jugador debe tomar decisiones, aparentemente basado en múltiples opciones, que, sin embargo, lo llevarán siempre a una misma línea narrativa que no afecta la narración ni el #[i gameplay] del videojuego. (Ejemplo: #[i Call of Duty, Quake])
+      p En este tipo de narrativas, se tiene un segundo tipo llamado collar de perlas (#[i String of pearls]), donde la narración lineal es interrumpida cierto tiempo, por periodos cortos, donde el jugador debe tomar decisiones, aparentemente basado en múltiples opciones, que, sin embargo, lo llevarán siempre a una misma línea narrativa que no afecta la narración ni el #[i gameplay] del videojuego. (Ejemplo: #[i Call of Duty, Quake]).
 
     .row.justify-content-center.mb-5
       .col-lg-8
         .titulo-sexto.color-acento-contenido.mb-5
-          p.mb-0 #[b Figura 2] Videojuego #[i Quake]
+          p.mb-0 #[b Figura 2]
+          i.mb-0 Videojuego #[i Quake]
 
         figure
           img(src="@/assets/curso/temas/tema1/img5.png", alt="alt")
           figcaption Referencia de la imagen: https://store.epicgames.com/es-ES/p/quake
 
     .row.mb-4
-      h3.text-center Tipos de narrativas lineales:
+      h3.text-center Tipos de narrativas lineales
 
     TabsC.color-acento-contenido.mb-5
       .py-3.py-md-4(titulo="Narrativa ramificada")
@@ -119,7 +121,7 @@
       .py-3.py-md-4(titulo="Narrativa de embudo")
         .row
           .col-md-6.mb-4.mb-md-0
-            p.mb-3 En este tipo de narrativa existen ramificaciones en la historia, sin embargo, en algún momento, algunas de estas ramas convergen en puntos específicos de la narración, que en sí mismos constituyen un cuello de botella o puntos de choque. Básicamente, el jugador, aún cuando explore diferentes alternativas, se verá involucrado en una misma línea de narración. (Ejemplo: #[i Far Cry 2, The Witcher 2]).
+            p.mb-3 En este tipo de narrativa existen ramificaciones en la historia, sin embargo, en algún momento, algunas de estas ramas convergen en puntos específicos de la narración, que en sí mismos constituyen un cuello de botella o puntos de choque. Básicamente, el jugador, aun cuando explore diferentes alternativas, se verá involucrado en una misma línea de narración. (Ejemplo: #[i Far Cry 2, The Witcher 2]).
             
           
           .col-md-6
@@ -196,11 +198,11 @@
       .cajon.color-primario.p-4.mb-5
         p.mb-0 Según Greimas, los roles actanciales son realizados por los “actantes” (persona, animal o cosa), por lo tanto, son los que realizan las acciones propias dentro de la narración. Se consideran actantes independientemente de cualquier determinación o de cualquier concepto externo, y su caracterización viene determinada por el rol que desempeñan.
 
-      p.mb-4 Los tipos de personajes constituyen los modelos de personaje humano o animado que posee rasgos estereotípicos físicos, psicológicos y morales prefijados por el común de usuario o consumidores de contenido.
+      p.mb-4 Los tipos de personajes constituyen los modelos de personaje humano o animado que posee rasgos estereotípicos, físicos, psicológicos y morales prefijados por el común de usuario o consumidores de contenido.
       p A continuación, se puede observar una tabla que reúne los principales roles actanciales desde las propuestas realizadas por tres autores diferentes (Hartt, 2019):
 
 
-    .tabla-a.color-acento-botones 
+    .tabla-a.color-acento-botones.mb-5
       table
         thead
           tr.text-white
@@ -243,6 +245,9 @@
             td Traidor o falso héroe
             td ***
             td Oponente
+
+    .row.mb-3
+      p A partir del anterior esquema, se determinarán los siguientes #[b roles actanciales:]
 
 
     .row.mb-5
@@ -478,7 +483,7 @@
               .list__item__icon
                 img(src='@/assets/curso/temas/tema1/icono2.svg', alt='')
             .list__txt
-              p.mb-0.tv.margin-icon #[b Supervivencia:] comprende el instinto fundamental del ser humano de sobrevivir y prosperar. Se trata de videojuegos donde el objetivo fundamental es protegerse a sí mismo y sobrevivir durante el videojuego.
+              p.mb-0.tv.margin-icon #[b Supervivencia:] comprende el instinto fundamental del ser humano de sobrevivir y prosperar. Se trata de videojuegos donde el objetivo primordial es protegerse a sí mismo y sobrevivir durante el videojuego.
 
           .list.mb-3(data-aos="fade-down")
             .list__item
@@ -540,8 +545,12 @@
             p Un aspecto importante de este estilo es que es característico de algunos videojuegos independientes, ya que resulta económico implementarlo y generar toda una estética general para un videojuego, logrando resultados de atractivo y apariencia muy llamativa. 
 
           .col-md-6
+            .row.justify-content-center
+              .col-10
+                .tarjeta.tarjeta--blanca.p-2
+                  p.text-center Sword & Sworcery EP, Superbrothers
             figure
-              img(src='@/assets/curso/temas/tema1/img26.svg', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema1/img26.svg', alt='Texto que describa la imagen').imgslyder
 
         .row
           .col-md-6.mb-4.mb-md-0
@@ -549,8 +558,12 @@
             p Del estilo del píxel art se pasa muy fácilmente al del recurso estilístico propio de la ilustración 2D. El propósito en la implementación de este estilo es brindar una apariencia similar a los dibujos animados, pero recurriendo a las actuales tecnologías de desarrollo,  bien sea el motor 3D o 2D.
 
           .col-md-6
+            .row.justify-content-center
+              .col-10
+                .tarjeta.tarjeta--blanca.p-2
+                  p.text-center Cuphead, Studio MDHR
             figure
-              img(src='@/assets/curso/temas/tema1/img27.svg', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema1/img27.svg', alt='Texto que describa la imagen').imgslyder
 
         .row
           .col-md-6.mb-4.mb-md-0
@@ -558,8 +571,12 @@
             p Si bien los anteriores ejemplos se basan fundamentalmente en la construcción de imágenes basadas en píxeles, en este caso, los gráficos son creados a partir de geometrías en sistemas de coordenadas de tres a dos ejes, y el dibujo resultante, básicamente, es un vector que puede exigir un mayor esfuerzo de cálculo matemático, sin embargo, aporta un significativo valor estético.
 
           .col-md-6
+            .row.justify-content-center
+              .col-10
+                .tarjeta.tarjeta--blanca.p-2
+                  p.text-center Locoroco, SCE Japan Studio
             figure
-              img(src='@/assets/curso/temas/tema1/img28.svg', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema1/img28.svg', alt='Texto que describa la imagen').imgslyder
 
         .row
           .col-md-6.mb-4.mb-md-0
@@ -567,8 +584,12 @@
             p Es el principal recurso de construcción formal de los videojuegos 3D y básicamente se trata de la construcción de modelos tridimensionales mediante mallas poligonales. Como en el caso anterior, se trata de gráficos construidos con geometrías cuyo cálculo matemático es exigente, pero compensado con resultados de realismo y de impacto visual significativo.
 
           .col-md-6
+            .row.justify-content-center
+              .col-10
+                .tarjeta.tarjeta--blanca.p-2
+                  p.text-center Uncharted 3, Naughty Dog
             figure
-              img(src='@/assets/curso/temas/tema1/img29.svg', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema1/img29.svg', alt='Texto que describa la imagen').imgslyder
 
         .row
           .col-md-6.mb-4.mb-md-0
@@ -576,8 +597,12 @@
             p En realidad, se trata de una construcción basada en los gráficos 3D, sin embargo, las formas de los elementos que componen el videojuego, bien sea arquitectura, vehículos, objetos, o personajes, se basa en la implementación de una unidad mínima de construcción que es una simple caja 3D. En la actualidad, más que una técnica de construcción, es un estilo visual.
 
           .col-md-6
+            .row.justify-content-center
+              .col-10
+                .tarjeta.tarjeta--blanca.p-2
+                  p.text-center Minecraft, Mojang
             figure
-              img(src='@/assets/curso/temas/tema1/img30.svg', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema1/img30.svg', alt='Texto que describa la imagen').imgslyder
 
         .row
           .col-md-6.mb-4.mb-md-0
@@ -585,8 +610,12 @@
             p En primer lugar, estos videojuegos pueden estar construidos en motores 2D o 3D, mediante modelos tridimensionales o #[i sprites], y lo que constituye su verdadero valor estético es la manera como se asume la perspectiva de cámara, generalmente perpendicular al plano general del videojuego.
 
           .col-md-6
+            .row.justify-content-center
+              .col-10
+                .tarjeta.tarjeta--blanca.p-2
+                  p.text-center Prince of Persia Classic (XBLA, Ubisoft)
             figure
-              img(src='@/assets/curso/temas/tema1/img31.svg', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema1/img31.svg', alt='Texto que describa la imagen').imgslyder
 
 
     separador

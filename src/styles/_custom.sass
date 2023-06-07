@@ -82,10 +82,21 @@
 .tema1-bg2
   background-image: url(../assets/curso/temas/tema1/bg4.png)
   background-size: 100% 100%
+  @media (max-width: 500px)
+    background-image: url(../assets/curso/temas/tema1/bg4.png)
+    background-size: cover
 
 .tema1-bg3
   background-image: url(../assets/curso/temas/tema1/bg5.png)
   background-size: 100% 100%
+
+//imgagen slyder
+
+.imgslyder
+  position: relative
+  margin-top: -5%
+  @media (max-width: 500px)
+    margin-top: -10%
 
 //slyderA tipo a
 
@@ -123,7 +134,7 @@
   bottom: 0
   background-position: center
   background-size: cover
-  @media (max-width: 500px)
+  @media (max-width: 720px)
     height: 250px
     width: 100%
     left: 0%
@@ -133,7 +144,7 @@
   width: 60%
   background-color: rgba(255, 255, 255, 0.95)
   right: 40%
-  @media (max-width: 500px)
+  @media (max-width: 720px)
     width: 100%
     right: 0%
 
