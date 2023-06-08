@@ -135,25 +135,25 @@
     .row.mt-5.justify-content-center.align-items-center 
       .col-6
 
-        ol.lista-ol--cuadro.mt-5(data-aos="fade-up")
+        ol.lista-ol--cuadro.mt-5(data-aos="fade-down")
           li 
             .lista-ol--cuadro__vineta
               span a
             | #[b.w-b Prototipar las mecánicas de juegos:] algunas mecánicas pueden ser más fáciles de comprender y de evaluar cuando se analizan y se desarrollan en un sistema digital que en uno físico.
         hr
-        ol.lista-ol--cuadro(data-aos="fade-up")
+        ol.lista-ol--cuadro(data-aos="fade-down")
           li 
             .lista-ol--cuadro__vineta
               span b
             | #[b.w-b Prototipar la estética del juego:] se enfoca fundamentalmente en la apariencia visual y gráfica del videojuego. En este tipo de prototipado, se trata de representar de manera simple las gráficas del juego. Puede ayudar a comprender el funcionamiento del juego y, entre otros, la manipulación y sentido de la interfaz de usuario.
         hr
-        ol.lista-ol--cuadro(data-aos="fade-up")
+        ol.lista-ol--cuadro(data-aos="fade-down")
           li 
             .lista-ol--cuadro__vineta
               span c
             | #[b.w-b Prototipar la kinestesia del juego:] en este punto, se trata de reproducir la forma en la que el juego funciona y determinar cómo es el comportamiento corporal esperado en un jugador, bien sea lo que se refiere a las reacciones o a la interacción con dispositivos de control.
         hr
-        ol.lista-ol--cuadro(data-aos="fade-up")
+        ol.lista-ol--cuadro(data-aos="fade-down")
           li 
             .lista-ol--cuadro__vineta
               span d
