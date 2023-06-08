@@ -8,17 +8,17 @@
       h1 Configuración de compilación y plataforma de publicación
 
     .row
-      p Para la configuración de plataforma y jugador, se verán los aspectos esenciales a tener en cuenta para el proceso de configuración de compilación y plataforma de publicación.
+      p(data-aos="fade-left") Para la configuración de plataforma y jugador, se verán los aspectos esenciales a tener en cuenta para el proceso de configuración de compilación y plataforma de publicación.
 
     separador
 
-    #t_3_1.titulo-segundo.color-acento-contenido
+    #t_3_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 3.1 Configuración de compilación
 
     .row  
-      p En el siguiente recuadro, se pueden observar los elementos fundamentales a configurar durante el proceso de compilación del videojuego. Cabe resaltar que es necesario determinar los valores de estas variables antes de iniciar con cualquier gestión dentro del proyecto de videojuego, es decir, en el momento de crear la carpeta del proyecto, se deben determinar de antemano estas características:
+      p(data-aos="fade-left") En el siguiente recuadro, se pueden observar los elementos fundamentales a configurar durante el proceso de compilación del videojuego. Cabe resaltar que es necesario determinar los valores de estas variables antes de iniciar con cualquier gestión dentro del proyecto de videojuego, es decir, en el momento de crear la carpeta del proyecto, se deben determinar de antemano estas características:
 
-    .tabla-a.color-acento-botones 
+    .tabla-a.color-acento-botones(data-aos="fade-down")
       table
         thead
           tr.text-white
@@ -97,10 +97,10 @@
 
     separador
 
-    #t_3_2.titulo-segundo.color-acento-contenido
+    #t_3_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 3.2 Configuraciones generales de jugador
 
-    .row.mb-4
+    .row.mb-4(data-aos="fade-left")
       p En la siguiente tabla, se pueden observar las configuraciones generales de jugador en términos de las propiedades de pantalla:
           
     .tabla-a.color-acento-botones 
@@ -183,7 +183,7 @@
 
     separador
 
-    #t_3_3.titulo-segundo.color-acento-contenido
+    #t_3_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 3.3 Características de jugador en términos de renderizado
 
           
