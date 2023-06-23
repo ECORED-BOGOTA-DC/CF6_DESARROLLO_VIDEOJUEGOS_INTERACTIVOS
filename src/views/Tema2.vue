@@ -51,7 +51,7 @@
           p.mb-0 En #[i Unity], la edición de archivos de programación se hace en #[i Visual Studio Code] (VS #[i Code]). Para abrir #[i scripts] en VS #[i Code], selecciónelo como Editor de #[i script] externo en las Preferencias del editor (menú: #[i Unity]> Preferencias> Herramientas externas> Editor de #[i script] externo). Para obtener información sobre el uso de VS #[i Code] con #[i Unity], consulte la documentación de #[i Visual Studio] sobre Desarrollo de #[i Unity] con VS #[i Code].
 
     .row.justify-content-center.my-5
-      .col-lg-8
+      .col-lg-12
         .titulo-sexto.color-acento-contenido.mb-5(data-aos="fade-right")
           p.mb-0 #[b Figura 3] 
           i.mb-0 Ventana de referencia de script
@@ -269,7 +269,7 @@
       p(data-aos="fade-left") Los videojuegos, en su jugabilidad, y específicamente las mecánicas de videojuego, se relacionan directamente con los procesos de codificación o programación de comportamientos. Desde un ejemplo práctico, se verá cómo se plantea una lógica de programación basada en tres mecánicas básicas: movimiento, colisión y premio / castigo.
 
     .row.justify-content-center.my-5
-      .col-lg-8
+      .col-lg-12
         .titulo-sexto.color-acento-contenido.mb-4
           p.mb-0 #[b Figura 6]
           i.mb-0 Ventana de #[i gameplay]

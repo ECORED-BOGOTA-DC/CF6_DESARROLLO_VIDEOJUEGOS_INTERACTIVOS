@@ -63,7 +63,7 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '2.1',
-            titulo: 'Descripción de la API de Unity (C-Sharp)',
+            titulo: 'Descripción de la API de <i>Unity</i> (C-Sharp)',
             hash: 't_2_1',
           },
           {
@@ -194,37 +194,37 @@ export default {
     {
       termino: '<i>Audio Clip</i>',
       significado:
-        'Un contenedor para datos de audio en Unity. Unity admite activos de audio mono, estéreo y multicanal (hasta ocho canales). Unity puede importar formatos de archivo de audio .aif, .wav, .mp3 y .ogg, y formatos de módulo de seguimiento .xm, .mod, .it y .s3m.',
+        'Un contenedor para datos de audio en <i>Unity</i>. <i>Unity</i> admite activos de audio mono, estéreo y multicanal (hasta ocho canales). <i>Unity</i> puede importar formatos de archivo de audio .aif, .wav, .mp3 y .ogg, y formatos de módulo de seguimiento .xm, .mod, .it y .s3m.',
     },
     {
       termino: '<i>Asset</i>',
       significado:
-        'Cualquier recurso susceptible de ser usado en los juegos y que está contenido en la carpeta de proyecto. Puede provenir de un archivo externo creado en un programa diferente de Unity, como un archivo 3D, un archivo de formato de audio o imagen. También se pueden crear algunos tipos de assets en Unity, como un <i>Animator Controller,</i> un <i>Audio Mixer o una Render Texture.</i>',
+        'Cualquier recurso susceptible de ser usado en los juegos y que está contenido en la carpeta de proyecto. Puede provenir de un archivo externo creado en un programa diferente de <i>Unity</i>, como un archivo 3D, un archivo de formato de audio o imagen. También se pueden crear algunos tipos de assets en <i>Unity</i>, como un <i>Animator Controller,</i> un <i>Audio Mixer o una Render Texture.</i>',
     },
     {
       termino: '<i>Asset package</i>',
       significado:
-        'Es un conjunto de archivos recursos del proyecto de Unity, que se empaquetan de forma comprimida en un archivo similar a los archivos Zip, con la extensión <i>unitypackage</i>. Los paquetes de recursos son una forma práctica de compartir y reutilizar proyectos y colecciones de activos de Unity.',
+        'Es un conjunto de archivos recursos del proyecto de <i>Unity</i>, que se empaquetan de forma comprimida en un archivo similar a los archivos Zip, con la extensión <i>unitypackage</i>. Los paquetes de recursos son una forma práctica de compartir y reutilizar proyectos y colecciones de activos de <i>Unity</i>.',
     },
     {
       termino: '<i>Asset Server</i>',
       significado:
-        '<i>legacy:</i> un sistema de control de activos y versiones, con una interfaz gráfica de usuario integrada en Unity. Permite a los miembros del equipo trabajar juntos en un proyecto en diferentes computadoras.',
+        '<i>legacy:</i> un sistema de control de activos y versiones, con una interfaz gráfica de usuario integrada en <i>Unity</i>. Permite a los miembros del equipo trabajar juntos en un proyecto en diferentes computadoras.',
     },
     {
       termino: '<i>Asset Store</i>',
       significado:
-        'Es una biblioteca donde pueden encontrarse recursos gratuitos o comerciales creados por la comunidad de Unity, organizada por categorías y que abarca diferentes tipos de medios para integrar de manera automática a un proyecto de videojuego.',
+        'Es una biblioteca donde pueden encontrarse recursos gratuitos o comerciales creados por la comunidad de <i>Unity</i>, organizada por categorías y que abarca diferentes tipos de medios para integrar de manera automática a un proyecto de videojuego.',
     },
     {
       termino: '<i>Asset Store package</i>',
       significado:
-        'Colección agrupada de activos disponibles para comprar o descargar en Unity Asset Store, comprimidos y almacenados en un archivo con la extensión <i>.unitypackage</i>, como un paquete de activos. Puede administrar sus paquetes de la tienda de activos en la tienda en línea o a través de la ventana Administrador de paquetes.',
+        'Colección agrupada de activos disponibles para comprar o descargar en <i>Unity</i> Asset Store, comprimidos y almacenados en un archivo con la extensión <i>.unitypackage</i>, como un paquete de activos. Puede administrar sus paquetes de la tienda de activos en la tienda en línea o a través de la ventana Administrador de paquetes.',
     },
     {
       termino: '<i>Category</i>',
       significado:
-        'Categoría <i>Profiler</i> identifica los datos de la carga de trabajo para un subsistema de Unity (por ejemplo, las categorías <i>Rendering, Scripting y Animation</i>). Unity aplica códigos de colores a las categorías para ayudar a distinguir visualmente los tipos de datos en la ventana <i>Profiler</i>.',
+        'Categoría <i>Profiler</i> identifica los datos de la carga de trabajo para un subsistema de <i>Unity</i> (por ejemplo, las categorías <i>Rendering, Scripting y Animation</i>). <i>Unity</i> aplica códigos de colores a las categorías para ayudar a distinguir visualmente los tipos de datos en la ventana <i>Profiler</i>.',
     },
     {
       termino: '<i>Compression</i>',
@@ -239,12 +239,12 @@ export default {
     {
       termino: '<i>GameObject</i>',
       significado:
-        'Es el objeto fundamental en las escenas de Unity, que puede representar personajes, accesorios, escenarios, cámaras, <i>waypoints</i> y más. La funcionalidad de un <i>GameObject</i> está definida por los Componentes adjuntos a él.',
+        'Es el objeto fundamental en las escenas de <i>Unity</i>, que puede representar personajes, accesorios, escenarios, cámaras, <i>waypoints</i> y más. La funcionalidad de un <i>GameObject</i> está definida por los Componentes adjuntos a él.',
     },
     {
       termino: '<i>Level of Detail</i>',
       significado:
-        'La técnica de nivel de detalle (LOD) es una optimización que reduce la cantidad de triángulos que Unity tiene que representar para un <i>GameObject</i> cuando aumenta su distancia de la cámara.',
+        'La técnica de nivel de detalle (LOD) es una optimización que reduce la cantidad de triángulos que <i>Unity</i> tiene que representar para un <i>GameObject</i> cuando aumenta su distancia de la cámara.',
     },
     {
       termino: '<i>Model</i>',
@@ -259,7 +259,7 @@ export default {
     {
       termino: '<i>Package</i>',
       significado:
-        'Es un contenedor que almacena varios tipos de características y activos para Unity, incluidas las herramientas y bibliotecas de Editor o Runtime, colecciones de activos y plantillas de proyectos. Los paquetes son unidades independientes que <i>Unity Package Manager</i> puede compartir entre los proyectos de Unity. La mayoría de las veces se denominan paquetes, pero ocasionalmente se denominan paquetes <i>Unity Package Manager</i> (UPM).',
+        'Es un contenedor que almacena varios tipos de características y activos para <i>Unity</i>, incluidas las herramientas y bibliotecas de Editor o <i>Runtime</i>, colecciones de activos y plantillas de proyectos. Los paquetes son unidades independientes que <i>Unity Package Manager</i> puede compartir entre los proyectos de Unity. La mayoría de las veces se denominan paquetes, pero ocasionalmente se denominan paquetes <i>Unity Package Manager</i> (UPM).',
     },
     {
       termino: '<i>Prefab</i>',
@@ -274,7 +274,7 @@ export default {
     {
       termino: '<i>Project</i>',
       significado:
-        'En Unity, se usa un proyecto para diseñar y desarrollar un juego. Un proyecto almacena todos los archivos relacionados con un juego, como el activo y los archivos de escena.',
+        'En <i>Unity</i>, se usa un proyecto para diseñar y desarrollar un juego. Un proyecto almacena todos los archivos relacionados con un juego, como el activo y los archivos de escena.',
     },
     {
       termino: '<i>Project Settings</i>',

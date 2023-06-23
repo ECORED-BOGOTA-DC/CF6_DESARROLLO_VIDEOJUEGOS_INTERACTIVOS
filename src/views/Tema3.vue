@@ -61,31 +61,31 @@
 
           tr.bgr-tr.text-center
             th.size-tab <i>Server Build</i>
-            td Habilite esta configuración para crear el reproductor para uso del servidor y sin elementos visuales (sin cabeza), sin la necesidad de ninguna opción de línea de comando. Cuando habilita esta configuración, <i>Unity</i> crea scripts administrados con la definición de <i>UNITY_SERVER</i>, lo que significa que puede escribir código específico del servidor para su aplicación. También puede compilar la versión de Windows como una aplicación de consola para acceder a <i>stdin</i> y <i>stdout</i>. Los registros de <i>Unity</i> van a la salida estándar de forma predeterminada.
+            td Habilite esta configuración para crear el reproductor para uso del servidor y sin elementos visuales (sin cabeza), sin la necesidad de ninguna opción de línea de comando. Cuando habilita esta configuración, <i>Unity</i> crea <i>scripts</i> administrados con la definición de <i>UNITY_SERVER</i>, lo que significa que puede escribir código específico del servidor para su aplicación. También puede compilar la versión de Windows como una aplicación de consola para acceder a <i>stdin</i> y <i>stdout</i>. Los registros de <i>Unity</i> van a la salida estándar de forma predeterminada.
 
           tr.text-center
-            th.size-tab <i>Copy PDB files (Windows only)</i>
+            th.size-tab <i>Copy</i> PDB <i>files</i> (Windows only)
             td Habilite esta configuración para incluir archivos de base de datos de programas de Microsoft (.pdb) en el reproductor independiente integrado. Los archivos .pdb contienen información de depuración de la aplicación que puede utilizar para depurar su aplicación. La copia de archivos .pdb puede aumentar el tamaño de su reproductor, por lo que debe deshabilitar esta configuración para las compilaciones destinadas a la publicación. Esta configuración está deshabilitada de forma predeterminada.
 
           tr.bgr-tr.text-center
-            th.size-tab <i>Create Visual Studio Solution (Windows only)</i>
+            th.size-tab <i>Create Visual Studio Solution</i> (Windows only)
             td Habilite esta configuración para generar archivos de la solución de Visual Studio para su proyecto, de modo que pueda crear su ejecutable final en Visual Studio.
 
           tr.text-center
-            th.size-tab <i>Create Xcode Project (Mac Only)</i>
+            th.size-tab <i>Create Xcode Project</i> (Mac Only)
             td Habilite esta configuración para generar un proyecto de Xcode para que pueda construir su paquete de aplicación final en Xcode. Xcode tiene soporte integrado para la firma de código y la carga de la aplicación en la Mac App Store.
 
           tr.bgr-tr.text-center
             th.size-tab <i>Development Build</i>
-            td Habilite esta configuración para incluir símbolos de depuración de secuencias de comandos e incluir profiler en su construcción. Cuando habilita esta configuración, se establece la definición de <i>scripting Development_Build</i>. Debe utilizar esta opción cuando desee probar su aplicación.
+            td Habilite esta configuración para incluir símbolos de depuración de secuencias de comandos e incluir <i>profiler</i> en su construcción. Cuando habilita esta configuración, se establece la definición de <i>scripting Development_Build</i>. Debe utilizar esta opción cuando desee probar su aplicación.
 
           tr.text-center
             th.size-tab <i>Autoconnect</i> profiler
-            td Requiere que se habilite la opción <i>Development Build</i>. Cuando se habilita esta configuración, <i>Unity</i> profiler se conecta automáticamente a su compilación.
+            td Requiere que se habilite la opción <i>Development Build</i>. Cuando se habilita esta configuración, <i>Unity</i> <i>profiler</i> se conecta automáticamente a su compilación.
 
           tr.bgr-tr.text-center
             th.size-tab <i>Deep Profiling Support</i>
-            td Requiere que se habilite la opción Development Build. Deep Profiling Support permite que <i>Unity</i> Profiler registre datos más detallados, instrumentando cada llamada de función. Habilitar la creación de perfiles profundos puede ralentizar la ejecución del #[i script.]
+            td Requiere que se habilite la opción Development Build. Deep Profiling Support permite que <i>Unity</i> <i>Profiler</i> registre datos más detallados, instrumentando cada llamada de función. Habilitar la creación de perfiles profundos puede ralentizar la ejecución del #[i script.]
 
           tr.text-center
             th.size-tab <i>Script debugging</i>
@@ -93,7 +93,7 @@
 
           tr.bgr-tr.text-center
             th.size-tab <i>Scripts Only Build</i>
-            td Requiere que se habilite la opción <i>Development Build</i>. Cuando habilita esta configuración, puede reconstruir solo los scripts para su aplicación, mientras deja intactos los archivos de datos de una compilación que ha ejecutado previamente. La compilación de <i>scripts</i> solo mejora significativamente los tiempos de iteración si solo está cambiando el código en su aplicación. Debe compilar todo el proyecto una vez, antes de poder utilizar esta configuración.
+            td Requiere que se habilite la opción <i>Development Build</i>. Cuando habilita esta configuración, puede reconstruir solo los <i>scripts</i> para su aplicación, mientras deja intactos los archivos de datos de una compilación que ha ejecutado previamente. La compilación de <i>scripts</i> solo mejora significativamente los tiempos de iteración si solo está cambiando el código en su aplicación. Debe compilar todo el proyecto una vez, antes de poder utilizar esta configuración.
 
     separador
 
@@ -124,7 +124,7 @@
             td Configure su aplicación para mantener el uso exclusivo de pantalla completa de una pantalla. A diferencia de la ventana de pantalla completa, este modo cambia la resolución del sistema operativo de la pantalla para que coincida con la resolución elegida por la aplicación. Esta opción solo es compatible con Windows; en otras plataformas, la configuración vuelve a la ventana de pantalla completa.
 
           tr.text-center
-            th.size-tab <i>Maximized Window (Mac only)</i>
+            th.size-tab <i>Maximized</i> Window (Mac only)
             td Configure la ventana de la aplicación con la definición del sistema operativo de "maximizada". En MacOS, esto significa una ventana de pantalla completa con una barra de menú y un muelle que se ocultan automáticamente. Esta opción solo es compatible con MacOS; en otras plataformas, la configuración vuelve a la ventana de pantalla completa.
 
           tr.bgr-tr.text-center
@@ -144,7 +144,7 @@
             td Establece la altura predeterminada de la pantalla del juego en píxeles. Esta opción solo está disponible si el Modo de pantalla completa está configurado en Ventana.
 
           tr.bgr-tr.text-center
-            th.size-tab <i>Mac Retina Support</i>
+            th.size-tab Mac Retina <i>Support</i>
             td Habilite esta opción para habilitar la compatibilidad con pantallas de alta DPI (Retina) en  Mac. Unity lo habilita de forma predeterminada. Esto mejora los proyectos en una pantalla Retina, pero consume algo de recursos cuando está activo. 
 
           tr.text-center
@@ -237,7 +237,7 @@
 
           tr.bgr-tr.text-center
             th.size-tab <i>Forced</i>
-            td Utilice siempre la profundidad de framebuffer sin memoria.
+            td Utilice siempre la profundidad de <i>framebuffer</i> sin memoria.
 
           tr.text-center
             th.size-tab <i>Automatic</i>
