@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="44" viewBox="0 0 820 44">
+  <g id="Grupo_167878" data-name="Grupo 167878" transform="translate(-390 -3046)">
+    <path id="Trazado_688282" data-name="Trazado 688282" d="M-10011.475-8631.954h778.019" transform="translate(10421 11700)" fill="none" stroke="#4fafd5" stroke-width="3"/>
+    <g id="Rectángulo_342087" data-name="Rectángulo 342087" transform="translate(390 3046)" fill="#f1bf5e" stroke="#4fafd5" stroke-width="3">
+      <rect width="44" height="44" stroke="none"/>
+      <rect x="1.5" y="1.5" width="41" height="41" fill="none"/>
+    </g>
+    <g id="Polígono_5" data-name="Polígono 5" transform="translate(1159 3046)" fill="#f1bf5e">
+      <path d="M 48.3969841003418 42.5 L 2.603017568588257 42.5 L 25.5 2.991481065750122 L 48.3969841003418 42.5 Z" stroke="none"/>
+      <path d="M 25.5 5.98297119140625 L 5.206039428710938 41 L 45.79396057128906 41 L 25.5 5.98297119140625 M 25.5 0 L 51 44 L 0 44 L 25.5 0 Z" stroke="none" fill="#4fafd5"/>
+    </g>
+    <g id="Elipse_4839" data-name="Elipse 4839" transform="translate(495 3046)" fill="#f1bf5e" stroke="#4fafd5" stroke-width="3">
+      <circle cx="22" cy="22" r="22" stroke="none"/>
+      <circle cx="22" cy="22" r="20.5" fill="none"/>
+    </g>
+    <g id="Elipse_4840" data-name="Elipse 4840" transform="translate(608 3046)" fill="#f1bf5e" stroke="#4fafd5" stroke-width="3">
+      <circle cx="22" cy="22" r="22" stroke="none"/>
+      <circle cx="22" cy="22" r="20.5" fill="none"/>
+    </g>
+    <g id="Elipse_4841" data-name="Elipse 4841" transform="translate(721 3046)" fill="#f1bf5e" stroke="#4fafd5" stroke-width="3">
+      <circle cx="22" cy="22" r="22" stroke="none"/>
+      <circle cx="22" cy="22" r="20.5" fill="none"/>
+    </g>
+    <g id="Elipse_4842" data-name="Elipse 4842" transform="translate(835 3046)" fill="#f1bf5e" stroke="#4fafd5" stroke-width="3">
+      <circle cx="22" cy="22" r="22" stroke="none"/>
+      <circle cx="22" cy="22" r="20.5" fill="none"/>
+    </g>
+    <g id="Elipse_4843" data-name="Elipse 4843" transform="translate(948 3046)" fill="#f1bf5e" stroke="#4fafd5" stroke-width="3">
+      <circle cx="22" cy="22" r="22" stroke="none"/>
+      <circle cx="22" cy="22" r="20.5" fill="none"/>
+    </g>
+    <g id="Elipse_4844" data-name="Elipse 4844" transform="translate(1061 3046)" fill="#f1bf5e" stroke="#4fafd5" stroke-width="3">
+      <circle cx="22" cy="22" r="22" stroke="none"/>
+      <circle cx="22" cy="22" r="20.5" fill="none"/>
+    </g>
+  </g>
+</svg>
